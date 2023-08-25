@@ -92,6 +92,41 @@ if "--import" in sys.argv:
 with open('bands.json', 'w') as f:
     json.dump(bands, f, indent=4)
 
+print("\n\n------------------------------------------------------------\nM.U.S.I.C - Music Ultimate Sorter Incredibly Cool - Sorter\n------------------------------------------------------------")
+prevmusicnb = int(input("Enter the first number of the files to sort ? (Enter a number) "))
+
+path = input("Give the folder to sort (Enter a path ex: rawmusic/) ")
+dirname = os.path.dirname(__file__)
+
+
+with open("missingmusics", "a") as myfile:
+    myfile.write('\n\n---------------------------------------\n' + str(datetime.datetime.now()) + '\n---------------------------------------\n')
+
+for i in sorted(os.listdir(path)): #os.path.join(dirname,)
+    if os.path.isfile(os.path.join(path,i)) and 'þ' in i and 'ß' in i: #dirname,
+        arrFilename = i.split('þ')
+        uploadArtist = arrFilename[1].split('ß')
+        
+        actmusicnb = int(arrFilename[0])
+        print(actmusicnb, i)
+
+        diffnb = actmusicnb - prevmusicnb
+        if diffnb > 0:
+            with open("missingmusics", "a") as myfile:
+                myfile.write("\n[" + str(diffnb) + " missing] : from " + str(prevmusicnb - 1) + " to " + str(actmusicnb))
+        elif diffnb < 0:
+            with open("missingmusics", "a") as myfile:
+                myfile.write("\n(" + str(diffnb) + " already existing) : from " + str(actmusicnb) + " (supposed to be " + str(prevmusicnb) + ")")
+        
+        prevmusicnb = actmusicnb + 1
+        
+        channelname = uploadArtist[0].replace(" - Topic", "")
+        if channelname in bands["labels"]:
+            tmp=0
+        elif channelname in bands["uploaders"]:
+            tmp=0
+        else:
+            tmp=1
 
 #mkdir("test")
 #os.rename('test', 'hello world')
