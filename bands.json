@@ -1,5 +1,14 @@
 {
-    "labels": [],
+    "labels": [
+        "CENTURY MEDIA RECORDS",
+        "SUMERIAN RECORDS",
+        "NAPALM RECORDS",
+        "NUCLEAR BLAST RECORDS",
+        "DEOXYSPRIME",
+        "COOKING VINYL RECORDS",
+        "ROADRUNNER RECORDS UK",
+        "ROADRUNNER RECORDS"
+    ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
         "BLACK PUG": "BLACK PUG",
@@ -480,7 +489,40 @@
         "JET": "JET",
         "DOOM": "DOOM",
         "SIM": "SIM",
-        "TWOWHOMITMAYBAND": "TWOWHOMITMAYBAND"
+        "TWOWHOMITMAYBAND": "TWOWHOMITMAYBAND",
+        "RISEAGAINST": "RISE AGAINST",
+        "BES ILLIUZII": "DEMUNILLUSIONS",
+        "SKAP": "SKA-P",
+        "CYPECORE": "CYPECORE",
+        "ANIMALS AS LEADERS": "ANIMALS AS LEADERS",
+        "GET SCARED": "GET SCARED",
+        "TO WHOM IT MAY": "TO WHOM IT MAY",
+        "AVATAR METAL": "AVATAR",
+        "MEINL CYMBALS": "MEINL CYMBALS",
+        "HUNTRESS": "HUNTRESS",
+        "NIGHTWISH": "NIGHTWISH",
+        "AEROSMITHSONGZ": "AEROSMITH",
+        "SONIC": "SONIC",
+        "YESMEN10": "SONIC",
+        "CG INSTRUMENTALS": "SONIC",
+        "TEMPT FATE": "TEMPT FATE",
+        "CRUSH 40": "CRUSH 40",
+        "JUAREZ OLIVA": "JUAREZ OLIVA",
+        "ACCEPT": "ACCEPT",
+        "MARILYNMANSON": "MARILYN MANSON",
+        "SABATON": "SABATON",
+        "AMARANTHE": "AMARANTHE",
+        "BEAST IN BLACK": "BEAST IN BLACK",
+        "HAMMERFALL": "HAMMERFALL",
+        "FROZEN CROWN": "FROZEN CROWN",
+        "WITHIN TEMPTATION": "WITHIN TEMPTATION",
+        "NITA STRAUSS": "NITA STRAUSS",
+        "YODELICE": "YODELICE",
+        "NICKELBACK": "NICKELBACK",
+        "DADI FREYR": "DADI FREYR",
+        "PENDULUM": "PENDULUM",
+        "PENDULUMLIVE": "PENDULUM",
+        "THINK OF A NEW KIND": "THINK OF A NEW KIND"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -604,7 +646,8 @@
             "CARPENTER BRUT"
         ],
         "DEMUNILLUSIONS": [
-            "DEMUNILLUSIONS"
+            "DEMUNILLUSIONS",
+            "BES ILLIUZII"
         ],
         "DARON MALAKIAN AND SCARS ON BROADWAY": [
             "DARON MALAKIAN AND SCARS ON BROADWAY"
@@ -622,7 +665,8 @@
             "RAGE AGAINST THE MACHINE"
         ],
         "SKA-P": [
-            "SKA-P"
+            "SKA-P",
+            "SKAP"
         ],
         "THE TOXIC AVENGER": [
             "THE TOXIC AVENGER"
@@ -778,6 +822,8 @@
             "PAPA ROACH"
         ],
         "MARILYN MANSON": [
+            "MARILYN MANSON",
+            "MARILYNMANSON",
             "MARILYN MANSON"
         ],
         "TELEPHONE": [
@@ -1190,7 +1236,8 @@
             "ONE MORNING LEFT"
         ],
         "RISE AGAINST": [
-            "RISE AGAINST"
+            "RISE AGAINST",
+            "RISEAGAINST"
         ],
         "EYES WIDE OPEN": [
             "EYES WIDE OPEN"
@@ -1683,7 +1730,8 @@
             "JAMES BOND"
         ],
         "AEROSMITH": [
-            "AEROSMITH"
+            "AEROSMITH",
+            "AEROSMITHSONGZ"
         ],
         "JIMI HENDRIX": [
             "JIMI HENDRIX"
@@ -1866,7 +1914,8 @@
             "EUROPE"
         ],
         "AVATAR": [
-            "AVATAR"
+            "AVATAR",
+            "AVATAR METAL"
         ],
         "ADELE": [
             "ADELE"
@@ -1927,6 +1976,82 @@
         ],
         "TWOWHOMITMAYBAND": [
             "TWOWHOMITMAYBAND"
+        ],
+        "CYPECORE": [
+            "CYPECORE"
+        ],
+        "ANIMALS AS LEADERS": [
+            "ANIMALS AS LEADERS"
+        ],
+        "GET SCARED": [
+            "GET SCARED"
+        ],
+        "TO WHOM IT MAY": [
+            "TO WHOM IT MAY"
+        ],
+        "MEINL CYMBALS": [
+            "MEINL CYMBALS"
+        ],
+        "HUNTRESS": [
+            "HUNTRESS"
+        ],
+        "NIGHTWISH": [
+            "NIGHTWISH"
+        ],
+        "SONIC": [
+            "SONIC",
+            "YESMEN10",
+            "CG INSTRUMENTALS",
+            "SONIC"
+        ],
+        "TEMPT FATE": [
+            "TEMPT FATE"
+        ],
+        "CRUSH 40": [
+            "CRUSH 40"
+        ],
+        "JUAREZ OLIVA": [
+            "JUAREZ OLIVA"
+        ],
+        "ACCEPT": [
+            "ACCEPT"
+        ],
+        "SABATON": [
+            "SABATON"
+        ],
+        "AMARANTHE": [
+            "AMARANTHE"
+        ],
+        "BEAST IN BLACK": [
+            "BEAST IN BLACK"
+        ],
+        "HAMMERFALL": [
+            "HAMMERFALL"
+        ],
+        "FROZEN CROWN": [
+            "FROZEN CROWN"
+        ],
+        "WITHIN TEMPTATION": [
+            "WITHIN TEMPTATION"
+        ],
+        "NITA STRAUSS": [
+            "NITA STRAUSS"
+        ],
+        "YODELICE": [
+            "YODELICE"
+        ],
+        "NICKELBACK": [
+            "NICKELBACK"
+        ],
+        "DADI FREYR": [
+            "DADI FREYR"
+        ],
+        "PENDULUM": [
+            "PENDULUM",
+            "PENDULUMLIVE"
+        ],
+        "THINK OF A NEW KIND": [
+            "THINK OF A NEW KIND"
         ]
     }
 }

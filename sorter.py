@@ -108,24 +108,45 @@ def findband(ch, title, original):
 
     if ch == 0 or not foundband:
         for bandn in bands["uploaders"]:
-            if bandn in title and len(bandn) > maxlen:
+            if bandn in unidecode(title).upper() and len(bandn) > maxlen:
                 maxlen = len(bandn)
                 chband = bandn
                 foundband = True
 
     if not islabel and not chfound:
-        islabel = confirm("Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
+        print("\nHelp needed !   " + original)
+        originalArtist = original.split('þ')[1].split('ß')[0]
+        topicband = False
+
+        if originalArtist.endswith(" - Topic"):
+            topicband = confirm("Is '"+ ch +"' the right name for " + originalArtist + " (and is not a label) ? (Y/n) ")
+            
+        if topicband:
+            addchannel(ch)
+            chband = ch
+            foundband = True
+        else:
+            islabel = confirm("Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
+        
     if islabel and ch != 0:
         addlabel(ch)
-    elif foundband:
+    elif foundband and ch != 0 and not topicband:
+        print("\n########## Help needed ! " + original + " ##########")
         if confirm("Is this channel ("+ ch +") an uploader of " + chband + " musics ? (Y/n) "):
             addchannel(chband, ch, True)
         else:
             foundband = False
+    elif not foundband and ch != 0 and not topicband:
+        guessband = confirm("Is '"+ ch +"' the band name of the music ? (Y/n) ")
+            
+        if guessband:
+            addchannel(ch)
+            chband = ch
+            foundband = True
     
     if not foundband:
-        print("----------------------- No bandname found for '" + original + "' -----------------------")
-        print("(" + ch + " || " + title + ")")
+        print("\n########## No bandname found for '" + original + "' ##########")
+        print("(" + str(ch) + " || " + title + ")")
 
         newband = ""
         nameconfirmed = False
@@ -137,15 +158,16 @@ def findband(ch, title, original):
         if newband not in bands["uploaders"]:
             addchannel(newband)
         
-        if newband != ch and not islabel:
+        if ch != 0 and newband != ch and not islabel:
             addchannel(newband, ch, True)
-        elif newband not in title:
+        elif newband not in title and newband not in ch and ch != 0:
             titletrigger = ""
             triggerconfirmed = False
             while not triggerconfirmed:
-                titletrigger = unidecode(input("What word(s) made you think the band is " + newband + " in the title ? ")).upper()
-                triggerconfirmed = confirm("Do you confirm the name of the band is '" + newband + "' ? (Y/n) " )
-            addchannel(newband, titletrigger, True)
+                titletrigger = unidecode(input("What word(s) made you think the band is " + newband + " in the title ? (n if there wasn't) ")).upper()
+                triggerconfirmed = confirm("Do you confirm the key word(s) was/where '" + titletrigger + "' ? (Y/n) " )
+            if titletrigger != 'n':
+                addchannel(newband, titletrigger, True)
 
     return chband
 
@@ -187,8 +209,12 @@ def cleanname(title, band):
     offAReg = re.compile(r'(?is)Official Audio.+', re.IGNORECASE)
     title = offAReg.sub('', title)
 
-    finalname = cleanbegin(title)
-    return finalname
+    title = cleanbegin(unidecode(title)).rstrip()
+    if title.endswith('-'):
+        title = title[:-1].rstrip()
+    title = ' '.join(title.split())
+
+    return title
 
 
 #################### FIND (name) ####################
@@ -200,7 +226,7 @@ def findaname(ch, title, original):
     elif channelname in bands["uploaders"]:
         band = bands["uploaders"][channelname]
     else:
-        band = findband(ch, title, original)
+        band = findband(channelname, title, original)
     return [ band, cleanname(title, band)]
 
 #################### CONFIG loader ####################
@@ -215,6 +241,7 @@ try:
                 'bands.json', 
                 "bandsave" + datetime.datetime.strftime(datetime.datetime.now() ,"%Y-%m-%d_%H-%M-%S") + ".json"
                 )
+            saveListFile()
 
         categories = ["labels", "uploaders", "bandnames"]
         for el in categories:
@@ -262,7 +289,7 @@ path = input("Give the folder to sort (Enter a path ex: rawmusic/) ")
 with open("missingmusics", "a") as myfile:
     myfile.write('\n\n---------------------------------------\n' + str(datetime.datetime.now()) + '\n---------------------------------------\n')
 
-os.makedirs(os.path.join(path,"/sorted/"), exist_ok = True)
+os.makedirs(os.path.join(path,"sorted/"), exist_ok = True)
 sortedFileList = sorted(os.listdir(path))
 totalnbfile = len(sortedFileList)
 fileincrement = 0
@@ -272,7 +299,7 @@ fileincrement = 0
 for i in sortedFileList:
     if "--logs" in sys.argv:
         fileincrement += 1
-        print("File " + fileincrement + "/" + totalnbfile)
+        print("File " + str(fileincrement) + "/" + str(totalnbfile), end= ' | ')
     if os.path.isfile(os.path.join(path,i)) and 'þ' in i and 'ß' in i:
         arrFilename = i.split('þ')
         filepoint = i.split('.')
@@ -281,7 +308,7 @@ for i in sortedFileList:
         uploadArtist = arrFilename[1].split('ß')
         
         actmusicnb = int(arrFilename[0])
-        print(actmusicnb, i)
+        # print(actmusicnb, i)
 
         diffnb = actmusicnb - prevmusicnb
         if diffnb > 0:
@@ -294,9 +321,12 @@ for i in sortedFileList:
         prevmusicnb = actmusicnb + 1
         
         namefound = findaname(uploadArtist[0], uploadArtist[1], i)
-        newname = namefound[1] + "." + filext
-        os.makedirs(os.path.join(path, "/sorted/", namefound[0]), exist_ok = True)
-        os.replace(os.path.join(path,i), os.path.join(path, "/sorted/", namefound[0], newname))
+        newname = namefound[0] + " - " + namefound[1] + "." + filext
+
+        if "--logs" in sys.argv:
+            print(newname)
+        os.makedirs(os.path.join(path, "sorted/", namefound[0]), exist_ok = True)
+        os.replace(os.path.join(path,i), os.path.join(path, "sorted/", namefound[0], newname))
 
 print("---------------------- THIS IS THE END ----------------------")
 
