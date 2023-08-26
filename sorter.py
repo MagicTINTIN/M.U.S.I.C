@@ -113,20 +113,24 @@ def findband(ch, title, original):
                 chband = bandn
                 foundband = True
 
+    topicband = False
     if not islabel and not chfound:
         print("\nHelp needed !   " + original)
         originalArtist = original.split('þ')[1].split('ß')[0]
-        topicband = False
 
         if originalArtist.endswith(" - Topic"):
-            topicband = confirm("Is '"+ ch +"' the right name for " + originalArtist + " (and is not a label) ? (Y/n) ")
+            # Topic channels
+            topicband = confirm("BAND ? Is '"+ ch +"' the right name for " + originalArtist + " ? (Y/n) ")
+        elif ch in unidecode(title).upper():
+            # When the name is in the title and in the channel name
+            topicband = confirm("BAND ? Is '"+ ch +"' the name of the band ? (Y/n) ")
             
         if topicband:
             addchannel(ch)
             chband = ch
             foundband = True
         else:
-            islabel = confirm("Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
+            islabel = confirm("LABEL ? Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
         
     if islabel and ch != 0:
         addlabel(ch)
@@ -137,7 +141,7 @@ def findband(ch, title, original):
         else:
             foundband = False
     elif not foundband and ch != 0 and not topicband:
-        guessband = confirm("Is '"+ ch +"' the band name of the music ? (Y/n) ")
+        guessband = confirm("BAND ? Is '"+ ch +"' the band name of the music ? (Y/n) ")
             
         if guessband:
             addchannel(ch)
@@ -158,9 +162,9 @@ def findband(ch, title, original):
         if newband not in bands["uploaders"]:
             addchannel(newband)
         
-        if ch != 0 and newband != ch and not islabel:
+        if not islabel and ch != 0 and newband != ch:
             addchannel(newband, ch, True)
-        elif newband not in title and newband not in ch and ch != 0:
+        elif ch != 0 and newband not in unidecode(title).upper() and newband not in ch:
             titletrigger = ""
             triggerconfirmed = False
             while not triggerconfirmed:
@@ -209,7 +213,10 @@ def cleanname(title, band):
     offAReg = re.compile(r'(?is)Official Audio.+', re.IGNORECASE)
     title = offAReg.sub('', title)
 
-    title = cleanbegin(unidecode(title)).rstrip()
+    offVReg = re.compile(r'(?is)Official Video.+', re.IGNORECASE)
+    title = offVReg.sub('', title)
+
+    title = cleanbegin(unidecode(title)).replace("[HD]", "").replace("(HD)", "").replace("()", "").replace("[]", "").replace('"', '').rstrip()
     if title.endswith('-'):
         title = title[:-1].rstrip()
     title = ' '.join(title.split())

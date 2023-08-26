@@ -7,7 +7,24 @@
         "DEOXYSPRIME",
         "COOKING VINYL RECORDS",
         "ROADRUNNER RECORDS UK",
-        "ROADRUNNER RECORDS"
+        "ROADRUNNER RECORDS",
+        "BETTER NOISE MUSIC",
+        "EPITAPH RECORDS",
+        "UNFD",
+        "JUST SOME VIDEOS",
+        "UKF",
+        "CHARISMA ENTERTAINER",
+        "SPINNIN' RECORDS",
+        "DANIELJ0HANSSON",
+        "VINICIUS RIBEIRO",
+        "OWSLA",
+        "FRACIONADO",
+        "ENM",
+        "SHADOWREND68",
+        "UNOHOO09",
+        "DUBSTEP UNK",
+        "MINISTRY OF SOUND",
+        "JAZZYTAKA"
     ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
@@ -522,7 +539,46 @@
         "DADI FREYR": "DADI FREYR",
         "PENDULUM": "PENDULUM",
         "PENDULUMLIVE": "PENDULUM",
-        "THINK OF A NEW KIND": "THINK OF A NEW KIND"
+        "THINK OF A NEW KIND": "THINK OF A NEW KIND",
+        "SUMO CYCO": "SUMO CYCO",
+        "BAD OMENS": "BAD OMENS",
+        "GODSMACK": "GODSMACK",
+        "FIRE FROM THE GODS": "FIRE FROM THE GODS",
+        "THEORY OF A DEADMAN": "THEORY OF A DEADMAN",
+        "THEORY": "THEORY OF A DEADMAN",
+        "OTHERWISE": "OTHERWISE",
+        "OTHERWISETUBE": "OTHERWISE",
+        "LIGER": "LIGER",
+        "SAINT ASONIA": "SAINT ASONIA",
+        "FROM ASHES TO NEW": "FROM ASHES TO NEW",
+        "THE CULT": "THE CULT",
+        "CULTV": "THE CULT",
+        "RIVAL SONS": "RIVAL SONS",
+        "RIVALSONS": "RIVAL SONS",
+        "NORTHLANE": "NORTHLANE",
+        "GLORYHAMMER": "GLORYHAMMER",
+        "WHILE SHE SLEEPS": "WHILE SHE SLEEPS",
+        "INVENT ANIMATE": "INVENT ANIMATE",
+        "VKT PRODACTIONS": "VKT PRODACTIONS",
+        "HABSTRAKT": "HABSTRAKT",
+        "FUNASSYI": "FUNASSYI",
+        "MEGARAPTOR": "MEGARAPTOR",
+        "SWEDISH HOUSE MAFIA": "SWEDISH HOUSE MAFIA",
+        "AMON AMARTH": "AMON AMARTH",
+        "FEVER 333": "FEVER 333",
+        "AC SLATER": "AC SLATER",
+        "DEADMAU5": "DEADMAU5",
+        "RHODZ": "RHODZ",
+        "LAST TRAIN": "LAST TRAIN",
+        "OASIS": "OASIS",
+        "JESSE BEAHLER": "JESSE BEAHLER",
+        "KNIFE PARTY": "KNIFE PARTY",
+        "CHAINLYNX": "CHAINLYNX",
+        "BINGO PLAYERS": "BINGO PLAYERS",
+        "APASHE": "APASHE",
+        "TRAMPSTA": "TRAMPSTA",
+        "LASTTRAIN": "LAST TRAIN",
+        "CASIOPEA": "CASIOPEA"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -2052,6 +2108,114 @@
         ],
         "THINK OF A NEW KIND": [
             "THINK OF A NEW KIND"
+        ],
+        "SUMO CYCO": [
+            "SUMO CYCO"
+        ],
+        "BAD OMENS": [
+            "BAD OMENS"
+        ],
+        "GODSMACK": [
+            "GODSMACK"
+        ],
+        "FIRE FROM THE GODS": [
+            "FIRE FROM THE GODS",
+            "FIRE FROM THE GODS"
+        ],
+        "THEORY OF A DEADMAN": [
+            "THEORY OF A DEADMAN",
+            "THEORY"
+        ],
+        "OTHERWISE": [
+            "OTHERWISE",
+            "OTHERWISETUBE"
+        ],
+        "LIGER": [
+            "LIGER"
+        ],
+        "SAINT ASONIA": [
+            "SAINT ASONIA"
+        ],
+        "FROM ASHES TO NEW": [
+            "FROM ASHES TO NEW"
+        ],
+        "THE CULT": [
+            "THE CULT",
+            "CULTV"
+        ],
+        "RIVAL SONS": [
+            "RIVAL SONS",
+            "RIVALSONS"
+        ],
+        "NORTHLANE": [
+            "NORTHLANE"
+        ],
+        "GLORYHAMMER": [
+            "GLORYHAMMER"
+        ],
+        "WHILE SHE SLEEPS": [
+            "WHILE SHE SLEEPS"
+        ],
+        "INVENT ANIMATE": [
+            "INVENT ANIMATE"
+        ],
+        "VKT PRODACTIONS": [
+            "VKT PRODACTIONS"
+        ],
+        "HABSTRAKT": [
+            "HABSTRAKT"
+        ],
+        "FUNASSYI": [
+            "FUNASSYI"
+        ],
+        "MEGARAPTOR": [
+            "MEGARAPTOR"
+        ],
+        "SWEDISH HOUSE MAFIA": [
+            "SWEDISH HOUSE MAFIA"
+        ],
+        "AMON AMARTH": [
+            "AMON AMARTH"
+        ],
+        "FEVER 333": [
+            "FEVER 333"
+        ],
+        "AC SLATER": [
+            "AC SLATER"
+        ],
+        "DEADMAU5": [
+            "DEADMAU5"
+        ],
+        "RHODZ": [
+            "RHODZ"
+        ],
+        "LAST TRAIN": [
+            "LAST TRAIN",
+            "LASTTRAIN"
+        ],
+        "OASIS": [
+            "OASIS"
+        ],
+        "JESSE BEAHLER": [
+            "JESSE BEAHLER"
+        ],
+        "KNIFE PARTY": [
+            "KNIFE PARTY"
+        ],
+        "CHAINLYNX": [
+            "CHAINLYNX"
+        ],
+        "BINGO PLAYERS": [
+            "BINGO PLAYERS"
+        ],
+        "APASHE": [
+            "APASHE"
+        ],
+        "TRAMPSTA": [
+            "TRAMPSTA"
+        ],
+        "CASIOPEA": [
+            "CASIOPEA"
         ]
     }
 }
