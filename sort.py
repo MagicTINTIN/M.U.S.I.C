@@ -26,7 +26,7 @@ def confirm(message = "Reply by yes or no (yes by default) : "):
 def addbanduploader(band, name="notaband", othername=False):
     uploader = name if othername else band
     if band in bands["bandnames"]:
-        print("  + UPL : " + uploader)
+        print("  + UPL : " + uploader + " (" + band + ")")
         bands["bandnames"][band].append(uploader)
     else:
         print("  + BND : " + band)
@@ -70,19 +70,21 @@ def findband(ch, title, original):
                 maxlen = len(bandn)
                 chband = bandn
                 foundband = True
-    
-    islabel = confirm("Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
-    if islabel:
-        addlabel(ch)
 
-    if ch == 0 or foundband == False:
+    if ch == 0 or not foundband:
         for bandn in bands["uploaders"]:
             if bandn in title and len(bandn) > maxlen:
                 maxlen = len(bandn)
                 chband = bandn
                 foundband = True
+
+    islabel = confirm("Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
+    if islabel:
+        addlabel(ch)
+    elif foundband:
+        addchannel(chband, ch, True)
     
-    if foundband == False:
+    if not foundband:
         print("----------------------- No bandname found for '" + original + "' -----------------------")
         print("(" + ch + " || " + title + ")")
 
