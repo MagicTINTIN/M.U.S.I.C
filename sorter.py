@@ -1,4 +1,4 @@
-import sys, os, json, datetime
+import sys, os, json, datetime, re
 
 try:
     from unidecode import unidecode
@@ -36,7 +36,15 @@ def confirm(message = "Reply by yes or no (yes by default) : "):
             sys.stdout.write("Please respond with 'yes' or 'no'\n")
 
 
+#################### SAVE LIST FILE ####################
+def saveListFile():
+    with open('bands.json', 'w') as f:
+        json.dump(bands, f, indent=4)
+
+
 #################### ADD (band, channel, label) ####################
+        
+#### BAND
 def addbanduploader(band, name="notaband", othername=False):
     uploader = name if othername else band
     if band in bands["bandnames"]:
@@ -45,17 +53,21 @@ def addbanduploader(band, name="notaband", othername=False):
     else:
         print("  + BND : " + band)
         bands["bandnames"][band] = [ uploader ]
-    
+    saveListFile()
+
+#### CHANNEL
 def addchannel(band, name="notaband", othername=False):
     if othername:
         bands["uploaders"][name] = band
     else:
         bands["uploaders"][band] = band
-    return addbanduploader(band, name, othername)
-
+    addbanduploader(band, name, othername)
+        
+#### LABEL
 def addlabel(labelname):
     bands["labels"].append(labelname)
     print("  + LBL : " + labelname)
+    saveListFile()
 
 
 #################### OS Relative ####################
@@ -137,17 +149,59 @@ def findband(ch, title, original):
 
     return chband
 
-#################### FIND (name) ####################
-def findaname(ch, title):
-    channelname = unidecode(ch).upper().replace(" OFFICIAL", "").replace("OFFICIAL", "").replace(" - TOPIC", "")
-    if channelname in bands["labels"]:
-        tmp=0
-    elif channelname in bands["uploaders"]:
-        tmp=0
-    else:
-        tmp=1
-    return ""
 
+#################### CLEAN (name) ####################
+def cleanbegin(toclean):
+    cleaner = re.compile(r'.*?([a-zA-Z0-9].*)')
+    return cleaner.findall(toclean)[0]
+
+def cleanname(title, band):
+    
+    nobandReg = re.compile(re.escape(band), re.IGNORECASE)
+    title = nobandReg.sub('', title.replace('"', '').replace('.opus', ''))
+
+    boffReg = re.compile(r'(?is)\[Official.+', re.IGNORECASE)
+    title = boffReg.sub('', title)
+
+    poffReg = re.compile(r'(?is)\(Official.+', re.IGNORECASE)
+    title = poffReg.sub('', title)
+
+    pdeoffReg = re.compile(r'(?is)\(Offiziell.+', re.IGNORECASE)
+    title = pdeoffReg.sub('', title)
+
+    clipReg = re.compile(r'(?is)\(Clip.+', re.IGNORECASE)
+    title = clipReg.sub('', title)
+
+    bclipReg = re.compile(r'(?is)\[Clip.+', re.IGNORECASE)
+    title = bclipReg.sub('', title)
+
+    audioReg = re.compile(r'(?is)\(Audio.+', re.IGNORECASE)
+    title = audioReg.sub('', title)
+
+    offMReg = re.compile(r'(?is)Official Music.+', re.IGNORECASE)
+    title = offMReg.sub('', title)
+
+    offLReg = re.compile(r'(?is)Official Lyric.+', re.IGNORECASE)
+    title = offLReg.sub('', title)
+
+    offAReg = re.compile(r'(?is)Official Audio.+', re.IGNORECASE)
+    title = offAReg.sub('', title)
+
+    finalname = cleanbegin(title)
+    return finalname
+
+
+#################### FIND (name) ####################
+def findaname(ch, title, original):
+    channelname = cleanbegin(unidecode(ch).upper().replace(" OFFICIAL", "").replace("OFFICIAL", "").replace(" - TOPIC", "").replace("VEVO", "").replace("OFFICIAL", ""))
+    
+    if channelname in bands["labels"]:
+        band = findband(0, title, original)
+    elif channelname in bands["uploaders"]:
+        band = bands["uploaders"][channelname]
+    else:
+        band = findband(ch, title, original)
+    return [ band, cleanname(title, band)]
 
 #################### CONFIG loader ####################
 # opens the previous config if there was one
@@ -188,14 +242,12 @@ except IOError:
 if "--import" in sys.argv:
     if confirm("Do you have a file containing band names named ./bandlist ? (Y/n) "):
         if importfile():
+                saveListFile()
                 print("Band names successfully imported")
         else:
                 print("Error while importing band names")
     else:
         print("Import cancelled")
-
-with open('bands.json', 'w') as f:
-    json.dump(bands, f, indent=4)
 
 
 
@@ -241,7 +293,7 @@ for i in sortedFileList:
         
         prevmusicnb = actmusicnb + 1
         
-        namefound = findaname(uploadArtist[0], uploadArtist[1])
+        namefound = findaname(uploadArtist[0], uploadArtist[1], i)
         newname = namefound[1] + "." + filext
         os.makedirs(os.path.join(path, "/sorted/", namefound[0]), exist_ok = True)
         os.replace(os.path.join(path,i), os.path.join(path, "/sorted/", namefound[0], newname))
