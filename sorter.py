@@ -1,4 +1,4 @@
-import sys, os, json, datetime, pip
+import sys, os, json, datetime
 
 try:
     from unidecode import unidecode
@@ -6,6 +6,18 @@ except ImportError:
     print("Unidecode is not installed on this computer.\nPlease install it with pip install Unidecode (or with pacman -Sy python-unidecode)")
     exit(1)
 
+
+#################### HELP ####################
+if "--help" in sys.argv:
+    print("This is the module S.O.R.T.E.R (Sorter Obviously Reliable To Evaluate Records) of M.U.S.I.C")
+    print("The following options are available :")
+    print("    --no-save : prevent S.O.R.T.E.R by making a backup of band.json")
+    print("    --import  : to import a file ./bandlist containing band names")
+    print("    --logs    : to activate full logs")
+    exit(0)
+
+
+#################### CONFIRM FUNCTION ####################
 yes = {'yes','y', 'ye', ''}
 no = {'no','n'}
 
@@ -23,6 +35,8 @@ def confirm(message = "Reply by yes or no (yes by default) : "):
         else:
             sys.stdout.write("Please respond with 'yes' or 'no'\n")
 
+
+#################### ADD (band, channel, label) ####################
 def addbanduploader(band, name="notaband", othername=False):
     uploader = name if othername else band
     if band in bands["bandnames"]:
@@ -43,10 +57,14 @@ def addlabel(labelname):
     bands["labels"].append(labelname)
     print("  + LBL : " + labelname)
 
+
+#################### OS Relative ####################
 def mkdir(path):
     if not os.path.isdir(path):
         os.makedirs(path)
 
+
+#################### IMPORT ####################
 def importfile():
     try:
         with open('bandlist') as bandlistf:
@@ -59,17 +77,22 @@ def importfile():
         print("No bandlist found")
         return False
 
+
+#################### FIND (band) ####################
 def findband(ch, title, original):
     foundband = False
+    chfound = False
     maxlen = 0
     chband = ""
+    islabel = False if ch != 0 else True
 
     if ch != 0:
         for bandn in bands["uploaders"]:
-            if bandn in title and len(bandn) > maxlen:
+            if bandn in ch and len(bandn) > maxlen:
                 maxlen = len(bandn)
                 chband = bandn
                 foundband = True
+                chfound = True
 
     if ch == 0 or not foundband:
         for bandn in bands["uploaders"]:
@@ -78,11 +101,15 @@ def findband(ch, title, original):
                 chband = bandn
                 foundband = True
 
-    islabel = confirm("Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
-    if islabel:
+    if not islabel and not chfound:
+        islabel = confirm("Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
+    if islabel and ch != 0:
         addlabel(ch)
     elif foundband:
-        addchannel(chband, ch, True)
+        if confirm("Is this channel ("+ ch +") an uploader of " + chband + " musics ? (Y/n) "):
+            addchannel(chband, ch, True)
+        else:
+            foundband = False
     
     if not foundband:
         print("----------------------- No bandname found for '" + original + "' -----------------------")
@@ -110,6 +137,7 @@ def findband(ch, title, original):
 
     return chband
 
+#################### FIND (name) ####################
 def findaname(ch, title):
     channelname = unidecode(ch).upper().replace(" OFFICIAL", "").replace("OFFICIAL", "").replace(" - TOPIC", "")
     if channelname in bands["labels"]:
@@ -120,16 +148,19 @@ def findaname(ch, title):
         tmp=1
     return ""
 
+
+#################### CONFIG loader ####################
 # opens the previous config if there was one
 try:
     with open('bands.json') as f:
         bands = json.load(f)
         print("Previous config found")
 
-        os.rename(
-            'bands.json', 
-            "bandsave" + datetime.datetime.strftime(datetime.datetime.now() ,"%Y-%m-%d_%H-%M-%S") + ".json"
-            )
+        if "--no-save" not in sys.argv:
+            os.rename(
+                'bands.json', 
+                "bandsave" + datetime.datetime.strftime(datetime.datetime.now() ,"%Y-%m-%d_%H-%M-%S") + ".json"
+                )
 
         categories = ["labels", "uploaders", "bandnames"]
         for el in categories:
@@ -152,7 +183,8 @@ except IOError:
         "bandnames": {},
     }
 
-# bands = json.dumps(jsonfilecfg)
+
+#################### --IMPORT ####################
 if "--import" in sys.argv:
     if confirm("Do you have a file containing band names named ./bandlist ? (Y/n) "):
         if importfile():
@@ -165,17 +197,30 @@ if "--import" in sys.argv:
 with open('bands.json', 'w') as f:
     json.dump(bands, f, indent=4)
 
+
+
+
+#################### BEGIN ####################
 print("\n\n------------------------------------------------------------\nM.U.S.I.C - Music Ultimate Sorter Incredibly Cool - Sorter\n------------------------------------------------------------")
 prevmusicnb = int(input("Enter the first number of the files to sort ? (Enter a number) "))
-
 path = input("Give the folder to sort (Enter a path ex: rawmusic/) ")
 
 
+#################### PREPARATION ####################
 with open("missingmusics", "a") as myfile:
     myfile.write('\n\n---------------------------------------\n' + str(datetime.datetime.now()) + '\n---------------------------------------\n')
 
 os.makedirs(os.path.join(path,"/sorted/"), exist_ok = True)
-for i in sorted(os.listdir(path)):
+sortedFileList = sorted(os.listdir(path))
+totalnbfile = len(sortedFileList)
+fileincrement = 0
+
+
+#################### FILE ITERATOR ####################
+for i in sortedFileList:
+    if "--logs" in sys.argv:
+        fileincrement += 1
+        print("File " + fileincrement + "/" + totalnbfile)
     if os.path.isfile(os.path.join(path,i)) and 'þ' in i and 'ß' in i:
         arrFilename = i.split('þ')
         filepoint = i.split('.')
@@ -198,8 +243,8 @@ for i in sorted(os.listdir(path)):
         
         namefound = findaname(uploadArtist[0], uploadArtist[1])
         newname = namefound[1] + "." + filext
-        os.makedirs(namefound[0], exist_ok = True)
+        os.makedirs(os.path.join(path, "/sorted/", namefound[0]), exist_ok = True)
+        os.replace(os.path.join(path,i), os.path.join(path, "/sorted/", namefound[0], newname))
 
-#mkdir("test")
-#os.rename('test', 'hello world')
+print("---------------------- THIS IS THE END ----------------------")
 
