@@ -42,15 +42,45 @@ def saveListFile():
         json.dump(bands, f, indent=4)
 
 
+#################### OPERATIONS LIST FILE ####################
+# AU  : added uploader
+# AB  : added band
+# AL  : added label
+
+# IU  : Is uploader
+# IL  : Is label ?
+# IBD : Is band (found in channel and title) ?
+# IBT : Is band (found with topic) ?
+
+# GB  : Is the guess right ?
+
+# RBG : Right band guess
+# RUG : Right uploader guess
+# RLG : Right label guess
+
+# WB  : Write the band name
+# WT  : Write the trigger of title which made us understand what band it is
+
+# BF  : Band found
+# CF  : Channel found
+# LF  : Label found
+
+def writeoperation(type):
+    with open("operations", "a") as myfile:
+        myfile.write("\n" + type)
+
+
 #################### ADD (band, channel, label) ####################
         
 #### BAND
 def addbanduploader(band, name="notaband", othername=False):
     uploader = name if othername else band
     if band in bands["bandnames"]:
+        writeoperation("AU")
         print("  + UPL : " + uploader + " (" + band + ")")
         bands["bandnames"][band].append(uploader)
     else:
+        writeoperation("AB")
         print("  + BND : " + band)
         bands["bandnames"][band] = [ uploader ]
     saveListFile()
@@ -66,6 +96,7 @@ def addchannel(band, name="notaband", othername=False):
 #### LABEL
 def addlabel(labelname):
     bands["labels"].append(labelname)
+    writeoperation("AL")
     print("  + LBL : " + labelname)
     saveListFile()
 
@@ -99,6 +130,7 @@ def findband(ch, title, original):
     islabel = False if ch != 0 else True
 
     if ch != 0:
+        writeoperation("LF")
         for bandn in bands["uploaders"]:
             if bandn in ch and len(bandn) > maxlen:
                 maxlen = len(bandn)
@@ -113,6 +145,11 @@ def findband(ch, title, original):
                 chband = bandn
                 foundband = True
 
+    if foundband:
+        writeoperation("BF")
+    if chfound:
+        writeoperation("CF")
+    
     topicband = False
     if not islabel and not chfound:
         print("\nHelp needed !   " + original)
@@ -120,30 +157,39 @@ def findband(ch, title, original):
 
         if originalArtist.endswith(" - Topic"):
             # Topic channels
+            writeoperation("IBT")
             topicband = confirm("BAND ? Is '"+ ch +"' the right name for " + originalArtist + " ? (Y/n) ")
         elif ch in unidecode(title).upper():
             # When the name is in the title and in the channel name
+            writeoperation("IBD")
             topicband = confirm("BAND ? Is '"+ ch +"' the name of the band ? (Y/n) ")
             
         if topicband:
+            writeoperation("RBG")
             addchannel(ch)
             chband = ch
             foundband = True
         else:
+            writeoperation("IL")
             islabel = confirm("LABEL ? Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
         
     if islabel and ch != 0:
+        writeoperation("RUL")
         addlabel(ch)
     elif foundband and ch != 0 and not topicband:
         print("\n########## Help needed ! " + original + " ##########")
+        writeoperation("IU")
         if confirm("Is this channel ("+ ch +") an uploader of " + chband + " musics ? (Y/n) "):
+            writeoperation("RUG")
             addchannel(chband, ch, True)
         else:
             foundband = False
     elif not foundband and ch != 0 and not topicband:
+        writeoperation("GB")
         guessband = confirm("BAND ? Is '"+ ch +"' the band name of the music ? (Y/n) ")
             
         if guessband:
+            writeoperation("RBG")
             addchannel(ch)
             chband = ch
             foundband = True
@@ -154,6 +200,7 @@ def findband(ch, title, original):
 
         newband = ""
         nameconfirmed = False
+        writeoperation("WB")
         while not nameconfirmed:
             newband = unidecode(input("What band is it ? ")).upper()
             nameconfirmed = confirm("Do you confirm the name of the band is '" + newband + "' ? (Y/n) " )
@@ -167,6 +214,7 @@ def findband(ch, title, original):
         elif ch != 0 and newband not in unidecode(title).upper() and newband not in ch:
             titletrigger = ""
             triggerconfirmed = False
+            writeoperation("WT")
             while not triggerconfirmed:
                 titletrigger = unidecode(input("What word(s) made you think the band is " + newband + " in the title ? (n if there wasn't) ")).upper()
                 triggerconfirmed = confirm("Do you confirm the key word(s) was/where '" + titletrigger + "' ? (Y/n) " )
@@ -179,7 +227,11 @@ def findband(ch, title, original):
 #################### CLEAN (name) ####################
 def cleanbegin(toclean):
     cleaner = re.compile(r'.*?([a-zA-Z0-9].*)')
-    return cleaner.findall(toclean)[0]
+    cleaned = cleaner.findall(toclean)
+    if len(cleaned) > 0:
+        return cleaned[0]
+    else:
+        return "000BANDNAME000"
 
 def cleanname(title, band):
     
@@ -228,7 +280,7 @@ def cleanname(title, band):
     offVReg = re.compile(r'(?is)Official Video.+', re.IGNORECASE)
     title = offVReg.sub('', title)
 
-    title = cleanbegin(unidecode(title)).replace("[HD]", "").replace("(HD)", "").replace("{}", "").replace("()", "").replace("[]", "").replace('"', '').rstrip()
+    title = cleanbegin(unidecode(title)).replace("000BANDNAME000", band).replace("[HD]", "").replace("(HD)", "").replace("{}", "").replace("()", "").replace("[]", "").replace('"', '').rstrip()
     if title.endswith('-'):
         title = title[:-1].rstrip()
     title = ' '.join(title.split())
@@ -306,6 +358,8 @@ path = input("Give the folder to sort (Enter a path ex: rawmusic/) ")
 
 #################### PREPARATION ####################
 with open("missingmusics", "a") as myfile:
+    myfile.write('\n\n---------------------------------------\n' + str(datetime.datetime.now()) + '\n---------------------------------------\n')
+with open("operations", "a") as myfile:
     myfile.write('\n\n---------------------------------------\n' + str(datetime.datetime.now()) + '\n---------------------------------------\n')
 
 os.makedirs(os.path.join(path,"sorted/"), exist_ok = True)
