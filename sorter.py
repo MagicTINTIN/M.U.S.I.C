@@ -170,7 +170,7 @@ def findband(ch, title, original):
             while not triggerconfirmed:
                 titletrigger = unidecode(input("What word(s) made you think the band is " + newband + " in the title ? (n if there wasn't) ")).upper()
                 triggerconfirmed = confirm("Do you confirm the key word(s) was/where '" + titletrigger + "' ? (Y/n) " )
-            if titletrigger != 'n':
+            if titletrigger != 'N':
                 addchannel(newband, titletrigger, True)
 
     return chband
@@ -191,6 +191,18 @@ def cleanname(title, band):
 
     poffReg = re.compile(r'(?is)\(Official.+', re.IGNORECASE)
     title = poffReg.sub('', title)
+
+    pvidReg = re.compile(r'(?is)\(Video.+', re.IGNORECASE)
+    title = pvidReg.sub('', title)
+
+    bvidReg = re.compile(r'(?is)\[Video.+', re.IGNORECASE)
+    title = bvidReg.sub('', title)
+
+    p4kReg = re.compile(r'(?is)\(4K.+', re.IGNORECASE)
+    title = p4kReg.sub('', title)
+
+    b4kReg = re.compile(r'(?is)\[4K.+', re.IGNORECASE)
+    title = b4kReg.sub('', title)
 
     pdeoffReg = re.compile(r'(?is)\(Offiziell.+', re.IGNORECASE)
     title = pdeoffReg.sub('', title)
@@ -216,7 +228,7 @@ def cleanname(title, band):
     offVReg = re.compile(r'(?is)Official Video.+', re.IGNORECASE)
     title = offVReg.sub('', title)
 
-    title = cleanbegin(unidecode(title)).replace("[HD]", "").replace("(HD)", "").replace("()", "").replace("[]", "").replace('"', '').rstrip()
+    title = cleanbegin(unidecode(title)).replace("[HD]", "").replace("(HD)", "").replace("{}", "").replace("()", "").replace("[]", "").replace('"', '').rstrip()
     if title.endswith('-'):
         title = title[:-1].rstrip()
     title = ' '.join(title.split())

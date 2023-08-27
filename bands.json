@@ -24,7 +24,57 @@
         "UNOHOO09",
         "DUBSTEP UNK",
         "MINISTRY OF SOUND",
-        "JAZZYTAKA"
+        "JAZZYTAKA",
+        "ELVIS AMADEUS JACKSON",
+        "COLLECTED COMPOSITIONS ",
+        "DAMAGEDBRAZIL",
+        "JEFFJN",
+        "TJAMMYIFY",
+        "MANA THIEF",
+        "FEARLESS RECORDS",
+        "JACK BOX",
+        "HARUN DEMIRASLAN ()",
+        "FUELED BY RAMEN",
+        "EARACHE RECORDS",
+        "OUT OF LINE MUSIC",
+        "INSIDEOUTMUSICTV",
+        "LUIS F. RAMOS",
+        "WARNER RECORDS VAULT",
+        "A1ST",
+        "ANIMUSIC",
+        "BIELERBROSRECORDS",
+        "FREAK MACHINE RECORDS",
+        "LUKASS2323",
+        "GREYSCALE RECORDS",
+        "RISERECORDS",
+        "PALE CHORD MUSIC",
+        "LEAGUE OF LEGENDS",
+        "NERD CLIPS HD",
+        "VARIOUS ARTISTS",
+        "ATOMIC FIRE RECORDS",
+        "WINCENT DRUMSTICKS AB",
+        "SEASON OF MIST",
+        "NINTENDO FRANCE",
+        "KBBZH",
+        "ALEX M.",
+        "RATPAKRECORDS",
+        "TOBS",
+        "COMMANDANTLOVE",
+        "LIBLINKSVK",
+        "HELLFEST OPEN AIR FESTIVAL",
+        "VISIBLENOISERECORDS",
+        "ROCKSCHRANZER",
+        "VERYCORDS",
+        "ARISING EMPIRE",
+        "SLAM WORLDWIDE",
+        "UNIQUE LEADER RECORDS",
+        "MYSTIC PRODUCTION TV",
+        "RED BULL RECORDS",
+        "SHARPTONE RECORDS",
+        "METAL BLADE RECORDS",
+        "DESPOTZ RECORDS",
+        "INNER WOUND RECORDINGS",
+        "RELAPSERECORDS"
     ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
@@ -370,7 +420,8 @@
         "MEGADETH": "MEGADETH",
         "LES SALES MAJESTES": "LES SALES MAJESTES",
         "MATMATAH": "MATMATAH",
-        "RAMONEURS DE MENHIRS": "RAMONEURS DE MENHIRS",
+        "LES RAMONEURS DE MENHIRS": "LES RAMONEURS DE MENHIRS",
+        "RAMONEURS DE MENHIRS": "LES RAMONEURS DE MENHIRS",
         "DAUGHTRY": "DAUGHTRY",
         "BILLY IDOL": "BILLY IDOL",
         "BAD WOLVES": "BAD WOLVES",
@@ -578,7 +629,160 @@
         "APASHE": "APASHE",
         "TRAMPSTA": "TRAMPSTA",
         "LASTTRAIN": "LAST TRAIN",
-        "CASIOPEA": "CASIOPEA"
+        "CASIOPEA": "CASIOPEA",
+        "TWELVE FOOT NINJA": "TWELVE FOOT NINJA",
+        "FOCUS": "FOCUS",
+        "PLINI": "PLINI",
+        "TIMECOP1983": "TIMECOP1983",
+        "JUDAS PRIEST": "JUDAS PRIEST",
+        "RORY GALLAGHER": "RORY GALLAGHER",
+        "THE HU": "THE HU",
+        "JOE SATRIANI": "JOE SATRIANI",
+        "IMAGINEDRAGONS": "IMAGINE DRAGONS",
+        "VULF": "VULFPECK",
+        "DANCE WITH THE DEAD": "DANCE WITH THE DEAD",
+        "DANCEWITHTHEDEAD": "DANCE WITH THE DEAD",
+        "THE SHINS": "THE SHINS",
+        "THESHINS": "THE SHINS",
+        "NIK NOCTURNAL": "NIK NOCTURNAL",
+        "PERTURBATOR": "PERTURBATOR",
+        "WAGE WAR": "WAGE WAR",
+        "REFUSED": "REFUSED",
+        "THE CORRESPONDENTS": "THE CORRESPONDENTS",
+        "TREPALIUM": "TREPALIUM",
+        "CHRONIK FICTION": "CHRONIK FICTION",
+        "A DAY TO REMEMBER": "A DAY TO REMEMBER",
+        "PERIPHERY": "PERIPHERY",
+        "DEATHPHONK": "DEATHPHONK",
+        "SKINDRED": "SKINDRED",
+        "HALLAS": "HALLAS",
+        "THE BITES": "THE BITES",
+        "PETE COTTRELL": "PETE COTTRELL",
+        "WHO THEY FEAR": "WHO THEY FEAR",
+        "MASAFUMI TAKADA": "MASAFUMI TAKADA",
+        "BONOBO": "BONOBO",
+        "BEEPLE": "BEEPLE",
+        "VENJENT": "VENJENT",
+        "SODOM": "SODOM",
+        "LEPROUS": "LEPROUS",
+        "STOLEN BABIES": "STOLEN BABIES",
+        "APOCALYPTICA": "APOCALYPTICA",
+        "CALIGULA'S HORSE": "CALIGULA'S HORSE",
+        "LEPROUS NORWAY": "LEPROUS",
+        "LUNATIC SOUL": "LUNATIC SOUL",
+        "SERJTANKIAN": "SERJ TANKIAN",
+        "MY CHEMICAL ROMANCE": "MY CHEMICAL ROMANCE",
+        "FEN": "FEN",
+        "CHIMAIRA": "CHIMAIRA",
+        "MUSHROOMHEADTV": "MUSHROOMHEAD",
+        "CALVA LOUISE": "CALVA LOUISE",
+        "CNVX": "CNVX",
+        "FIT FOR RIVALS": "FIT FOR RIVALS",
+        "FIREFLIGHT": "FIREFLIGHT",
+        "FIREFLIGHTROCK": "FIREFLIGHT",
+        "NINE LASHES": "NINE LASHES",
+        "PARASITE INC.": "PARASITE INC.",
+        "CHIMAIRATUBE": "CHIMAIRA",
+        "THE AGONIST": "THE AGONIST",
+        "HEAVEN SHALL BURN": "HEAVEN SHALL BURN",
+        "NANOWAR OF STEEL": "NANOWAR OF STEEL",
+        "NANOWAR": "NANOWAR OF STEEL",
+        "VENDED": "VENDED",
+        "KIM DRACULA": "KIM DRACULA",
+        "MAKE THEM SUFFER": "MAKE THEM SUFFER",
+        "BORN OF OSIRIS": "BORN OF OSIRIS",
+        "PUNK ROCK FACTORY": "PUNK ROCK FACTORY",
+        "SKYND": "SKYND",
+        "HANABIE": "HANABIE",
+        "HANABIE. YOUTUBE": "HANABIE",
+        "ARCANE": "ARCANE",
+        "SCHRODINGER": "SCHRODINGER",
+        "SCHRODINGER BAND": "SCHRODINGER",
+        "BEASTIE BOYS": "BEASTIE BOYS",
+        "BEASTIEBOYS": "BEASTIE BOYS",
+        "THE PRODIGY": "THE PRODIGY",
+        "LEFT TO SUFFER": "LEFT TO SUFFER",
+        "SON LUX": "SON LUX",
+        "THEHIVESTV": "THE HIVES",
+        "ASTERO H": "ASTERO H",
+        "JESTERPOSE": "JESTERPOSE",
+        "CLUTCH": "CLUTCH",
+        "DEREK & THE DOMINOS": "DEREK & THE DOMINOS",
+        "THE BOSSHOSS": "THE BOSSHOSS",
+        "ELUVEITIE": "ELUVEITIE",
+        "JONATHAN DAVIS": "JONATHAN DAVIS",
+        "PROSPECTIVE": "PROSPECTIVE",
+        "BLIND WITNESS": "BLIND WITNESS",
+        "MINDFORCE": "MINDFORCE",
+        "SPLATOON": "SPLATOON",
+        "SPIRITWORLD": "SPIRITWORLD",
+        "LES BERURIERS NOIRS": "LES BERURIERS NOIRS",
+        "DAMIEN SAEZ": "SAEZ",
+        "PARADISE LOST": "PARADISE LOST",
+        "KXM": "KXM",
+        "SLOCBAND": "SLOCBAND",
+        "FATALS PICARDS": "LES FATALS PICARDS",
+        "SUICIDE SILENCE": "SUICIDE SILENCE",
+        "HELLFEST": "HELLFEST",
+        "CARNIFEX": "CARNIFEX",
+        "CHELSEA GRIN": "CHELSEA GRIN",
+        "CHELSEAGRINTV": "CHELSEA GRIN",
+        "CORPSE": "CORPSE",
+        "MRMUSELYRICS": "MUSE",
+        "OOMPH!": "OOMPH",
+        "HOLLYWOOD UNDEAD": "HOLLYWOOD UNDEAD",
+        "KALLE KOSCHINSKY": "KALLE KOSCHINSKY",
+        "KALLE": "KALLE KOSCHINSKY",
+        "DECREATE": "DECREATE",
+        "THY ART IS MURDER": "THY ART IS MURDER",
+        "TESSERACT": "TESSERACT",
+        "SLEEP THEORY": "THEORY",
+        "TETRARCH": "TETRARCH",
+        "DECAPITATED": "DECAPITATED",
+        "DYING FETUS": "DYING FETUS",
+        "MENTAL CRUELTY": "MENTAL CRUELTY",
+        "SIGNS OF THE SWARM": "SIGNS OF THE SWARM",
+        "SHADOW OF INTENT": "SHADOW OF INTENT",
+        "BRAND OF SACRIFICE": "BRAND OF SACRIFICE",
+        "TO THE GRAVE": "TO THE GRAVE",
+        "DROWN IN SULPHUR": "DROWN IN SULPHUR",
+        "ENTERPRISE EARTH": "ENTERPRISE EARTH",
+        "BLACK TONGUE": "BLACK TONGUE",
+        "SEEK & STRIKE": "SEEK & STRIKE",
+        "UPON A BURNING BODY": "UPON A BURNING BODY",
+        "PALEFACE SWISS": "PALEFACE SWISS",
+        "HYPOCRISY": "HYPOCRISY",
+        "ARKA'N ASRAFOKOR": "ARKA'N ASRAFOKOR",
+        "LENA SCISSORHANDS": "LENA SCISSORHANDS",
+        "UNMAKER": "UNMAKER",
+        "UNMAKERIRL": "UNMAKER",
+        "BEARTOOTH": "BEARTOOTH",
+        "BEHEMOTH": "BEHEMOTH",
+        "MUDVAYNE": "MUDVAYNE",
+        "WHITECHAPEL": "WHITECHAPEL",
+        "HATEBREED": "HATEBREED",
+        "POLARIS": "POLARIS",
+        "POLARISAUS": "POLARIS",
+        "I PREVAIL": "I PREVAIL",
+        "IPREVAILBAND": "I PREVAIL",
+        "APOCALYPSE ORCHESTRA": "APOCALYPSE ORCHESTRA",
+        "SLEEP TOKEN": "SLEEP TOKEN",
+        "ANKOR": "ANKOR",
+        "THE GAZETTE YOUTUBE CHANNEL": "THE GAZETTE",
+        "SPIDERBAIT": "SPIDERBAIT",
+        "ANNISOKAYTV": "ANNISOKAY",
+        "EPICA": "EPICA",
+        "VERSUS ME": "VERSUS ME",
+        "INFECTED RAIN": "INFECTED RAIN",
+        "DREAM STATE": "DREAM STATE",
+        "DREAMBOUND": "DREAM STATE",
+        "THE PLOT IN YOU": "THE PLOT IN YOU",
+        "THEPLOTINYOU": "THE PLOT IN YOU",
+        "LOVE AND DEATH": "LOVE AND DEATH",
+        "SAUL BAND": "SAUL",
+        "ALEX TERRIBLE": "SLAUGHTER TO PREVAIL",
+        "EL ESTEPARIO SIBERIANO": "EL ESTEPARIO SIBERIANO",
+        "XXFEUERSCHWANZXX": "FEUERSCHWANZ"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -687,7 +891,8 @@
             "EISBRECHER"
         ],
         "OOMPH": [
-            "OOMPH"
+            "OOMPH",
+            "OOMPH!"
         ],
         "POLYPHIA": [
             "POLYPHIA"
@@ -696,7 +901,8 @@
             "ICHIKA NITO"
         ],
         "VULFPECK": [
-            "VULFPECK"
+            "VULFPECK",
+            "VULF"
         ],
         "CARPENTER BRUT": [
             "CARPENTER BRUT"
@@ -770,7 +976,8 @@
             "SCHWARZER ENGEL"
         ],
         "LES FATALS PICARDS": [
-            "LES FATALS PICARDS"
+            "LES FATALS PICARDS",
+            "FATALS PICARDS"
         ],
         "MICHAEL JACKSON": [
             "MICHAEL JACKSON"
@@ -785,7 +992,8 @@
             "LED ZEPPELIN"
         ],
         "SLAUGHTER TO PREVAIL": [
-            "SLAUGHTER TO PREVAIL"
+            "SLAUGHTER TO PREVAIL",
+            "ALEX TERRIBLE"
         ],
         "AS I LAY DYING": [
             "AS I LAY DYING"
@@ -839,7 +1047,8 @@
             "SKRILLEX"
         ],
         "MUSHROOMHEAD": [
-            "MUSHROOMHEAD"
+            "MUSHROOMHEAD",
+            "MUSHROOMHEADTV"
         ],
         "PRIMUS": [
             "PRIMUS"
@@ -940,7 +1149,8 @@
             "TARDIGRADE INFERNO"
         ],
         "THE HIVES": [
-            "THE HIVES"
+            "THE HIVES",
+            "THEHIVESTV"
         ],
         "BILLY TALENT": [
             "BILLY TALENT"
@@ -1326,7 +1536,8 @@
             "LIONHEART"
         ],
         "ANNISOKAY": [
-            "ANNISOKAY"
+            "ANNISOKAY",
+            "ANNISOKAYTV"
         ],
         "IMMINENCE": [
             "IMMINENCE"
@@ -1405,7 +1616,8 @@
         ],
         "FEUERSCHWANZ": [
             "FEUERSCHWANZ",
-            "FEUERSCHWANZ"
+            "FEUERSCHWANZ",
+            "XXFEUERSCHWANZXX"
         ],
         "CUPHEAD": [
             "CUPHEAD"
@@ -1579,7 +1791,8 @@
             "SHAARGHOT"
         ],
         "SERJ TANKIAN": [
-            "SERJ TANKIAN"
+            "SERJ TANKIAN",
+            "SERJTANKIAN"
         ],
         "ROYAL REPUBLIC": [
             "ROYAL REPUBLIC"
@@ -1620,8 +1833,9 @@
         "MATMATAH": [
             "MATMATAH"
         ],
-        "RAMONEURS DE MENHIRS": [
-            "RAMONEURS DE MENHIRS"
+        "LES RAMONEURS DE MENHIRS": [
+            "RAMONEURS DE MENHIRS",
+            "LES RAMONEURS DE MENHIRS"
         ],
         "DAUGHTRY": [
             "DAUGHTRY"
@@ -1820,7 +2034,8 @@
             "JOSEPH SMITH"
         ],
         "IMAGINE DRAGONS": [
-            "IMAGINE DRAGONS"
+            "IMAGINE DRAGONS",
+            "IMAGINEDRAGONS"
         ],
         "ITCHY SCHLONG": [
             "ITCHY SCHLONG"
@@ -1961,7 +2176,8 @@
             "ZETRA"
         ],
         "THE GAZETTE": [
-            "THE GAZETTE"
+            "THE GAZETTE",
+            "THE GAZETTE YOUTUBE CHANNEL"
         ],
         "IGNITE": [
             "IGNITE"
@@ -1983,13 +2199,15 @@
             "FINCH"
         ],
         "MUSE": [
-            "MUSE"
+            "MUSE",
+            "MRMUSELYRICS"
         ],
         "VENUES": [
             "VENUES"
         ],
         "SAEZ": [
-            "SAEZ"
+            "SAEZ",
+            "DAMIEN SAEZ"
         ],
         "KISS": [
             "KISS"
@@ -1998,7 +2216,8 @@
             "SOEN"
         ],
         "SAUL": [
-            "SAUL"
+            "SAUL",
+            "SAUL BAND"
         ],
         "RUSH": [
             "RUSH"
@@ -2216,6 +2435,391 @@
         ],
         "CASIOPEA": [
             "CASIOPEA"
+        ],
+        "TWELVE FOOT NINJA": [
+            "TWELVE FOOT NINJA"
+        ],
+        "FOCUS": [
+            "FOCUS"
+        ],
+        "PLINI": [
+            "PLINI"
+        ],
+        "TIMECOP1983": [
+            "TIMECOP1983"
+        ],
+        "JUDAS PRIEST": [
+            "JUDAS PRIEST"
+        ],
+        "RORY GALLAGHER": [
+            "RORY GALLAGHER"
+        ],
+        "THE HU": [
+            "THE HU"
+        ],
+        "JOE SATRIANI": [
+            "JOE SATRIANI"
+        ],
+        "DANCE WITH THE DEAD": [
+            "DANCE WITH THE DEAD",
+            "DANCEWITHTHEDEAD"
+        ],
+        "THE SHINS": [
+            "THE SHINS",
+            "THESHINS"
+        ],
+        "NIK NOCTURNAL": [
+            "NIK NOCTURNAL"
+        ],
+        "PERTURBATOR": [
+            "PERTURBATOR"
+        ],
+        "WAGE WAR": [
+            "WAGE WAR"
+        ],
+        "REFUSED": [
+            "REFUSED"
+        ],
+        "THE CORRESPONDENTS": [
+            "THE CORRESPONDENTS"
+        ],
+        "TREPALIUM": [
+            "TREPALIUM"
+        ],
+        "CHRONIK FICTION": [
+            "CHRONIK FICTION"
+        ],
+        "A DAY TO REMEMBER": [
+            "A DAY TO REMEMBER"
+        ],
+        "PERIPHERY": [
+            "PERIPHERY"
+        ],
+        "DEATHPHONK": [
+            "DEATHPHONK"
+        ],
+        "SKINDRED": [
+            "SKINDRED"
+        ],
+        "HALLAS": [
+            "HALLAS"
+        ],
+        "THE BITES": [
+            "THE BITES"
+        ],
+        "PETE COTTRELL": [
+            "PETE COTTRELL"
+        ],
+        "WHO THEY FEAR": [
+            "WHO THEY FEAR"
+        ],
+        "MASAFUMI TAKADA": [
+            "MASAFUMI TAKADA"
+        ],
+        "BONOBO": [
+            "BONOBO"
+        ],
+        "BEEPLE": [
+            "BEEPLE"
+        ],
+        "VENJENT": [
+            "VENJENT"
+        ],
+        "SODOM": [
+            "SODOM"
+        ],
+        "LEPROUS": [
+            "LEPROUS",
+            "LEPROUS NORWAY"
+        ],
+        "STOLEN BABIES": [
+            "STOLEN BABIES"
+        ],
+        "APOCALYPTICA": [
+            "APOCALYPTICA"
+        ],
+        "CALIGULA'S HORSE": [
+            "CALIGULA'S HORSE"
+        ],
+        "LUNATIC SOUL": [
+            "LUNATIC SOUL"
+        ],
+        "MY CHEMICAL ROMANCE": [
+            "MY CHEMICAL ROMANCE"
+        ],
+        "FEN": [
+            "FEN"
+        ],
+        "CHIMAIRA": [
+            "CHIMAIRA",
+            "CHIMAIRATUBE"
+        ],
+        "CALVA LOUISE": [
+            "CALVA LOUISE"
+        ],
+        "CNVX": [
+            "CNVX"
+        ],
+        "FIT FOR RIVALS": [
+            "FIT FOR RIVALS"
+        ],
+        "FIREFLIGHT": [
+            "FIREFLIGHT",
+            "FIREFLIGHTROCK"
+        ],
+        "NINE LASHES": [
+            "NINE LASHES"
+        ],
+        "PARASITE INC.": [
+            "PARASITE INC."
+        ],
+        "THE AGONIST": [
+            "THE AGONIST"
+        ],
+        "HEAVEN SHALL BURN": [
+            "HEAVEN SHALL BURN"
+        ],
+        "NANOWAR OF STEEL": [
+            "NANOWAR OF STEEL",
+            "NANOWAR"
+        ],
+        "VENDED": [
+            "VENDED"
+        ],
+        "KIM DRACULA": [
+            "KIM DRACULA"
+        ],
+        "MAKE THEM SUFFER": [
+            "MAKE THEM SUFFER"
+        ],
+        "BORN OF OSIRIS": [
+            "BORN OF OSIRIS"
+        ],
+        "PUNK ROCK FACTORY": [
+            "PUNK ROCK FACTORY"
+        ],
+        "SKYND": [
+            "SKYND"
+        ],
+        "HANABIE": [
+            "HANABIE",
+            "HANABIE. YOUTUBE"
+        ],
+        "ARCANE": [
+            "ARCANE"
+        ],
+        "SCHRODINGER": [
+            "SCHRODINGER",
+            "SCHRODINGER BAND"
+        ],
+        "BEASTIE BOYS": [
+            "BEASTIE BOYS",
+            "BEASTIEBOYS"
+        ],
+        "THE PRODIGY": [
+            "THE PRODIGY"
+        ],
+        "LEFT TO SUFFER": [
+            "LEFT TO SUFFER"
+        ],
+        "SON LUX": [
+            "SON LUX"
+        ],
+        "ASTERO H": [
+            "ASTERO H"
+        ],
+        "JESTERPOSE": [
+            "JESTERPOSE"
+        ],
+        "CLUTCH": [
+            "CLUTCH"
+        ],
+        "DEREK & THE DOMINOS": [
+            "DEREK & THE DOMINOS"
+        ],
+        "THE BOSSHOSS": [
+            "THE BOSSHOSS"
+        ],
+        "ELUVEITIE": [
+            "ELUVEITIE"
+        ],
+        "JONATHAN DAVIS": [
+            "JONATHAN DAVIS"
+        ],
+        "PROSPECTIVE": [
+            "PROSPECTIVE"
+        ],
+        "BLIND WITNESS": [
+            "BLIND WITNESS"
+        ],
+        "MINDFORCE": [
+            "MINDFORCE"
+        ],
+        "SPLATOON": [
+            "SPLATOON"
+        ],
+        "SPIRITWORLD": [
+            "SPIRITWORLD"
+        ],
+        "LES BERURIERS NOIRS": [
+            "LES BERURIERS NOIRS"
+        ],
+        "PARADISE LOST": [
+            "PARADISE LOST"
+        ],
+        "KXM": [
+            "KXM"
+        ],
+        "SLOCBAND": [
+            "SLOCBAND"
+        ],
+        "SUICIDE SILENCE": [
+            "SUICIDE SILENCE"
+        ],
+        "HELLFEST": [
+            "HELLFEST"
+        ],
+        "CARNIFEX": [
+            "CARNIFEX"
+        ],
+        "CHELSEA GRIN": [
+            "CHELSEA GRIN",
+            "CHELSEAGRINTV"
+        ],
+        "CORPSE": [
+            "CORPSE"
+        ],
+        "HOLLYWOOD UNDEAD": [
+            "HOLLYWOOD UNDEAD"
+        ],
+        "KALLE KOSCHINSKY": [
+            "KALLE KOSCHINSKY",
+            "KALLE"
+        ],
+        "DECREATE": [
+            "DECREATE"
+        ],
+        "THY ART IS MURDER": [
+            "THY ART IS MURDER"
+        ],
+        "TESSERACT": [
+            "TESSERACT"
+        ],
+        "THEORY": [
+            "SLEEP THEORY"
+        ],
+        "TETRARCH": [
+            "TETRARCH"
+        ],
+        "DECAPITATED": [
+            "DECAPITATED"
+        ],
+        "DYING FETUS": [
+            "DYING FETUS"
+        ],
+        "MENTAL CRUELTY": [
+            "MENTAL CRUELTY"
+        ],
+        "SIGNS OF THE SWARM": [
+            "SIGNS OF THE SWARM"
+        ],
+        "SHADOW OF INTENT": [
+            "SHADOW OF INTENT"
+        ],
+        "BRAND OF SACRIFICE": [
+            "BRAND OF SACRIFICE"
+        ],
+        "TO THE GRAVE": [
+            "TO THE GRAVE"
+        ],
+        "DROWN IN SULPHUR": [
+            "DROWN IN SULPHUR"
+        ],
+        "ENTERPRISE EARTH": [
+            "ENTERPRISE EARTH"
+        ],
+        "BLACK TONGUE": [
+            "BLACK TONGUE"
+        ],
+        "SEEK & STRIKE": [
+            "SEEK & STRIKE"
+        ],
+        "UPON A BURNING BODY": [
+            "UPON A BURNING BODY"
+        ],
+        "PALEFACE SWISS": [
+            "PALEFACE SWISS"
+        ],
+        "HYPOCRISY": [
+            "HYPOCRISY"
+        ],
+        "ARKA'N ASRAFOKOR": [
+            "ARKA'N ASRAFOKOR"
+        ],
+        "LENA SCISSORHANDS": [
+            "LENA SCISSORHANDS"
+        ],
+        "UNMAKER": [
+            "UNMAKER",
+            "UNMAKERIRL"
+        ],
+        "BEARTOOTH": [
+            "BEARTOOTH"
+        ],
+        "BEHEMOTH": [
+            "BEHEMOTH"
+        ],
+        "MUDVAYNE": [
+            "MUDVAYNE"
+        ],
+        "WHITECHAPEL": [
+            "WHITECHAPEL"
+        ],
+        "HATEBREED": [
+            "HATEBREED"
+        ],
+        "POLARIS": [
+            "POLARIS",
+            "POLARISAUS"
+        ],
+        "I PREVAIL": [
+            "I PREVAIL",
+            "IPREVAILBAND"
+        ],
+        "APOCALYPSE ORCHESTRA": [
+            "APOCALYPSE ORCHESTRA"
+        ],
+        "SLEEP TOKEN": [
+            "SLEEP TOKEN"
+        ],
+        "ANKOR": [
+            "ANKOR"
+        ],
+        "SPIDERBAIT": [
+            "SPIDERBAIT"
+        ],
+        "EPICA": [
+            "EPICA"
+        ],
+        "VERSUS ME": [
+            "VERSUS ME"
+        ],
+        "INFECTED RAIN": [
+            "INFECTED RAIN"
+        ],
+        "DREAM STATE": [
+            "DREAM STATE",
+            "DREAMBOUND"
+        ],
+        "THE PLOT IN YOU": [
+            "THE PLOT IN YOU",
+            "THEPLOTINYOU"
+        ],
+        "LOVE AND DEATH": [
+            "LOVE AND DEATH"
+        ],
+        "EL ESTEPARIO SIBERIANO": [
+            "EL ESTEPARIO SIBERIANO"
         ]
     }
 }
