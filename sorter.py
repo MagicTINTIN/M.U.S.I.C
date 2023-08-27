@@ -174,7 +174,7 @@ def findband(ch, title, original):
             islabel = confirm("LABEL ? Is this channel ("+ ch +") a label channel (or provides musics from multiple bands) ? (Y/n) ")
         
     if islabel and ch != 0:
-        writeoperation("RUL")
+        writeoperation("RLG")
         addlabel(ch)
     elif foundband and ch != 0 and not topicband:
         print("\n########## Help needed ! " + original + " ##########")
@@ -265,8 +265,17 @@ def cleanname(title, band):
     bclipReg = re.compile(r'(?is)\[Clip.+', re.IGNORECASE)
     title = bclipReg.sub('', title)
 
+    pMusicReg = re.compile(r'(?is)\(Music.+', re.IGNORECASE)
+    title = pMusicReg.sub('', title)
+
+    bMusicReg = re.compile(r'(?is)\[Music.+', re.IGNORECASE)
+    title = bMusicReg.sub('', title)
+
     audioReg = re.compile(r'(?is)\(Audio.+', re.IGNORECASE)
     title = audioReg.sub('', title)
+
+    phqReg = re.compile(r'(?is)\(HQ.+', re.IGNORECASE)
+    title = phqReg.sub('', title)
 
     offMReg = re.compile(r'(?is)Official Music.+', re.IGNORECASE)
     title = offMReg.sub('', title)
@@ -280,7 +289,7 @@ def cleanname(title, band):
     offVReg = re.compile(r'(?is)Official Video.+', re.IGNORECASE)
     title = offVReg.sub('', title)
 
-    title = cleanbegin(unidecode(title)).replace("000BANDNAME000", band).replace("[HD]", "").replace("(HD)", "").replace("{}", "").replace("()", "").replace("[]", "").replace('"', '').rstrip()
+    title = cleanbegin(unidecode(title)).replace("000BANDNAME000", band).replace("[HD]", "").replace("(HD)", "").replace("(HQ)", "").replace("[HQ]", "").replace("{}", "").replace("()", "").replace("[]", "").replace('"', '').rstrip()
     if title.endswith('-'):
         title = title[:-1].rstrip()
     title = ' '.join(title.split())
