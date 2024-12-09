@@ -1145,7 +1145,8 @@
         "SAOR": "SAOR",
         "NATHAN JAMES": "NATHAN JAMES",
         "SKA-P OFICIAL": "SKA-P",
-        "IGORRR": "IGORRR"
+        "IGORRR": "IGORRR",
+        "CRYSTAL LAKE": "CRYSTAL LAKE"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -3460,6 +3461,9 @@
         ],
         "IGORRR": [
             "IGORRR"
+        ],
+        "CRYSTAL LAKE": [
+            "CRYSTAL LAKE"
         ]
     }
 }
