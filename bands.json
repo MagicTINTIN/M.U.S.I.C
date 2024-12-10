@@ -281,7 +281,21 @@
         "BORIST.",
         "FACEDOWNRECORDS",
         "NECO 1_3",
-        "CHILL MUSIC VISUALS"
+        "CHILL MUSIC VISUALS",
+        "SEEK & STRIKE",
+        "DRAGOLEMA",
+        "MATT T02",
+        "KENADIEEE",
+        "CARL",
+        "GODHEADSDAMNATION",
+        "MARWAN OSMAN",
+        "MATIJA MARCEKOVIC",
+        "VWV7",
+        "DREAMBOUND",
+        "GEE PHO",
+        "PELAGIC RECORDS",
+        "VALERE DELCROS",
+        "DJ (BRUNDLE) MOUCHE"
     ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
@@ -956,7 +970,6 @@
         "DROWN IN SULPHUR": "DROWN IN SULPHUR",
         "ENTERPRISE EARTH": "ENTERPRISE EARTH",
         "BLACK TONGUE": "BLACK TONGUE",
-        "SEEK & STRIKE": "SEEK & STRIKE",
         "UPON A BURNING BODY": "UPON A BURNING BODY",
         "PALEFACE SWISS": "PALEFACE SWISS",
         "HYPOCRISY": "HYPOCRISY",
@@ -982,8 +995,6 @@
         "EPICA": "EPICA",
         "VERSUS ME": "VERSUS ME",
         "INFECTED RAIN": "INFECTED RAIN",
-        "DREAM STATE": "DREAM STATE",
-        "DREAMBOUND": "DREAM STATE",
         "THE PLOT IN YOU": "THE PLOT IN YOU",
         "THEPLOTINYOU": "THE PLOT IN YOU",
         "LOVE AND DEATH": "LOVE AND DEATH",
@@ -1333,7 +1344,15 @@
         "THE BROWNING": "THE BROWNING",
         "HARDY": "HARDY",
         "MIKI SANTAMARIA": "MIKI SANTAMARIA",
-        "LES GARCONS BOUCHERS": "LES GARCONS BOUCHERS"
+        "LES GARCONS BOUCHERS": "LES GARCONS BOUCHERS",
+        "HO99O9": "HO99O9",
+        "RISE OF THE NORTHSTAR": "RISE OF THE NORTHSTAR",
+        "DREAM STATE": "DREAM STATE",
+        "BODY COUNT": "BODY COUNT",
+        "HIPPOTRAKTOR": "HIPPOTRAKTOR",
+        "EDOUARDO": "EDOUARDO",
+        "XAVIER CAGNA": "XAVIER CAGNA",
+        "CRADLE OF FILTH": "CRADLE OF FILTH"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -3415,9 +3434,6 @@
         "BLACK TONGUE": [
             "BLACK TONGUE"
         ],
-        "SEEK & STRIKE": [
-            "SEEK & STRIKE"
-        ],
         "UPON A BURNING BODY": [
             "UPON A BURNING BODY"
         ],
@@ -3481,10 +3497,6 @@
         ],
         "INFECTED RAIN": [
             "INFECTED RAIN"
-        ],
-        "DREAM STATE": [
-            "DREAM STATE",
-            "DREAMBOUND"
         ],
         "THE PLOT IN YOU": [
             "THE PLOT IN YOU",
@@ -4113,6 +4125,30 @@
         ],
         "LES GARCONS BOUCHERS": [
             "LES GARCONS BOUCHERS"
+        ],
+        "HO99O9": [
+            "HO99O9"
+        ],
+        "RISE OF THE NORTHSTAR": [
+            "RISE OF THE NORTHSTAR"
+        ],
+        "DREAM STATE": [
+            "DREAM STATE"
+        ],
+        "BODY COUNT": [
+            "BODY COUNT"
+        ],
+        "HIPPOTRAKTOR": [
+            "HIPPOTRAKTOR"
+        ],
+        "EDOUARDO": [
+            "EDOUARDO"
+        ],
+        "XAVIER CAGNA": [
+            "XAVIER CAGNA"
+        ],
+        "CRADLE OF FILTH": [
+            "CRADLE OF FILTH"
         ]
     }
 }
