@@ -295,7 +295,12 @@
         "GEE PHO",
         "PELAGIC RECORDS",
         "VALERE DELCROS",
-        "DJ (BRUNDLE) MOUCHE"
+        "DJ (BRUNDLE) MOUCHE",
+        "PURE NOISE RECORDS",
+        "MODERN EMPIRE \"MODERN EMPIRE MUSIC\" MUSIC",
+        "LIAM VICKERS ANIMATION",
+        "NOCOPYRIGHTSOUNDS",
+        "BVTV MUSIC"
     ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
@@ -818,7 +823,7 @@
         "GODSMACK": "GODSMACK",
         "FIRE FROM THE GODS": "FIRE FROM THE GODS",
         "THEORY OF A DEADMAN": "THEORY OF A DEADMAN",
-        "THEORY": "THEORY OF A DEADMAN",
+        "THEORY": "THEORY",
         "OTHERWISE": "OTHERWISE",
         "OTHERWISETUBE": "OTHERWISE",
         "LIGER": "LIGER",
@@ -958,7 +963,7 @@
         "DECREATE": "DECREATE",
         "THY ART IS MURDER": "THY ART IS MURDER",
         "TESSERACT": "TESSERACT",
-        "SLEEP THEORY": "THEORY",
+        "SLEEP THEORY": "SLEEP THEORY",
         "TETRARCH": "TETRARCH",
         "DECAPITATED": "DECAPITATED",
         "DYING FETUS": "DYING FETUS",
@@ -1352,7 +1357,34 @@
         "HIPPOTRAKTOR": "HIPPOTRAKTOR",
         "EDOUARDO": "EDOUARDO",
         "XAVIER CAGNA": "XAVIER CAGNA",
-        "CRADLE OF FILTH": "CRADLE OF FILTH"
+        "CRADLE OF FILTH": "CRADLE OF FILTH",
+        "KNOCKED LOOSE": "KNOCKED LOOSE",
+        "PSYCHOSTICK": "PSYCHOSTICK",
+        "MAGNOLIA PARK": "MAGNOLIA PARK",
+        "BARREN": "BARREN",
+        "TEN56": "TEN56",
+        "SYNESTIA": "SYNESTIA",
+        "DISEMBODIED TYRANT": "DISEMBODIED TYRANT",
+        "MEGANEKO": "MEGANEKO",
+        "WOLVES AT THE GATE": "WOLVES AT THE GATE",
+        "PROMPTS": "PROMPTS",
+        "ACCVSED": "ACCVSED",
+        "NOVELISTS": "NOVELISTS FR",
+        "DEXCORE": "DEXCORE",
+        "DEXCORE CHANNEL": "DEXCORE",
+        "SHIROBON": "SHIROBON",
+        "SHIROBONMUSIC": "SHIROBON",
+        "AJ DISPIRITO": "AJ DISPIRITO",
+        "MURDER DRONES": "AJ DISPIRITO",
+        "WATEVA": "WATEVA",
+        "ANTI-CLONE": "ANTI-CLONE",
+        "SPLEEN": "SPLEEN",
+        "CHASE & STATUS": "CHASE & STATUS",
+        "THROATCUT": "THROATCUT",
+        "ASHEN": "ASHEN",
+        "PRESIDENT": "PRESIDENT",
+        "OUR PROMISE": "OUR PROMISE",
+        "PRIDIAN": "PRIDIAN"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -2175,7 +2207,8 @@
             "AVIANA"
         ],
         "NOVELISTS FR": [
-            "NOVELISTS FR"
+            "NOVELISTS FR",
+            "NOVELISTS"
         ],
         "LIONHEART": [
             "LIONHEART"
@@ -3399,7 +3432,7 @@
             "TESSERACT"
         ],
         "THEORY": [
-            "SLEEP THEORY"
+            "THEORY"
         ],
         "TETRARCH": [
             "TETRARCH"
@@ -4149,6 +4182,78 @@
         ],
         "CRADLE OF FILTH": [
             "CRADLE OF FILTH"
+        ],
+        "KNOCKED LOOSE": [
+            "KNOCKED LOOSE"
+        ],
+        "PSYCHOSTICK": [
+            "PSYCHOSTICK"
+        ],
+        "MAGNOLIA PARK": [
+            "MAGNOLIA PARK"
+        ],
+        "BARREN": [
+            "BARREN"
+        ],
+        "TEN56": [
+            "TEN56"
+        ],
+        "SYNESTIA": [
+            "SYNESTIA"
+        ],
+        "DISEMBODIED TYRANT": [
+            "DISEMBODIED TYRANT"
+        ],
+        "MEGANEKO": [
+            "MEGANEKO"
+        ],
+        "WOLVES AT THE GATE": [
+            "WOLVES AT THE GATE"
+        ],
+        "PROMPTS": [
+            "PROMPTS"
+        ],
+        "ACCVSED": [
+            "ACCVSED"
+        ],
+        "DEXCORE": [
+            "DEXCORE",
+            "DEXCORE CHANNEL"
+        ],
+        "SHIROBON": [
+            "SHIROBON",
+            "SHIROBONMUSIC"
+        ],
+        "AJ DISPIRITO": [
+            "AJ DISPIRITO",
+            "MURDER DRONES"
+        ],
+        "WATEVA": [
+            "WATEVA"
+        ],
+        "ANTI-CLONE": [
+            "ANTI-CLONE"
+        ],
+        "SPLEEN": [
+            "SPLEEN"
+        ],
+        "CHASE & STATUS": [
+            "CHASE & STATUS"
+        ],
+        "THROATCUT": [
+            "THROATCUT"
+        ],
+        "ASHEN": [
+            "ASHEN"
+        ],
+        "PRESIDENT": [
+            "PRESIDENT"
+        ],
+        "OUR PROMISE": [
+            "OUR PROMISE"
+        ],
+        "PRIDIAN": [
+            "PRIDIAN"
         ]
     }
 }
