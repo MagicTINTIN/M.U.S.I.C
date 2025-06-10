@@ -1,5 +1,8 @@
 import time
+import os
 import json
+import requests
+from mutagen.oggopus import OggOpus
 from typing import List, Tuple, Dict, Optional
 
 import musicbrainzngs
@@ -30,6 +33,7 @@ def fetchMusicTags_LFM(artist: str, title: str) -> Optional[str]:
         tags = data.get("track", {}).get("toptags", {}).get("tag", [])
         if isinstance(tags, list) and tags:
             # take the highest-ranked tag
+            print("LASTFM TAGS->", tags)
             return tags#[0].get("name")
     except Exception as e:
         print("ERROR : ", e)
@@ -40,18 +44,22 @@ def fetchMusicTags_MB(
     artist: str,
     title: str
 ) -> Tuple[Optional[str], Optional[str]]:
-    """
-    search MusicBrainz using artist+title.
-    returns (album_name, genre) or (None, None) if not found.
-    """
-    try:
+    # try:
+    if True:
+        print(f"Searching in MB {artist} - {title}")
         res = musicbrainzngs.search_recordings(
+            # query= artist + " " + title,
+            # limit=1,
+            # includes=["releases", "tags"]
+
             artist=artist,
-            recording=title,
+            release=title,
             limit=1,
-            includes=["releases", "tags"]
+            # includes=["releases", "tags"]
         )
+        
         recs = res.get("recording-list", [])
+        print("res-> ",recs, "\n>>>", res)
         if not recs:
             return None, None
 
@@ -62,8 +70,24 @@ def fetchMusicTags_MB(
 
         # take the top tag name if available
         tags = rec.get("tag-list", [])
-        genre = tags[0]["name"] if tags else None
+        genre = [el["name"] for el in tags] if tags else None
 
+        if True:
+            # art = rec.get("artist", [])
+            art1 = rec.get("artist-credit", [])
+            print(f"1->", art1)
+            # print(art)
+            artistID = art1[0]["artist"]["id"]
+            artist = musicbrainzngs.get_artist_by_id(artistID, includes=["tags"]) #"genres", 
+            # recs = res.get("recording-list", [])
+            
+            tagslist = artist.get("tag-list", [])
+            if "tag-list" in artist["artist"]:
+                print("AAA - res-> ",artist, "\n->>>>>",artist["artist"]["tag-list"], "\n#########> ", [el["name"] for el in artist["artist"]["tag-list"]])#, "\nAAA - >>>", res)  artist["tag-list"]
+                # print()
+                genre = [el["name"] for el in artist["artist"]["tag-list"]]
+            else:
+                print("AAAAAAAAAAAAAA - y a rien")
         return album, genre
 
     # except Exception as e:
@@ -85,7 +109,7 @@ def fetchMusicTags(
     if genre is None and LASTFM_API_KEY:
         print("Fetching Last.fm...")
         genre = fetchMusicTags_LFM(artist, title)
-        print("found")
+        print("found genre on lastfm: ", genre)
 
     return album, genre
 
@@ -110,6 +134,7 @@ def batchFetcher(
                 "album": album,
                 "genre": genre
             })
+            time.sleep(1)
         if start + batch_size < total:
             time.sleep(pause)
     return results
@@ -118,8 +143,8 @@ def batchFetcher(
 def tagMusic(music, artist, title):
     try:
         audiofile = OggOpus(music)
-        audiofile["artist"] = ["rock","metal"]
-        audiofile["albumartist"] = artist
+        audiofile["artist"] = artist#["rock","metal"]
+        audiofile["albumartist"] = ["rock","metal"]
         audiofile["album"] = "THE ALBUM"
         audiofile["genre"] = ["rock","metal"]
         audiofile["title"] = title
