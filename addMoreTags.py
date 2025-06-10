@@ -66,9 +66,28 @@ def fetchMusicTags_MB(
 
         return album, genre
 
-    except Exception as e:
-        return None, None
+    # except Exception as e:
+    #     print(e)
+    #     return None, None
 
+
+def fetchMusicTags(
+    artist: str,
+    title: str
+) -> Tuple[Optional[str], Optional[str]]:
+    """
+    search MusicBrainz (or Last.fm if necessary) using artist+title.
+    returns (album_name, genre) or (None, None) if not found.
+    """
+    album, genre = fetchMusicTags_MB(artist, title)
+
+    # if MB had no genre try Last.fm
+    if genre is None and LASTFM_API_KEY:
+        print("Fetching Last.fm...")
+        genre = fetchMusicTags_LFM(artist, title)
+        print("found")
+
+    return album, genre
 
 def batchFetcher(
     sources: List[Tuple[str, str]],
@@ -96,10 +115,24 @@ def batchFetcher(
     return results
 
 
+def tagMusic(music, artist, title):
+    try:
+        audiofile = OggOpus(music)
+        audiofile["artist"] = ["rock","metal"]
+        audiofile["albumartist"] = artist
+        audiofile["album"] = "THE ALBUM"
+        audiofile["genre"] = ["rock","metal"]
+        audiofile["title"] = title
+        audiofile.save()
+        print(f"Tagged {music} with artist: {artist}, title: {title}")
+    except Exception as e:
+        print(f"Error tagging file {music}: {e}")
+
 if __name__ == "__main__":
     sources = [
-        ("REVNOIR", "20mg"),
-        ("IGORRR", "ADHD"),
+        ("SHAKA PONK", "Fear ya"),
+        ("REVNOIR", "crève '"),
+        ("ARCHITECTS", "Animals"),
         ("AVENGED SEVENFOLD", "Hail To The King"),
         ("LANDMVRKS", "Sulfur Sombre 16")
     ]
@@ -114,3 +147,6 @@ if __name__ == "__main__":
     with open("results.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     print("Wrote", len(results), "entries to results.json")
+    tagMusic("SHAKA PONK - Fear Ya.opus", "SHAKA PONK", "Fear Ya")
+    
+
