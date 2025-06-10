@@ -10,8 +10,33 @@ musicbrainzngs.set_useragent(
     version="1.0",
     contact="magictintin@proton.me"
 )
+LASTFM_API_KEY = os.getenv("LASTFM_API_KEY")
+LASTFM_API_URL = "http://ws.audioscrobbler.com/2.0/"
 
-def fetchMusicTags(
+def fetchMusicTags_LFM(artist: str, title: str) -> Optional[str]:
+    if not LASTFM_API_KEY:
+        return None
+
+    params = {
+        "method": "track.getInfo",
+        "api_key": LASTFM_API_KEY,
+        "artist": artist,
+        "track": title,
+        "format": "json"
+    }
+    try:
+        resp = requests.get(LASTFM_API_URL, params=params, timeout=5)
+        data = resp.json()
+        tags = data.get("track", {}).get("toptags", {}).get("tag", [])
+        if isinstance(tags, list) and tags:
+            # take the highest-ranked tag
+            return tags#[0].get("name")
+    except Exception as e:
+        print("ERROR : ", e)
+        pass
+    return None
+
+def fetchMusicTags_MB(
     artist: str,
     title: str
 ) -> Tuple[Optional[str], Optional[str]]:
