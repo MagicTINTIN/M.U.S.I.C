@@ -4032,21 +4032,12 @@
     "artist": "GESU'S ULTIMATE MAIDEN",
     "genre": [
       "ROCK",
-      "HEAVY METAL",
-      "PROGRESSIVE METAL",
-      "METAL",
-      "BRITISH",
-      "UK",
-      "HARD ROCK",
-      "POWER METAL",
-      "NWOBHM",
-      "ENGLISH",
-      "AWESOME",
-      "ROCK AND INDIE",
-      "NEW WAVE OF BRITISH HEAVY METAL",
-      "825646222902",
-      "AWE︎SOME",
-      "REINO UNIDO"
+      "J-ROCK",
+      "J-POP",
+      "JPOP",
+      "JAPAN",
+      "JAPANESE ROCK",
+      "JAPANESE"
     ]
   },
   "GET SCARED": {
@@ -5002,12 +4993,6 @@
       "BETTER THAN LADY GAGA"
     ]
   },
-  "JESSE BEAHLER": {
-    "artist": "JESSE BEAHLER",
-    "genre": [
-      "FIXME"
-    ]
-  },
   "JESTERPOSE": {
     "artist": "JESTERPOSE",
     "genre": [
@@ -5192,12 +5177,6 @@
       "BRITISH",
       "UK",
       "ELECTRO HOUSE"
-    ]
-  },
-  "JUAREZ OLIVA": {
-    "artist": "JUAREZ OLIVA",
-    "genre": [
-      "FIXME"
     ]
   },
   "JUDAS PRIEST": {
@@ -6551,7 +6530,9 @@
     "artist": "MEINL CYMBALS",
     "genre": [
       "ROCK",
-      "_TO_DO"
+      "METAL",
+      "DRUM",
+      "DRUMS"
     ]
   },
   "MELODICKA BROS": {
@@ -6840,12 +6821,6 @@
       "ROCK",
       "METALCORE",
       "HARD ROCK"
-    ]
-  },
-  "MWAM": {
-    "artist": "MWAM",
-    "genre": [
-      "FIXME"
     ]
   },
   "MY CHEMICAL ROMANCE": {
@@ -8668,7 +8643,9 @@
     "artist": "SABIAN CYMBALS",
     "genre": [
       "ROCK",
-      "_TO_DO"
+      "METAL",
+      "DRUM",
+      "DRUMS"
     ]
   },
   "SABLE HILLS": {
@@ -10553,8 +10530,8 @@
       "ROCK 'N' ROLL"
     ]
   },
-  "THEDOO": {
-    "artist": "THEDOO",
+  "THEDOOO": {
+    "artist": "THEDOOO",
     "genre": [
       "GUITAR",
       "INSTRUMENTAL",

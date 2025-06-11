@@ -1,5 +1,5 @@
 import time
-import os
+import os, sys
 import json
 import requests
 # from mutagen.oggopus import OggOpus
@@ -97,6 +97,7 @@ def confirm(message = "Reply by yes or no (yes by default) : "):
 
 def fetchMusicTags(artist: str):
     genre, mbID = None, None
+    print(f">>> {artist} <<<")
 
     # if MB had no genre try Last.fm
     if (genre is None or genre == []) and LASTFM_API_KEY:
@@ -168,7 +169,7 @@ if __name__ == "__main__":
     ]
 
     # do lookups in batches of 5, pausing 1 second between each batch
-    results = batchFetcher(sources, batch_size=5, pause=1.0)
+    results = batchFetcher(currentBands, batch_size=5, pause=1.0)
 
     for v,r in results.items():
         print(f"{r['artist']} → "
