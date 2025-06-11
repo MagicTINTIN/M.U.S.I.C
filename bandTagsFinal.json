@@ -1,0 +1,28 @@
+{
+  "SHAKA PONK": {
+    "artist": "SHAKA PONK",
+    "genre": [
+      "ELECTRONIC",
+      "ALTERNATIVE",
+      "FUNK",
+      "ROCK",
+      "CROSSOVER",
+      "SEEN LIVE",
+      "FRENCH",
+      "ALTERNATIVE ROCK",
+      "FUNK ROCK",
+      "MALE VOCALISTS"
+    ]
+  },
+  "REVNOIR": {
+    "artist": "REVNOIR",
+    "genre": [
+      "METALCORE",
+      "METAL",
+      "FRENCH",
+      "ROCK",
+      "SCREAMO",
+      "POST-HARDCORE"
+    ]
+  }
+}
