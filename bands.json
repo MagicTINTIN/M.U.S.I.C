@@ -300,7 +300,13 @@
         "MODERN EMPIRE \"MODERN EMPIRE MUSIC\" MUSIC",
         "LIAM VICKERS ANIMATION",
         "NOCOPYRIGHTSOUNDS",
-        "BVTV MUSIC"
+        "BVTV MUSIC",
+        "BEHEADINGTHETRAITOR",
+        "FORTRIU PRODUCTIONS",
+        "STEAMHAMMER  SPV",
+        "RIOT GAMES MUSIC",
+        "KIM GIANI",
+        "TAHI TIBOB"
     ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
@@ -1384,7 +1390,18 @@
         "ASHEN": "ASHEN",
         "PRESIDENT": "PRESIDENT",
         "OUR PROMISE": "OUR PROMISE",
-        "PRIDIAN": "PRIDIAN"
+        "PRIDIAN": "PRIDIAN",
+        "257ERS": "257ERS",
+        "VIANOVA": "VIANOVA",
+        "FROM FALL TO SPRING": "FROM FALL TO SPRING",
+        "DAYSEEKER": "DAYSEEKER",
+        "THE AMITY AFFLICTION": "THE AMITY AFFLICTION",
+        "ABBIE FALLS": "ABBIE FALLS",
+        "DRIP EU": "DRIP EU",
+        "THE GHOST INSIDE": "THE GHOST INSIDE",
+        "BREAKDOWN OF SANITY": "BREAKDOWN OF SANITY",
+        "SKYCLAD [ CHANNEL]": "SKYCLAD",
+        "JEAN PIERRE FROMAGE": "JEAN PIERRE FROMAGE"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -4053,7 +4070,8 @@
             "SKALMOLD"
         ],
         "SKYCLAD": [
-            "SKYCLAD"
+            "SKYCLAD",
+            "SKYCLAD [ CHANNEL]"
         ],
         "SPOTLIGHTS": [
             "SPOTLIGHTS"
@@ -4254,6 +4272,36 @@
         ],
         "PRIDIAN": [
             "PRIDIAN"
+        ],
+        "257ERS": [
+            "257ERS"
+        ],
+        "VIANOVA": [
+            "VIANOVA"
+        ],
+        "FROM FALL TO SPRING": [
+            "FROM FALL TO SPRING"
+        ],
+        "DAYSEEKER": [
+            "DAYSEEKER"
+        ],
+        "THE AMITY AFFLICTION": [
+            "THE AMITY AFFLICTION"
+        ],
+        "ABBIE FALLS": [
+            "ABBIE FALLS"
+        ],
+        "DRIP EU": [
+            "DRIP EU"
+        ],
+        "THE GHOST INSIDE": [
+            "THE GHOST INSIDE"
+        ],
+        "BREAKDOWN OF SANITY": [
+            "BREAKDOWN OF SANITY"
+        ],
+        "JEAN PIERRE FROMAGE": [
+            "JEAN PIERRE FROMAGE"
         ]
     }
 }

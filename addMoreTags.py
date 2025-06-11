@@ -16,18 +16,27 @@ musicbrainzngs.set_useragent(
 LASTFM_API_KEY = os.getenv("LASTFM_API_KEY")
 LASTFM_API_URL = "http://ws.audioscrobbler.com/2.0/"
 
-def fetchMusicTags_LFM(artist: str, title: str) -> Optional[str]:
+def fetchMusicTags_LFM(artist: str, mbID: str) -> Optional[str]:
     if not LASTFM_API_KEY:
         return None
-
     params = {
-        "method": "track.getCorrection",
+        "method": "artist.getTopTags",
         "api_key": LASTFM_API_KEY,
-        "track": title,
+        # "track": title,
         "artist": artist,
         "autocorrect":1,
         "format": "json"
     }
+
+    # if mbID != None:
+    #     params = {
+    #         "method": "artist.getTopTags",
+    #         "api_key": LASTFM_API_KEY,
+    #         "mbID": mbID,
+    #         "artist": artist,
+    #         "autocorrect":1,
+    #         "format": "json"
+    #     }
     # try:
     if True:
         resp = requests.get(LASTFM_API_URL, params=params, timeout=5)
@@ -46,7 +55,7 @@ def fetchMusicTags_LFM(artist: str, title: str) -> Optional[str]:
 def fetchMusicTags_MB(
     artist: str,
     title: str
-) -> Tuple[Optional[str], Optional[str]]:
+) -> Tuple[Optional[str], Optional[str], Optional[str]]:
     # try:
     if True:
         print(f"Searching in MB {artist} - {title}")
@@ -75,12 +84,12 @@ def fetchMusicTags_MB(
         tags = rec.get("tag-list", [])
         genre = [el["name"] for el in tags] if tags else None
 
+        # art = rec.get("artist", [])
+        art1 = rec.get("artist-credit", [])
+        print(f"1->", art1)
+        # print(art)
+        artistID = art1[0]["artist"]["id"]
         if True:
-            # art = rec.get("artist", [])
-            art1 = rec.get("artist-credit", [])
-            print(f"1->", art1)
-            # print(art)
-            artistID = art1[0]["artist"]["id"]
             artist = musicbrainzngs.get_artist_by_id(artistID, includes=["tags"]) #"genres", 
             # recs = res.get("recording-list", [])
             
@@ -91,7 +100,7 @@ def fetchMusicTags_MB(
                 genre = [el["name"] for el in artist["artist"]["tag-list"]]
             else:
                 print("AAAAAAAAAAAAAA - y a rien")
-        return album, genre
+        return album, genre, artistID
 
     # except Exception as e:
     #     print(e)
@@ -106,12 +115,12 @@ def fetchMusicTags(
     search MusicBrainz (or Last.fm if necessary) using artist+title.
     returns (album_name, genre) or (None, None) if not found.
     """
-    album, genre = fetchMusicTags_MB(artist, title)
+    album, genre, mbID = fetchMusicTags_MB(artist, title)
 
     # if MB had no genre try Last.fm
     if genre is None and LASTFM_API_KEY:
         print("Fetching Last.fm...")
-        genre = fetchMusicTags_LFM(artist, title)
+        genre = fetchMusicTags_LFM(artist, mbID)
         print("found genre on lastfm: ", genre)
 
     return album, genre
@@ -160,7 +169,7 @@ if __name__ == "__main__":
     sources = [
         # ("SHAKA PONK", "Fear ya"),
         # ("REVNOIR", "20mg"),
-        ("REVNOIRe", "crèvez '"),
+        ("Revnoir", "crève '"),
         # ("ARCHITECTS", "Animals"),
         # ("AVENGED SEVENFOLD", "Hail To The King"),
         # ("LANDMVRKS", "Sulfur Sombre 16")
