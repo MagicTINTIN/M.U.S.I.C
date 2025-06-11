@@ -21,23 +21,26 @@ def fetchMusicTags_LFM(artist: str, title: str) -> Optional[str]:
         return None
 
     params = {
-        "method": "track.getInfo",
+        "method": "track.getCorrection",
         "api_key": LASTFM_API_KEY,
-        "artist": artist,
         "track": title,
+        "artist": artist,
+        "autocorrect":1,
         "format": "json"
     }
-    try:
+    # try:
+    if True:
         resp = requests.get(LASTFM_API_URL, params=params, timeout=5)
         data = resp.json()
         tags = data.get("track", {}).get("toptags", {}).get("tag", [])
+        print("LASTFMMMMMMMMMM ->",data, "\n=========\n",tags)
         if isinstance(tags, list) and tags:
             # take the highest-ranked tag
             print("LASTFM TAGS->", tags)
             return tags#[0].get("name")
-    except Exception as e:
-        print("ERROR : ", e)
-        pass
+    # except Exception as e:
+    #     print("ERROR : ", e)
+    #     pass
     return None
 
 def fetchMusicTags_MB(
@@ -155,11 +158,12 @@ def tagMusic(music, artist, title):
 
 if __name__ == "__main__":
     sources = [
-        ("SHAKA PONK", "Fear ya"),
-        ("REVNOIR", "crève '"),
-        ("ARCHITECTS", "Animals"),
-        ("AVENGED SEVENFOLD", "Hail To The King"),
-        ("LANDMVRKS", "Sulfur Sombre 16")
+        # ("SHAKA PONK", "Fear ya"),
+        # ("REVNOIR", "20mg"),
+        ("REVNOIRe", "crèvez '"),
+        # ("ARCHITECTS", "Animals"),
+        # ("AVENGED SEVENFOLD", "Hail To The King"),
+        # ("LANDMVRKS", "Sulfur Sombre 16")
     ]
 
     # do lookups in batches of 5, pausing 1 second between each batch
