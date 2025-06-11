@@ -808,7 +808,6 @@
         "CG INSTRUMENTALS": "SONIC",
         "TEMPT FATE": "TEMPT FATE",
         "CRUSH 40": "CRUSH 40",
-        "JUAREZ OLIVA": "JUAREZ OLIVA",
         "ACCEPT": "ACCEPT",
         "MARILYNMANSON": "MARILYN MANSON",
         "SABATON": "SABATON",
@@ -855,7 +854,6 @@
         "RHODZ": "RHODZ",
         "LAST TRAIN": "LAST TRAIN",
         "OASIS": "OASIS",
-        "JESSE BEAHLER": "JESSE BEAHLER",
         "KNIFE PARTY": "KNIFE PARTY",
         "CHAINLYNX": "CHAINLYNX",
         "BINGO PLAYERS": "BINGO PLAYERS",
@@ -1130,7 +1128,7 @@
         "FACT CHANNEL": "FACT",
         "GESU'S ULTIMATE MAIDEN": "GESU'S ULTIMATE MAIDEN",
         "DA SHOU YU MEN TONG HAO HUI ": "DA SHOU YU MEN TONG HAO HUI ",
-        "MWAMJAPAN": "MWAM",
+        "MWAMJAPAN": "MAN WITH A MISSION",
         "JINJER METAL BAND": "JINJER",
         "JUDASPRIEST": "JUDAS PRIEST",
         "AIRBOURNE": "AIRBOURNE",
@@ -3025,9 +3023,6 @@
         "CRUSH 40": [
             "CRUSH 40"
         ],
-        "JUAREZ OLIVA": [
-            "JUAREZ OLIVA"
-        ],
         "ACCEPT": [
             "ACCEPT"
         ],
@@ -3156,9 +3151,6 @@
         ],
         "OASIS": [
             "OASIS"
-        ],
-        "JESSE BEAHLER": [
-            "JESSE BEAHLER"
         ],
         "KNIFE PARTY": [
             "KNIFE PARTY"
@@ -3587,9 +3579,6 @@
         ],
         "DA SHOU YU MEN TONG HAO HUI ": [
             "DA SHOU YU MEN TONG HAO HUI "
-        ],
-        "MWAM": [
-            "MWAMJAPAN"
         ],
         "AIRBOURNE": [
             "AIRBOURNE"
