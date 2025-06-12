@@ -553,7 +553,7 @@
         "HEART OF A COWARD": "HEART OF A COWARD",
         "THE OKLAHOMA KID": "THE OKLAHOMA KID",
         "AVIANA": "AVIANA",
-        "NOVELISTS FR": "NOVELISTS FR",
+        "NOVELISTS FR": "NOVELISTS",
         "LIONHEART": "LIONHEART",
         "ANNISOKAY": "ANNISOKAY",
         "IMMINENCE": "IMMINENCE",
@@ -1024,7 +1024,7 @@
         "SCHWARZERENGELTV": "SCHWARZER ENGEL",
         "CARAVANPALACE": "CARAVAN PALACE",
         "BULLETVALENTINE": "BULLET FOR MY VALENTINE",
-        "LINDEMANN": "LINDEMANN",
+        "LINDEMANN": "TILL LINDEMANN",
         "DAVID, DE LA CHAINE GANESH2": "GANESH2",
         "STUPEFLIP OFFICIEL": "STUPEFLIP",
         "CHILDISHGAMBINO": "CHILDISH GAMBINO",
@@ -1373,7 +1373,7 @@
         "WOLVES AT THE GATE": "WOLVES AT THE GATE",
         "PROMPTS": "PROMPTS",
         "ACCVSED": "ACCVSED",
-        "NOVELISTS": "NOVELISTS FR",
+        "NOVELISTS": "NOVELISTS",
         "DEXCORE": "DEXCORE",
         "DEXCORE CHANNEL": "DEXCORE",
         "SHIROBON": "SHIROBON",
@@ -1671,7 +1671,8 @@
             "BULLETVALENTINE"
         ],
         "TILL LINDEMANN": [
-            "TILL LINDEMANN"
+            "TILL LINDEMANN",
+            "LINDEMANN"
         ],
         "ROYAL BLOOD": [
             "ROYAL BLOOD"
@@ -2221,7 +2222,7 @@
         "AVIANA": [
             "AVIANA"
         ],
-        "NOVELISTS FR": [
+        "NOVELISTS": [
             "NOVELISTS FR",
             "NOVELISTS"
         ],
@@ -3549,9 +3550,6 @@
         ],
         "EL ESTEPARIO SIBERIANO": [
             "EL ESTEPARIO SIBERIANO"
-        ],
-        "LINDEMANN": [
-            "LINDEMANN"
         ],
         "DRUMEO": [
             "DRUMEO"

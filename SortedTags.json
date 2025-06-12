@@ -24,7 +24,7 @@
       "HIP-HOP",
       "FUNNY",
       "ESSEN",
-      "FAVORITES"
+      "HYPA HYPA UNIVERSE"
     ]
   },
   "2CELLOS": {
@@ -101,7 +101,9 @@
     "genre": [
       "ROCK",
       "SKA",
-      "PUNK-ROCK"
+      "PUNK-ROCK",
+      "FRENCH",
+      "FRANCE"
     ]
   },
   "ABBIE FALLS": {
@@ -205,8 +207,6 @@
       "SOUL",
       "FEMALE VOCALISTS",
       "BRITISH",
-      "SINGER-SONGWRITER",
-      "INDIE",
       "POP",
       "ADELE",
       "JAZZ",
@@ -248,8 +248,7 @@
       "SYNTH POP",
       "SYNTHPOP",
       "ROCK",
-      "ELECTRONIC",
-      "A-HA"
+      "ELECTRONIC"
     ]
   },
   "AIRBOURNE": {
@@ -300,9 +299,7 @@
       "GARAGE",
       "PUNK ROCK",
       "GERMAN",
-      "LYRIC",
-      "SOUTHSIDE",
-      "2019"
+      "LYRIC"
     ]
   },
   "ALIEN ANT FARM": {
@@ -396,15 +393,6 @@
       "FOLK METAL",
       "MELODIC METAL",
       "HEAVY METAL"
-    ]
-  },
-  "ANAKRONIC": {
-    "artist": "ANAKRONIC",
-    "genre": [
-      "KLEZMER",
-      "FRENCH",
-      "ELECTRONIC",
-      "HIP-HOP"
     ]
   },
   "ANAKRONIC ELECTRO ORKESTRA": {
@@ -546,16 +534,13 @@
       "ALTERNATIVE ROCK",
       "HARD ROCK",
       "ALTERNATIVE",
-      "DJENT",
-      "UNDER 2000 LISTENERS"
+      "DJENT"
     ]
   },
   "ANTOINE DORSEUIL": {
     "artist": "ANTOINE DORSEUIL",
     "genre": [
       "BAROQUE",
-      "FRENCH COMPOSER",
-      "COMPOSER",
       "CLASSICAL",
       "FRENCH"
     ]
@@ -620,16 +605,13 @@
   "ARCANE": {
     "artist": "ARCANE",
     "genre": [
-      "PROGRESSIVE METAL",
-      "THRASH METAL",
-      "AUSTRALIAN",
-      "PROGRESSIVE ROCK",
-      "PROGRESSIVE THRASH METAL",
-      "TECHNICAL THRASH METAL",
       "ELECTRONIC",
-      "SPEED METAL",
-      "PROGRESSIVE",
-      "BERLIN SCHOOL"
+      "RAP",
+      "VIDEO GAME",
+      "VIDEOGAME",
+      "FILM",
+      "LOL",
+      "SERIE"
     ]
   },
   "ARCH ENEMY": {
@@ -678,7 +660,6 @@
     "artist": "ARCTIC MONKEYS",
     "genre": [
       "INDIE ROCK",
-      "INDIE",
       "BRITISH",
       "ROCK",
       "ALTERNATIVE",
@@ -707,13 +688,11 @@
     "genre": [
       "DEATH METAL",
       "METAL",
-      "INDIE",
-      "FEMALE FRONTED METAL",
       "EMO",
       "INDIE ROCK",
-      "TAIWANESE",
       "ROCK",
-      "ALTERNATIVE ROCK"
+      "ALTERNATIVE ROCK",
+      "FRENCH"
     ]
   },
   "AS I LAY DYING": {
@@ -747,7 +726,9 @@
   "ASTERO H": {
     "artist": "ASTERO H",
     "genre": [
-      "HAS GERMAN AUDIOBOOKS"
+      "SCOOBY DOO",
+      "FILM",
+      "SERIE"
     ]
   },
   "ATREYU": {
@@ -775,7 +756,6 @@
       "ELECTRO HOUSE",
       "AMERICAN",
       "DREAMSTEP",
-      "COMPLEXTRO",
       "DRUMSTEP"
     ]
   },
@@ -865,7 +845,6 @@
     "artist": "AWOLNATION",
     "genre": [
       "ELECTRONIC",
-      "INDIE",
       "ALTERNATIVE",
       "INDIE ROCK",
       "ROCK",
@@ -887,14 +866,15 @@
       "FRANCOPHONE",
       "90S",
       "FRANCAIS",
+      "FRANCE",
       "ROCK FRANCAIS"
     ]
   },
   "AXEL ONE": {
     "artist": "AXEL ONE",
     "genre": [
-      "GERMAN AUDIOBOOK READER",
-      "ACTOR"
+      "METAL",
+      "HYPA HYPA UNIVERSE"
     ]
   },
   "AYRON JONES": {
@@ -921,8 +901,7 @@
       "SLAMMING BRUTAL DEATH METAL",
       "FEMALE VOCALISTS",
       "J-METAL",
-      "DEATH METAL",
-      "J-ROCK"
+      "DEATH METAL"
     ]
   },
   "BADFLOWER": {
@@ -930,7 +909,6 @@
     "genre": [
       "ALTERNATIVE ROCK",
       "ROCK",
-      "INDIE",
       "ALTERNATIVE",
       "EMO",
       "INDIE ROCK",
@@ -949,8 +927,7 @@
       "ALTERNATIVE ROCK",
       "AMERICAN",
       "ALTERNATIVE",
-      "NU METAL",
-      "ROCK"
+      "NU METAL"
     ]
   },
   "BAD SITUATION": {
@@ -992,14 +969,9 @@
     "artist": "BARREN",
     "genre": [
       "HARDCORE",
-      "GRINDCORE",
-      "STRAIGHT EDGE",
+      "PROGRESSIVE DEATHCORE",
       "DEATH METAL",
-      "VEGAN",
-      "PUNK",
-      "EMO",
-      "RAP",
-      "CRUST"
+      "FRENCH"
     ]
   },
   "BATTLE BEAST": {
@@ -1100,12 +1072,9 @@
     "genre": [
       "CLASSICAL",
       "INSTRUMENTAL",
-      "COMPOSERS",
-      "ROMANTIC",
       "CLASSIC",
       "GERMAN",
       "PIANO",
-      "COMPOSER",
       "BEETHOVEN",
       "LUDWIG VAN BEETHOVEN"
     ]
@@ -1188,7 +1157,6 @@
       "ROCK",
       "FUNK",
       "ALTERNATIVE ROCK",
-      "INDIE",
       "HARDCORE",
       "ALTERNATIVE",
       "REGGAE",
@@ -1259,32 +1227,10 @@
       "HEAVY METAL",
       "METAL",
       "BRITISH",
-      "DOOM METAL",
+      "COVER",
       "UK",
-      "HARD ROCK",
-      "HEAVY",
-      "PSYCHEDELIC ROCK",
-      "BLUES ROCK",
-      "NWOBHM",
-      "HEAVY BLUES",
-      "CLASSIC ROCK",
-      "POP ROCK",
-      "JAZZ-ROCK",
-      "ENGLISH",
-      "DARK",
-      "BIRMINGHAM",
-      "ENGLAND",
-      "REUNION",
-      "CLASSIC POP AND ROCK",
-      "TRADITIONAL DOOM METAL",
-      "NEW WAVE OF BRITISH HEAVY METAL",
-      "OMINOUS",
-      "BLACK SABBATH",
-      "WANT TO LISTEN",
       "PROTO DOOM",
-      "PROTO-DOOM",
-      "UNTIED KINGDOM",
-      "REINO UNIDO"
+      "UNTIED KINGDOM"
     ]
   },
   "BLACK RAINBOWS": {
@@ -1446,7 +1392,6 @@
   "BLOC PARTY": {
     "artist": "BLOC PARTY",
     "genre": [
-      "INDIE",
       "INDIE ROCK",
       "ALTERNATIVE",
       "BRITISH",
@@ -1479,7 +1424,6 @@
       "CHINESE",
       "NU METAL",
       "DARK FOLK",
-      "SINGER-SONGWRITER",
       "FOLK METAL",
       "INDIAN",
       "METAL",
@@ -1505,7 +1449,6 @@
     "genre": [
       "BRITPOP",
       "ROCK",
-      "INDIE",
       "ALTERNATIVE",
       "BRITISH",
       "ALTERNATIVE ROCK",
@@ -1544,7 +1487,6 @@
       "FINNISH",
       "TECHNO",
       "TRANCE",
-      "ELECTRONICA",
       "ELECTRO"
     ]
   },
@@ -1555,7 +1497,6 @@
       "HARD ROCK",
       "CLASSIC ROCK",
       "80S",
-      "HAIR METAL",
       "BON JOVI",
       "AMERICAN",
       "90S",
@@ -1570,7 +1511,6 @@
       "CHILLOUT",
       "TRIP-HOP",
       "NINJA TUNE",
-      "ELECTRONICA",
       "LOUNGE",
       "AMBIENT",
       "DOWNBEAT"
@@ -1586,8 +1526,7 @@
       "PROGRESSIVE METALCORE",
       "METAL",
       "BRITISH",
-      "PROGRESSIVE",
-      "LIVE"
+      "PROGRESSIVE"
     ]
   },
   "BORN OF OSIRIS": {
@@ -1671,7 +1610,8 @@
       "POST-METAL",
       "SHOEGAZE",
       "PSYCHEDELIC ROCK",
-      "ROCK"
+      "ROCK",
+      "BELGIAN"
     ]
   },
   "BULLET FOR MY VALENTINE": {
@@ -1682,9 +1622,7 @@
       "HARDCORE",
       "EMOCORE",
       "EMO",
-      "ROCK",
       "SCREAMO",
-      "MELODIC METALCORE",
       "HEAVY METAL"
     ]
   },
@@ -1722,7 +1660,6 @@
       "INDIE ROCK",
       "ALTERNATIVE",
       "ROCK",
-      "INDIE",
       "PUNK ROCK",
       "ALTERNATIVE ROCK",
       "GARAGE ROCK",
@@ -1767,8 +1704,6 @@
       "ROCK",
       "FRANCOPHONE",
       "CALOGERO",
-      "SINGER-SONGWRITER",
-      "ALTERNATIVE",
       "POP ROCK"
     ]
   },
@@ -1778,11 +1713,12 @@
       "GARAGE ROCK",
       "ALTERNATIVE ROCK",
       "METALCORE",
-      "ROCK",
       "INDIE ROCK",
       "BRITISH",
       "FEMALE VOCALISTS",
       "UK",
+      "FRANCE",
+      "NEW ZEALAND",
       "ALTERNATIVE METAL",
       "VENEZUELA"
     ]
@@ -1819,7 +1755,6 @@
     "artist": "CAPITAL CITIES",
     "genre": [
       "ELECTRONIC",
-      "INDIE",
       "ELECTROPOP",
       "POP",
       "ROCK",
@@ -1911,7 +1846,6 @@
       "PROGRESSIVE HOUSE",
       "ELECTRO",
       "DANCE",
-      "ELECTRONICA",
       "ELECTRO HOUSE"
     ]
   },
@@ -1920,14 +1854,10 @@
     "genre": [
       "INDUSTRIAL",
       "ELECTRONIC",
-      "INDUSTRIAL ROCK",
-      "INDUSTRIAL METAL",
-      "ROCK",
       "ALTERNATIVE",
       "METAL",
-      "ELECTRONIC ROCK",
       "NU METAL",
-      "ELECTRONICA"
+      "INSTRUMENTAL"
     ]
   },
   "CERBERUS": {
@@ -2007,7 +1937,6 @@
       "HIP-HOP",
       "RAP",
       "HIP HOP",
-      "INDIE",
       "UNDERGROUND HIP-HOP",
       "FUNK",
       "AMERICAN",
@@ -2033,15 +1962,12 @@
     "artist": "CHRIS TURNER",
     "genre": [
       "METALCORE",
-      "DJENT",
-      "NEO-SOUL",
-      "RNB",
       "PROGRESSIVE METALCORE",
       "PROGRESSIVE METAL",
-      "FUNK",
+      "TECHNICAL METAL",
       "ELECTRONIC",
-      "ELECTRONICA",
-      "SOUL"
+      "DRUM",
+      "DRUMS"
     ]
   },
   "CHRONIK FICTION": {
@@ -2116,7 +2042,8 @@
       "AVANT-GARDE",
       "NOISE ROCK",
       "AVANT-GARDE JAZZ",
-      "EXPERIMENTAL ROCK"
+      "EXPERIMENTAL ROCK",
+      "AUSTRALIAN"
     ]
   },
   "CLOWNS": {
@@ -2197,7 +2124,6 @@
       "ROCK",
       "ALTERNATIVE",
       "EMO",
-      "INDIE",
       "ALTERNATIVE ROCK",
       "PROGRESSIVE",
       "METAL",
@@ -2238,7 +2164,6 @@
     "genre": [
       "JAZZ METAL",
       "JAZZ PROGRESSIVE METAL",
-      "ELECTRONICA",
       "SOUNDTRACK",
       "NOISE",
       "METAL",
@@ -2255,7 +2180,6 @@
       "ALTERNATIVE ROCK",
       "METAL",
       "HEAVY METAL",
-      "SINGER-SONGWRITER",
       "HARD ROCK",
       "NU METAL",
       "ALTERNATIVE METAL",
@@ -2345,7 +2269,6 @@
       "ROCK",
       "TRIP-HOP",
       "WITCH HOUSE",
-      "ELECTRONICA",
       "ELECTRONIC ROCK"
     ]
   },
@@ -2411,7 +2334,8 @@
     "artist": "CUPHEAD",
     "genre": [
       "JAZZ",
-      "VIDEOGAME"
+      "VIDEOGAME",
+      "VIDEO GAME"
     ]
   },
   "CURRENTS": {
@@ -2447,7 +2371,8 @@
     "genre": [
       "ELECTRO",
       "YT",
-      "YOUTUBER"
+      "YOUTUBER",
+      "FRENCH"
     ]
   },
   "DADI FREYR": {
@@ -2455,7 +2380,8 @@
     "genre": [
       "SYNTH-POP",
       "FUNKTRONICA",
-      "ELECTROPOP"
+      "ELECTROPOP",
+      "ICELAND"
     ]
   },
   "DAFT PUNK": {
@@ -2464,7 +2390,6 @@
       "ELECTRONIC",
       "HOUSE",
       "DANCE",
-      "ELECTRONICA",
       "TECHNO",
       "FRENCH",
       "ELECTRO",
@@ -2484,20 +2409,6 @@
       "INDUSTRIAL DEATH METAL",
       "INDUSTRIAL",
       "THRASH METAL"
-    ]
-  },
-  "DAMIEN SAEZ": {
-    "artist": "DAMIEN SAEZ",
-    "genre": [
-      "FRENCH",
-      "SINGER-SONGWRITER",
-      "CHANSON FRANCAISE",
-      "ROCK",
-      "FRANCE",
-      "POP",
-      "ROCK FRANCAIS",
-      "ALTERNATIVE ROCK",
-      "FRENCH ROCK"
     ]
   },
   "DANCE GAVIN DANCE": {
@@ -2535,7 +2446,8 @@
       "ELECTRO",
       "OST",
       "ANIME",
-      "DANGANRONPA"
+      "DANGANRONPA",
+      "JAPAN"
     ]
   },
   "DANKO JONES": {
@@ -2557,21 +2469,12 @@
     "genre": [
       "SOUNDTRACK",
       "AMERICAN",
-      "SINGER",
       "GAME",
       "VIDEO GAME",
-      "SCORE",
-      "LYRICIST",
-      "FILM SCORE",
-      "VGM",
-      "FILM SOUNDTRACK",
-      "FILM COMPOSER",
-      "SOUNDTRACKS",
-      "MODERN CLASSICAL",
+      "FILM",
+      "ROCK",
       "UNITED STATES",
-      "SHOW TUNES",
-      "TELEVISION MUSIC",
-      "2008 UNIVERSAL FIRE VICTIM"
+      "TELEVISION MUSIC"
     ]
   },
   "DARKEN": {
@@ -2596,7 +2499,6 @@
       "SYSTEM OF A DOWN",
       "HARDCORE",
       "ALTERNATIVE METAL",
-      "GAY",
       "METAL",
       "NU METAL",
       "GUITAR PLAYER",
@@ -2607,14 +2509,11 @@
   "DA SHOU YU MEN TONG HAO HUI ": {
     "artist": "DA SHOU YU MEN TONG HAO HUI ",
     "genre": [
-      "FICTITIOUS-ARTIST",
-      "FICTITIOUS ARTIST",
-      "HÖRSPIEL",
-      "SERIES TITLE AS ARTIST",
-      "MUMM DER KOPFLOSE",
-      "HAS GERMAN AUDIO PLAYS",
-      "AUDIO DRAMA",
-      "HÖRBUCHSERIE"
+      "JAPAN FUSION",
+      "JAPANESE ROCK",
+      "JAPAN",
+      "JAPANESE",
+      "GOKUMON"
     ]
   },
   "DAUGHTRY": {
@@ -2650,7 +2549,8 @@
   "DAVID CASTELLO-LOPES": {
     "artist": "DAVID CASTELLO-LOPES",
     "genre": [
-      "FRANCE"
+      "FRANCE",
+      "COMEDY"
     ]
   },
   "DAVIE504": {
@@ -2659,7 +2559,7 @@
       "BASS",
       "FUNK",
       "EPIC",
-      "YOUTUBE",
+      "YOUTUBER",
       "ITALIAN",
       "VERY IMPRESSIVE",
       "SLAP",
@@ -2716,14 +2616,12 @@
     "genre": [
       "ROCK",
       "INDIE ROCK",
-      "INDIE",
       "GARAGE ROCK",
       "ALTERNATIVE ROCK",
       "ALTERNATIVE",
       "STONER ROCK",
       "PSYCHEDELIC",
-      "BLUES ROCK",
-      "AWESOME"
+      "BLUES ROCK"
     ]
   },
   "DEADTHRONE": {
@@ -2847,7 +2745,6 @@
       "ROCK",
       "POP",
       "CHANSON FRANCAISE",
-      "SINGER-SONGWRITER",
       "FRENCH POP",
       "MALE VOCALISTS",
       "CHANSON",
@@ -2865,8 +2762,7 @@
       "SYNTH POP",
       "ALTERNATIVE",
       "ROCK",
-      "BRITISH",
-      "ELECTRONICA"
+      "BRITISH"
     ]
   },
   "DEREK & THE DOMINOS": {
@@ -2946,7 +2842,8 @@
     "artist": "DIAMOND DEUKLO",
     "genre": [
       "RAP",
-      "FRANCE"
+      "FRANCE",
+      "COMEDY"
     ]
   },
   "DICK DALE": {
@@ -3027,7 +2924,6 @@
       "METAL",
       "NU METAL",
       "HARD ROCK",
-      "ROCK",
       "ALTERNATIVE",
       "ALTERNATIVE METAL",
       "HEAVY METAL",
@@ -3099,7 +2995,6 @@
       "ROCK",
       "HARD ROCK",
       "BLUES ROCK",
-      "INDIE",
       "GARAGE ROCK",
       "POP",
       "FEMALE VOCALISTS",
@@ -3216,10 +3111,10 @@
   "DW DRUMS": {
     "artist": "DW DRUMS",
     "genre": [
-      "SURF ROCK",
-      "QUEER",
-      "INDIE ROCK",
-      "INDIE POP"
+      "ROCK",
+      "METAL",
+      "DRUM",
+      "DRUMS"
     ]
   },
   "DYING FETUS": {
@@ -3247,7 +3142,11 @@
   "EDOUARDO": {
     "artist": "EDOUARDO",
     "genre": [
-      "JEANNECALMENTCORE"
+      "JEANNECALMENTCORE",
+      "FRENCH",
+      "LSF",
+      "HORREUR",
+      "OSKOURCORE"
     ]
   },
   "EIGHT SINS": {
@@ -3258,7 +3157,7 @@
       "BEATDOWN",
       "THRASH METAL",
       "FRANCE",
-      "UNDER 2000 LISTENERS",
+      "FRENCH",
       "HARDCORE PUNK",
       "MOSH",
       "MOSHPIT"
@@ -3297,7 +3196,9 @@
     "genre": [
       "PUNK",
       "SURF ROCK",
-      "MANOUCHE"
+      "MANOUCHE",
+      "FRENCH",
+      "ROCK"
     ]
   },
   "ELENA SIEGMAN": {
@@ -3311,7 +3212,6 @@
       "FEMALE VOCALIST",
       "FEMALE VOCALISTS",
       "NU METAL",
-      "FAVOURITE SONGS",
       "CALL OF DUTY"
     ]
   },
@@ -3319,7 +3219,9 @@
     "artist": "EL ESTEPARIO SIBERIANO",
     "genre": [
       "DRUMS",
-      "YOUTUBE"
+      "YOUTUBER",
+      "DRUM",
+      "GOD DRUM"
     ]
   },
   "ELUVEITIE": {
@@ -3416,7 +3318,6 @@
       "SCREAMO",
       "ELECTRONIC",
       "BRITISH",
-      "ELECTRONICA",
       "EXPERIMENTAL"
     ]
   },
@@ -3455,8 +3356,6 @@
       "BLUES",
       "ROCK",
       "BLUES ROCK",
-      "GUITAR",
-      "SINGER-SONGWRITER",
       "BRITISH",
       "ERIC CLAPTON",
       "70S"
@@ -3508,8 +3407,7 @@
       "SYNTHPOP",
       "ELECTRONIC",
       "BRITISH",
-      "ROCK",
-      "EURYTHMICS"
+      "ROCK"
     ]
   },
   "EVANESCENCE": {
@@ -3534,7 +3432,6 @@
       "FEMALE VOCALISTS",
       "ALTERNATIVE METAL",
       "METAL",
-      "INDIE",
       "ALTERNATIVE ROCK",
       "HARD ROCK",
       "USA"
@@ -3619,7 +3516,6 @@
       "BIG BEAT",
       "DANCE",
       "HOUSE",
-      "ELECTRONICA",
       "ALTERNATIVE",
       "BRITISH",
       "TECHNO",
@@ -3637,8 +3533,7 @@
       "J-ROCK",
       "METALCORE",
       "ELECTRONICORE",
-      "POST HARDCORE",
-      "ELECTRONICA"
+      "POST HARDCORE"
     ]
   },
   "FEN": {
@@ -3665,7 +3560,6 @@
       "GERMAN",
       "FOLK METAL",
       "COMEDY",
-      "ROCK",
       "MITTELALTER ROCK"
     ]
   },
@@ -3686,15 +3580,14 @@
   "FINCH": {
     "artist": "FINCH",
     "genre": [
-      "EMO",
-      "SCREAMO",
+      "GERMAN",
       "ROCK",
-      "POST-HARDCORE",
+      "POP",
       "ALTERNATIVE",
       "PUNK",
       "EMOCORE",
-      "ALTERNATIVE ROCK",
-      "HARDCORE"
+      "RAP",
+      "ELECTRONIC DANCE MUSIC"
     ]
   },
   "FIREFLIGHT": {
@@ -3722,8 +3615,7 @@
       "EXPERIMENTAL",
       "ALTERNATIVE METAL",
       "RAPCORE",
-      "RAP METAL",
-      "ELECTRONICA"
+      "RAP METAL"
     ]
   },
   "FIT FOR A KING": {
@@ -3807,7 +3699,6 @@
       "HARD ROCK",
       "POST-GRUNGE",
       "FOO FIGHTERS",
-      "INDIE",
       "AMERICAN"
     ]
   },
@@ -3815,12 +3706,10 @@
     "artist": "FORMATION",
     "genre": [
       "ELECTROPOP",
-      "INDIE",
       "BRITISH",
       "HARDCORE",
       "POWER POP",
       "GROOVE",
-      "LIVE GESEHEN",
       "HARDCORE PUNK",
       "ELECTRO ROCK"
     ]
@@ -3870,7 +3759,6 @@
   "FRANZ FERDINAND": {
     "artist": "FRANZ FERDINAND",
     "genre": [
-      "INDIE",
       "INDIE ROCK",
       "ROCK",
       "ALTERNATIVE",
@@ -3998,7 +3886,8 @@
       "COMEDY",
       "POP",
       "YT",
-      "YOUTUBER"
+      "YOUTUBER",
+      "FRENCH"
     ]
   },
   "GAVIN LUKE": {
@@ -4024,7 +3913,7 @@
       "METAL",
       "VIDEO GAME MUSIC",
       "AMERICAN",
-      "VIDEO GAME REMIXES",
+      "VIDEO GAME",
       "ARGENT METAL"
     ]
   },
@@ -4080,8 +3969,7 @@
       "DANCE",
       "OLDIES",
       "AMERICAN",
-      "80S",
-      "GLORIA GAYNOR"
+      "80S"
     ]
   },
   "GLORYHAMMER": {
@@ -4147,7 +4035,8 @@
       "PORNGRIND",
       "BRUTAL DEATHCORE",
       "BRUTAL SLAMMING DEATH METAL",
-      "SLAMMING DEATHCORE"
+      "SLAMMING DEATHCORE",
+      "PEPA PIG"
     ]
   },
   "GORILLAZ": {
@@ -4157,10 +4046,8 @@
       "ELECTRONIC",
       "HIP-HOP",
       "ROCK",
-      "INDIE",
       "TRIP-HOP",
       "POP",
-      "ELECTRONICA",
       "BRITISH",
       "ALTERNATIVE ROCK"
     ]
@@ -4168,7 +4055,6 @@
   "GOSSIP": {
     "artist": "GOSSIP",
     "genre": [
-      "INDIE",
       "INDIE ROCK",
       "FEMALE VOCALISTS",
       "ROCK",
@@ -4253,7 +4139,10 @@
   "HAEDETH": {
     "artist": "HAEDETH",
     "genre": [
-      "FRENCH"
+      "FRENCH",
+      "METAL",
+      "METALCORE",
+      "DEATH METAL"
     ]
   },
   "HAKEN": {
@@ -4346,10 +4235,8 @@
     "artist": "HANK LEVY",
     "genre": [
       "JAZZ",
-      "INDIE",
       "AMERICAN",
-      "FILM SCORE",
-      "LISZAJ RADIO"
+      "FILM"
     ]
   },
   "HANS ZIMMER": {
@@ -4358,28 +4245,24 @@
       "SOUNDTRACK",
       "INSTRUMENTAL",
       "CLASSICAL",
-      "COMPOSER",
       "SOUNDTRACKS",
       "GERMAN",
       "SCORE",
       "HANS ZIMMER",
       "ORCHESTRAL",
-      "COMPOSERS"
+      "INCEPTION"
     ]
   },
   "HARDY": {
     "artist": "HARDY",
     "genre": [
-      "COUNTRY",
-      "COUNTRY ROCK",
-      "ROCK",
-      "COUNTRY POP",
-      "POST-GRUNGE",
-      "CONTEMPORARY COUNTRY",
-      "BRO-COUNTRY",
-      "HEAVY METAL",
+      "METAL",
+      "HARDCORE PUNK",
+      "RAP",
+      "HIPHOP",
       "POP",
-      "AMBIENT"
+      "DEATH",
+      "BREAKCORE"
     ]
   },
   "HARM'S WAY": {
@@ -4545,11 +4428,10 @@
   "HUNTER X HUNTER": {
     "artist": "HUNTER X HUNTER",
     "genre": [
-      "SOUNDTRACK",
+      "SERIE",
       "JAPANESE",
       "ANIME",
       "INSTRUMENTAL",
-      "COMPOSER",
       "CLASSICAL",
       "J-POP",
       "ANIME SOUNDTRACK",
@@ -4617,7 +4499,6 @@
   "IC3PEAK": {
     "artist": "IC3PEAK",
     "genre": [
-      "WITCH HOUSE",
       "ELECTRONIC",
       "EXPERIMENTAL",
       "EXPERIMENTAL POP",
@@ -4653,7 +4534,7 @@
       "JAPANESE",
       "PROGRESSIVE ROCK",
       "JAPAN",
-      "YOUTUBE",
+      "YOUTUBER",
       "MEMES"
     ]
   },
@@ -4694,7 +4575,6 @@
       "PUNK",
       "PUNK ROCK",
       "ROCK",
-      "POLITICAL",
       "AMERICAN",
       "STRAIGHT EDGE"
     ]
@@ -4716,7 +4596,6 @@
   "IMAGINE DRAGONS": {
     "artist": "IMAGINE DRAGONS",
     "genre": [
-      "INDIE",
       "INDIE ROCK",
       "ALTERNATIVE",
       "ROCK",
@@ -4751,7 +4630,6 @@
       "AMERICAN",
       "OLD SCHOOL DEATH METAL",
       "USA",
-      "NYDM",
       "AMERICAN DEATH METAL"
     ]
   },
@@ -4777,9 +4655,7 @@
       "NEW WAVE",
       "ROCK",
       "80S",
-      "ALTERNATIVE",
-      "ALTERNATIVE ROCK",
-      "INDIE",
+      "POP ROCK",
       "FRANCAIS",
       "FRENCH ROCK"
     ]
@@ -4862,11 +4738,9 @@
       "METALCORE",
       "ALTERNATIVE METAL",
       "METAL",
-      "ROCK",
       "ELECTRONIC",
       "ALTERNATIVE ROCK",
-      "NU METAL",
-      "HARD ROCK"
+      "NU METAL"
     ]
   },
   "IRON MAIDEN": {
@@ -4877,6 +4751,7 @@
       "NWOBHM",
       "HARD ROCK",
       "ROCK",
+      "NEW WAVE OF BRITISH HEAVY METAL",
       "BRITISH",
       "POWER METAL",
       "CLASSIC ROCK",
@@ -4910,8 +4785,6 @@
     "genre": [
       "ROCK",
       "BLUES",
-      "SINGER-SONGWRITER",
-      "INDIE",
       "FOLK",
       "BLUES ROCK",
       "GARAGE ROCK",
@@ -4932,16 +4805,9 @@
   "JAMES BOND": {
     "artist": "JAMES BOND",
     "genre": [
-      "SOUNDTRACK",
       "JAMES BOND",
-      "POP",
-      "FEMALE VOCALISTS",
-      "BRUTAL DEATH METAL",
       "JAMES",
-      "KAXORS TOP TUNES",
-      "BOND",
-      "FUCK THE POLICE",
-      "BOGUS ARTIST"
+      "FILM"
     ]
   },
   "JAMIROQUAI": {
@@ -4954,7 +4820,6 @@
       "POP",
       "BRITISH",
       "ALTERNATIVE",
-      "ELECTRONICA",
       "JAZZ"
     ]
   },
@@ -4981,7 +4846,6 @@
       "CHANSON FRANCAISE",
       "ROCK",
       "FRANCOPHONE",
-      "SINGER-SONGWRITER",
       "CHANSON FRANÇAISE",
       "FRENCH ROCK",
       "FRANCE"
@@ -4990,7 +4854,12 @@
   "JEAN PIERRE FROMAGE": {
     "artist": "JEAN PIERRE FROMAGE",
     "genre": [
-      "BETTER THAN LADY GAGA"
+      "BETTER THAN LADY GAGA",
+      "FRENCH",
+      "ACOUSTIC",
+      "FOLK",
+      "BRASSENS AVEC MOINS DE POESIE",
+      "COMEDY"
     ]
   },
   "JESTERPOSE": {
@@ -5006,7 +4875,6 @@
       "ROCK",
       "ALTERNATIVE",
       "ALTERNATIVE ROCK",
-      "INDIE",
       "INDIE ROCK",
       "AUSTRALIAN",
       "GARAGE ROCK",
@@ -5017,7 +4885,6 @@
   "JILUKA": {
     "artist": "JILUKA",
     "genre": [
-      "VISUAL KEI",
       "METALCORE",
       "ELECTRONIC",
       "METAL",
@@ -5025,7 +4892,8 @@
       "JAPAN",
       "TECHNICAL METALCORE",
       "JAPANESE",
-      "2013"
+      "BRUTAL DEATHCORE",
+      "BRUTAL"
     ]
   },
   "JIMI HENDRIX": {
@@ -5046,13 +4914,7 @@
   "JIMMY GNECCO": {
     "artist": "JIMMY GNECCO",
     "genre": [
-      "SINGER-SONGWRITER",
       "ROCK",
-      "INDIE",
-      "CRIMINALLY UNDERRATED",
-      "MY FUTURE HUSBAND",
-      "ACOUSTIC",
-      "FAVOURITE",
       "ALTERNATIVE",
       "ALTERNATIVE ROCK"
     ]
@@ -5088,22 +4950,18 @@
   "JOE SATRIANI": {
     "artist": "JOE SATRIANI",
     "genre": [
-      "GUITAR VIRTUOSO",
       "INSTRUMENTAL ROCK",
       "ROCK",
       "INSTRUMENTAL",
-      "GUITAR",
       "PROGRESSIVE ROCK",
       "HARD ROCK",
-      "METAL",
-      "GUITAR HERO"
+      "METAL"
     ]
   },
   "JOHN 5": {
     "artist": "JOHN 5",
     "genre": [
       "INSTRUMENTAL",
-      "GUITAR VIRTUOSO",
       "METAL",
       "ROCK",
       "INDUSTRIAL",
@@ -5120,6 +4978,8 @@
       "JAZZ",
       "SWING",
       "USA",
+      "FILM",
+      "WHIPLASH",
       "AMERICAN"
     ]
   },
@@ -5142,7 +5002,7 @@
     "genre": [
       "METAL",
       "COVERS",
-      "YOUTUBE",
+      "YOUTUBER",
       "POST-HARDCORE",
       "UNITED STATES",
       "HEAVY METAL",
@@ -5155,14 +5015,10 @@
   "JOSEPH SMITH": {
     "artist": "JOSEPH SMITH",
     "genre": [
-      "CULT LEADER",
-      "CULT",
-      "MORMON",
-      "PROPHET",
-      "FALSE PROPHET",
-      "CHURCH LEADER",
-      "METAL PLATES GUY",
-      "POLYGAMIST"
+      "JAZZ",
+      "ROCK",
+      "FUNK",
+      "SAXOPHONE"
     ]
   },
   "JOYRYDE": {
@@ -5198,11 +5054,9 @@
     "genre": [
       "JAZZ",
       "SOUNDTRACK",
-      "COMPOSER",
       "NEO-SWING",
       "INSTRUMENTAL",
-      "FILM SCORE",
-      "SCORE",
+      "FILM",
       "AMERICAN",
       "WHIPLASH"
     ]
@@ -5270,9 +5124,7 @@
       "RNB",
       "MALE VOCALISTS",
       "USA",
-      "KEVIN DREW",
-      "KDREW",
-      "INDIE"
+      "KEVIN DREW"
     ]
   },
   "KERRY KING": {
@@ -5280,28 +5132,19 @@
     "genre": [
       "THRASH METAL",
       "METAL",
-      "BAD ASS MOTHER FUCKER",
-      "GUITAR GOD",
       "HEAVY METAL",
-      "AMERICAN",
-      "BALD",
-      "SLAYER",
-      "BURGER KING"
+      "AMERICAN"
     ]
   },
   "KEVIN SHERWOOD": {
     "artist": "KEVIN SHERWOOD",
     "genre": [
       "METAL",
-      "ZOMBIES",
       "METALCORE",
       "DJENT",
       "PROGRESSIVE METAL",
       "ONE MAN BAND",
-      "PROGRESSIVE METALCORE",
-      "BLACK OPS",
-      "CALL OF DUTY",
-      "TREYACH ZOMBIES"
+      "PROGRESSIVE METALCORE"
     ]
   },
   "KHEMMIS": {
@@ -5341,6 +5184,7 @@
       "SCREAMO",
       "METAL",
       "ROCK",
+      "EVERYTHING",
       "ALTERNATIVE ROCK",
       "EXPERIMENTAL",
       "NU METAL",
@@ -5357,8 +5201,7 @@
       "80S",
       "HEAVY METAL",
       "70S",
-      "HAIR METAL",
-      "METAL"
+      "HAIR METAL"
     ]
   },
   "KMAC2021": {
@@ -5371,7 +5214,7 @@
       "SCOTTISH",
       "METAL",
       "PROGRESSIVE METAL",
-      "YOUTUBE",
+      "YOUTUBER",
       "HIP-HOP",
       "INSTRUMENTAL"
     ]
@@ -5507,12 +5350,11 @@
     "artist": "LA FERME JEROME",
     "genre": [
       "ROCK",
-      "AMERICAN",
+      "FRENCH",
       "INDIE ROCK",
-      "NOISE POP",
-      "DREAM POP",
-      "CLASSIC POP AND ROCK",
-      "THE LOST GENERATION"
+      "COMEDY",
+      "MORANOCORE",
+      "RENAULT"
     ]
   },
   "LAMB OF GOD": {
@@ -5604,16 +5446,9 @@
   "LEMON DEMON": {
     "artist": "LEMON DEMON",
     "genre": [
-      "GEEK ROCK",
-      "COMEDY",
-      "ALTERNATIVE",
-      "INDIE",
-      "FUNNY",
+      "POP ROCK",
       "ROCK",
-      "HUMOUR",
-      "AMERICAN",
-      "INTERNET",
-      "GEEK"
+      "AMERICAN"
     ]
   },
   "LENA SCISSORHANDS": {
@@ -5624,8 +5459,6 @@
       "HEAVY METAL",
       "FEMALE FRONTED METAL",
       "FEMALE VOCALISTS",
-      "SINGER",
-      "SONGWRITER",
       "ALTERNATIVE METAL",
       "FEMALE VOCAL",
       "NU METAL"
@@ -5694,7 +5527,8 @@
       "ROCK",
       "GRUNGE",
       "STONER",
-      "METAL"
+      "METAL",
+      "FRENCH"
     ]
   },
   "LES CLAYPOOL": {
@@ -5746,13 +5580,13 @@
       "HUMOUR",
       "FRENCH",
       "COMIQUE",
+      "COMEDY",
       "CULTE",
       "CHANSON FRANCAISE",
       "HUMOUR FRANCAIS",
       "80S",
       "FUNNY",
-      "FRANCAIS",
-      "FOLKLORE INTELLECTUEL"
+      "FRANCAIS"
     ]
   },
   "LES RAMONEURS DE MENHIRS": {
@@ -5778,7 +5612,6 @@
       "ANARCHIST",
       "PUNK FRANCAIS",
       "FRANCE",
-      "POLITICAL",
       "FRANCAIS",
       "FRENCH PUNK"
     ]
@@ -5828,15 +5661,9 @@
   "LIGER": {
     "artist": "LIGER",
     "genre": [
-      "INDIETRONICA",
-      "ELECTRONIC",
-      "UNSIGNED",
-      "FOLK",
-      "AUSTRIA",
-      "EXPERIMENTAL",
-      "AUSTRIAN",
-      "LO-FI",
-      "NETLABEL"
+      "ROCK",
+      "HARD ROCK",
+      "METAL"
     ]
   },
   "LIMP BIZKIT": {
@@ -5851,21 +5678,6 @@
       "ALTERNATIVE ROCK",
       "HARD ROCK",
       "ALTERNATIVE METAL"
-    ]
-  },
-  "LINDEMANN": {
-    "artist": "LINDEMANN",
-    "genre": [
-      "INDUSTRIAL METAL",
-      "INDUSTRIAL",
-      "METAL",
-      "GERMAN",
-      "SWEDISH",
-      "RAMMSTEIN",
-      "GERMANY",
-      "ALTERNATIVE METAL",
-      "NDH",
-      "SWEDEN"
     ]
   },
   "LINKIN PARK": {
@@ -5929,9 +5741,9 @@
       "GERMAN",
       "POP",
       "POP ROCK",
-      "INDIE",
       "INDIE ROCK",
-      "90S"
+      "90S",
+      "L'INTROUVABLE"
     ]
   },
   "LITTLE BIG": {
@@ -5944,7 +5756,6 @@
       "RAP",
       "POP",
       "FREAK",
-      "QUEER",
       "RUSSIA"
     ]
   },
@@ -5952,7 +5763,8 @@
     "artist": "LITTLEVMILLS",
     "genre": [
       "METAL",
-      "VIDEO GAME MUSIC"
+      "VIDEO GAME MUSIC",
+      "COVERS"
     ]
   },
   "LLOYD": {
@@ -6062,6 +5874,7 @@
       "BRASS BAND",
       "JAZZ",
       "USA",
+      "SAXOPHONE",
       "COVERS",
       "HIP HOP",
       "NEW YORK"
@@ -6076,8 +5889,6 @@
       "FRENCH ROCK",
       "CHANSON FRANCAISE",
       "NOUVELLE SCENE FRANCAISE",
-      "INDIE",
-      "ALTERNATIVE",
       "INDIE ROCK"
     ]
   },
@@ -6116,8 +5927,7 @@
       "BLUES ROCK",
       "COUNTRY",
       "BLUES",
-      "AMERICAN",
-      "LYNYRD SKYNYRD"
+      "AMERICAN"
     ]
   },
   "MACHINE GUN KELLY": {
@@ -6129,7 +5939,6 @@
       "CLEVELAND",
       "MGK",
       "HIP HOP",
-      "MACHINE GUN KELLY",
       "ROCK",
       "AMERICAN"
     ]
@@ -6144,8 +5953,7 @@
       "METALCORE",
       "NU METAL",
       "AMERICAN",
-      "ALTERNATIVE METAL",
-      "ROCK"
+      "ALTERNATIVE METAL"
     ]
   },
   "MADNESS": {
@@ -6156,9 +5964,7 @@
       "BRITISH",
       "NEW WAVE",
       "POP",
-      "TWO-TONE",
       "ROCK",
-      "2 TONE",
       "PUNK"
     ]
   },
@@ -6168,13 +5974,10 @@
       "SYNTHWAVE",
       "ELECTRONIC",
       "RETROWAVE",
-      "SOUNDTRACK",
-      "GAME",
       "DARKSYNTH",
       "INSTRUMENTAL",
       "ELECTRO",
-      "SYNTH",
-      "SNES"
+      "SYNTH"
     ]
   },
   "MAGNAVOLT": {
@@ -6215,8 +6018,7 @@
       "PIANO",
       "FRANCE",
       "SPZ",
-      "NETOPHONIX",
-      "TOURTE"
+      "METAL"
     ]
   },
   "MAKE THEM SUFFER": {
@@ -6256,7 +6058,6 @@
       "ALTERNATIVE ROCK",
       "HEAVY METAL",
       "POP",
-      "SAD",
       "USA",
       "POP ROCK"
     ]
@@ -6272,8 +6073,7 @@
       "FRENCH RAP",
       "FRENCH HIP-HOP",
       "FOLK",
-      "FRANCE",
-      "LASTFMSC"
+      "FRANCE"
     ]
   },
   "MANEGARM": {
@@ -6340,7 +6140,6 @@
       "INDUSTRIAL",
       "INDUSTRIAL METAL",
       "METAL",
-      "ROCK",
       "ALTERNATIVE",
       "ALTERNATIVE ROCK",
       "INDUSTRIAL ROCK",
@@ -6354,12 +6153,9 @@
       "VIDEO GAME MUSIC",
       "SOUNDTRACK",
       "ELECTRONIC",
-      "KILLER 7",
-      "NO MORE HEROES",
       "JAPANESE",
       "VIDEO GAME",
       "GAME",
-      "ELECTRONICA",
       "CYBERPUNK"
     ]
   },
@@ -6370,7 +6166,6 @@
       "NU METAL",
       "FRENCH",
       "FRENCHCORE",
-      "ROCK",
       "INDUSTRIAL",
       "INDUSTRIAL METAL",
       "ALTERNATIVE",
@@ -6410,7 +6205,10 @@
     "artist": "MATHIEU SOMMET",
     "genre": [
       "RAP",
-      "HUMOUR"
+      "HUMOUR",
+      "YT",
+      "YOUTUBER",
+      "COMEDY"
     ]
   },
   "MATMATAH": {
@@ -6431,14 +6229,10 @@
     "artist": "MAVIS",
     "genre": [
       "METALCORE",
-      "JAZZ",
-      "FUNK",
-      "DANISH",
+      "GERMAN",
       "PROGRESSIVE METALCORE",
-      "INDIE",
       "ROCK",
-      "ALTERNATIVE",
-      "DOWNTEMPO"
+      "ALTERNATIVE"
     ]
   },
   "MAX COVERI": {
@@ -6459,7 +6253,6 @@
   "MAXIMUM THE HORMONE": {
     "artist": "MAXIMUM THE HORMONE",
     "genre": [
-      "J-ROCK",
       "HARDCORE",
       "JAPANESE",
       "J-METAL",
@@ -6519,10 +6312,7 @@
     "genre": [
       "METAL",
       "INSTRUMENTAL",
-      "SOUNDTRACK",
-      "INSTRUMENTAL ROCK",
-      "NINTENDOCORE",
-      "VIDEO GAME MUSIC",
+      "COVERS",
       "INSTRUMENTAL METAL"
     ]
   },
@@ -6543,7 +6333,7 @@
       "ITALY",
       "ACOUSTIC",
       "COVERS",
-      "YOUTUBE",
+      "YOUTUBER",
       "ITALIAN"
     ]
   },
@@ -6600,8 +6390,7 @@
       "KING OF POP",
       "MICHAEL JACKSON",
       "ROCK",
-      "DISCO",
-      "LEGEND"
+      "DISCO"
     ]
   },
   "MICKEY 3D": {
@@ -6611,7 +6400,6 @@
       "ROCK",
       "CHANSON FRANCAISE",
       "ROCK FRANCAIS",
-      "INDIE",
       "FRENCH ROCK",
       "FRANCAIS",
       "ALTERNATIVE",
@@ -6627,6 +6415,8 @@
       "VIDEO GAME MUSIC",
       "ELECTRONIC",
       "METAL",
+      "DOOM METAL",
+      "DOOM",
       "INDUSTRIAL",
       "AUSTRALIAN",
       "AUSTRALIA",
@@ -6636,32 +6426,19 @@
   "MICROSOFT": {
     "artist": "MICROSOFT",
     "genre": [
-      "BRUTAL DEATH METAL",
-      "ELECTRONIC",
-      "SOUNDTRACK",
-      "MUDKIP",
-      "DEATH METAL",
-      "BLUE SCREEN OF DEATH",
-      "NOT MISTAGGED",
-      "OFFICIALLY SHIT",
-      "TRUE NORWEGIAN BLACK METAL",
-      "THE MOST FROSTBITTEN AND GRIM MUSIC FROM THE VERY VERY VERY VERY VERY VERY INVERTED MOUNTAINS OF KXZIIIIMFGHHHBLAGHL"
+      "WINDAUBE",
+      "POP",
+      "ROCK",
+      "POP ROCK"
     ]
   },
   "MIKI SANTAMARIA": {
     "artist": "MIKI SANTAMARIA",
     "genre": [
       "JAZZ",
-      "SALSA",
       "AFRO-CUBAN JAZZ",
-      "LATIN",
       "LATIN JAZZ",
-      "PACHANGA",
-      "MAMBO",
-      "BOOGALOO",
-      "GUAGUANCÓ",
-      "CHARANGA",
-      "RUMBA CUBANA"
+      "BASS"
     ]
   },
   "MINDFORCE": {
@@ -6675,8 +6452,7 @@
       "METALCORE",
       "THRASH",
       "PUNK",
-      "NYHC",
-      "NEW YORK"
+      "NYHC"
     ]
   },
   "MO-DO": {
@@ -6755,29 +6531,15 @@
     "genre": [
       "EXPERIMENTAL",
       "AVANT-GARDE",
-      "MIKE PATTON",
       "ALTERNATIVE",
       "ROCK",
       "PROGRESSIVE ROCK",
+      "EVERYTHING",
+      "EVERYTHING AT THE SAME TIME",
       "METAL",
       "ALTERNATIVE ROCK",
       "EXPERIMENTAL ROCK",
       "AVANT-GARDE METAL"
-    ]
-  },
-  "MTH": {
-    "artist": "MTH",
-    "genre": [
-      "TECHNO",
-      "TRANCE",
-      "HARDCORE",
-      "EXPERIMENTAL",
-      "INDUSTRIAL",
-      "GABBER",
-      "ACID TECHNO",
-      "HIGH QUALITY RIP",
-      "HIGH QUALITY VIDEO GAME RIPS",
-      "SIIVAGUNNER"
     ]
   },
   "MUDVAYNE": {
@@ -6801,7 +6563,6 @@
       "ROCK",
       "ALTERNATIVE",
       "PROGRESSIVE ROCK",
-      "INDIE",
       "BRITISH",
       "INDIE ROCK",
       "BRITPOP",
@@ -6818,9 +6579,7 @@
       "INDUSTRIAL",
       "NU-METAL",
       "ALTERNATIVE",
-      "ROCK",
-      "METALCORE",
-      "HARD ROCK"
+      "METALCORE"
     ]
   },
   "MY CHEMICAL ROMANCE": {
@@ -6868,8 +6627,7 @@
       "ELECTRO-ROCK",
       "NEW RAVE",
       "ROCK",
-      "ALTERNATIVE",
-      "ELECTRONICA"
+      "ALTERNATIVE"
     ]
   },
   "NANOWAR OF STEEL": {
@@ -6878,9 +6636,7 @@
       "POWER METAL",
       "HEAVY METAL",
       "PARODY",
-      "THE ONLY TRUE METAL OF STEEL",
       "METAL",
-      "TRUE METAL OF STEEL",
       "ITALIAN",
       "COMEDY",
       "ITALY"
@@ -6893,11 +6649,9 @@
       "INDUSTRIAL METAL",
       "NU METAL",
       "ROCK",
-      "AMERICANA",
+      "AMERICAN",
       "INDUSTRIAL ROCK",
-      "ALTERNATIVE METAL",
-      "UNDER 2000 LISTENERS",
-      "NSBM"
+      "ALTERNATIVE METAL"
     ]
   },
   "NEBULA": {
@@ -6918,8 +6672,9 @@
     "artist": "NE OBLIVISCARIS",
     "genre": [
       "PROGRESSIVE BLACK METAL",
+      "PROGRESSIVE DEATH METAL",
       "PROGRESSIVE METAL",
-      "BLACK METAL",
+      "DEATH METAL",
       "MELODIC BLACK METAL",
       "AUSTRALIAN",
       "METAL",
@@ -6960,7 +6715,6 @@
       "ROCK FRANCAIS",
       "FEMALE VOCALISTS",
       "POP",
-      "ALTERNATIVE",
       "FRANCE",
       "HARD ROCK"
     ]
@@ -7002,7 +6756,7 @@
       "DEATHCORE",
       "METAL",
       "ALTERNATIVE METAL",
-      "YOUTUBE",
+      "YOUTUBER",
       "NU METAL",
       "HEAVY METAL",
       "ELECTRONIC"
@@ -7048,9 +6802,7 @@
       "90S",
       "PUNK",
       "NIRVANA",
-      "INDIE",
-      "AMERICAN",
-      "SEATTLE"
+      "AMERICAN"
     ]
   },
   "NITA STRAUSS": {
@@ -7060,7 +6812,6 @@
       "HARD ROCK",
       "METAL",
       "INSTRUMENTAL",
-      "GUITAR VIRTUOSO",
       "USA",
       "ALICE COOPER",
       "CLASSIC ROCK",
@@ -7087,11 +6838,9 @@
       "BRITPOP",
       "ROCK",
       "BRITISH",
-      "SINGER-SONGWRITER",
-      "GOD",
+      "POP",
       "ALTERNATIVE ROCK",
       "ALTERNATIVE",
-      "INDIE",
       "NOEL GALLAGHER"
     ]
   },
@@ -7105,7 +6854,6 @@
       "FRENCH ROCK",
       "ALTERNATIVE ROCK",
       "FRANCAIS",
-      "INDIE",
       "CHANSON FRANCAISE"
     ]
   },
@@ -7141,24 +6889,10 @@
   "NORA LAKE": {
     "artist": "NORA LAKE",
     "genre": [
-      "ROCK",
-      "PROGRESSIVE ROCK",
-      "70S",
-      "80S",
-      "90S",
-      "BRITISH",
-      "UK",
-      "FOLK ROCK",
-      "ART ROCK",
-      "CLASSIC ROCK",
-      "POP ROCK",
-      "SYMPHONIC ROCK",
-      "ENGLISH",
-      "AOR",
-      "SYMPHONIC PROG",
-      "CLASSIC POP AND ROCK",
-      "POP/ROCK",
-      "FAVORITOS"
+      "METALCORE",
+      "METAL",
+      "DEATH",
+      "HARDCORE"
     ]
   },
   "NORTHLANE": {
@@ -7181,7 +6915,6 @@
       "ALTERNATIVE ROCK",
       "INDIE ROCK",
       "ROCK",
-      "INDIE",
       "ALTERNATIVE",
       "BRITISH",
       "POP ROCK",
@@ -7195,7 +6928,6 @@
       "PROGRESSIVE ROCK",
       "ALTERNATIVE ROCK",
       "ALTERNATIVE METAL",
-      "ROCK",
       "ALTERNATIVE",
       "PROGRESSIVE METAL",
       "METAL",
@@ -7217,42 +6949,22 @@
       "HARDCORE"
     ]
   },
-  "NOVELISTS FR": {
-    "artist": "NOVELISTS FR",
-    "genre": [
-      "METALCORE",
-      "PROGRESSIVE METALCORE",
-      "FRENCH",
-      "PROGRESSIVE METAL",
-      "ELECTRONIC",
-      "DJENT",
-      "ALTERNATIVE METAL",
-      "METAL",
-      "ALTERNATIVE ROCK",
-      "POP ROCK"
-    ]
-  },
   "NOVEMBER MIGHT BE FINE": {
     "artist": "NOVEMBER MIGHT BE FINE",
     "genre": [
       "POST-ROCK",
       "POST-METAL",
-      "POLAND",
-      "GREAT ARTIST NAMES"
+      "POLAND"
     ]
   },
   "NYAN CAT": {
     "artist": "NYAN CAT",
     "genre": [
-      "BRUTAL BLACK METAL",
       "NYAN CAT",
       "NYAN",
-      "INDIE",
       "POWERSYNTHS",
       "ELECTRONIC",
       "NYANCORE",
-      "TRANSCENDENTAL BLACK METAL",
-      "BLACK METAL",
       "MEME"
     ]
   },
@@ -7277,11 +6989,8 @@
       "ROCK",
       "BRITISH",
       "ALTERNATIVE",
-      "INDIE",
       "ALTERNATIVE ROCK",
-      "INDIE ROCK",
-      "90S",
-      "OASIS"
+      "90S"
     ]
   },
   "OBTEST": {
@@ -7333,7 +7042,6 @@
       "POST-ROCK",
       "INSTRUMENTAL",
       "EXPERIMENTAL",
-      "INDIE",
       "SLUDGE",
       "SWEDISH",
       "SWEDEN",
@@ -7351,7 +7059,6 @@
       "INDIE POP",
       "POP",
       "AMERICAN",
-      "INDIE",
       "POP ROCK",
       "HIP HOP",
       "ALTERNATIVE ROCK"
@@ -7364,7 +7071,6 @@
       "ELECTRONIC",
       "TRANCECORE",
       "SCREAMO",
-      "ELECTRONICA",
       "METALCORE",
       "FINNISH",
       "HARDCORE",
@@ -7380,7 +7086,6 @@
       "JROCK",
       "JAPANESE ROCK",
       "ALTERNATIVE ROCK",
-      "ONE OK ROCK",
       "ALTERNATIVE",
       "POP PUNK"
     ]
@@ -7446,8 +7151,7 @@
       "MELODIC DEATH METAL",
       "PROGRESSIVE ROCK",
       "SWEDISH",
-      "PROGRESSIVE",
-      "DOOM METAL"
+      "PROGRESSIVE"
     ]
   },
   "OPIUM DU PEUPLE": {
@@ -7458,10 +7162,7 @@
       "PUNK",
       "PUNK ROCK",
       "FRENCH PUNK",
-      "REPRISE",
-      "UNDER 2000 LISTENERS",
-      "SEEN LIVE TWICE",
-      "FRENCHZ"
+      "REPRISE"
     ]
   },
   "ORBIT CULTURE": {
@@ -7573,7 +7274,6 @@
       "HARDCORE",
       "POP PUNK",
       "ALTERNATIVE METAL",
-      "SEXTET",
       "OURPROMISE"
     ]
   },
@@ -7587,7 +7287,6 @@
       "EUROPOP",
       "ELECTRONIC",
       "TECHNO",
-      "ELECTRONICA",
       "MOLDOVAN",
       "MOLDOVA"
     ]
@@ -7601,9 +7300,7 @@
       "CLASSIC ROCK",
       "ROCK",
       "BRITISH",
-      "80S",
-      "OZZY OSBOURNE",
-      "OZZY"
+      "80S"
     ]
   },
   "PADDY AND THE RATS": {
@@ -7658,10 +7355,7 @@
       "HEAVY METAL",
       "POWER METAL",
       "THRASH",
-      "ROCK",
-      "PANTERA",
-      "AMERICAN",
-      "HARD ROCK"
+      "AMERICAN"
     ]
   },
   "PANZERBALLETT": {
@@ -7703,8 +7397,7 @@
       "GOTHIC",
       "BRITISH",
       "DEATH DOOM METAL",
-      "GOTHIC ROCK",
-      "ROCK"
+      "GOTHIC ROCK"
     ]
   },
   "PARASITE INC.": {
@@ -7760,7 +7453,6 @@
       "90S",
       "HARD ROCK",
       "SEATTLE",
-      "PEARL JAM",
       "AMERICAN"
     ]
   },
@@ -7771,7 +7463,6 @@
       "ELECTRONIC",
       "DRUM N BASS",
       "DNB",
-      "ELECTRONICA",
       "AUSTRALIAN",
       "JUNGLE",
       "DANCE",
@@ -7783,6 +7474,7 @@
     "genre": [
       "FOLK",
       "HUMOUR",
+      "COMEDY",
       "JEUX DE ROLES",
       "FRENCH",
       "MEDIEVAL",
@@ -7814,7 +7506,6 @@
       "HEAVY METAL",
       "METAL",
       "PROGRESSIVE METAL",
-      "LEAGUE OF LEGENDS",
       "ROCK",
       "LOL",
       "METALCORE",
@@ -7831,6 +7522,7 @@
       "MATHCORE",
       "TECHNICAL METAL",
       "METAL",
+      "AMERICAN",
       "METALCORE",
       "EXPERIMENTAL",
       "PROGRESSIVE"
@@ -7879,7 +7571,6 @@
     "artist": "PIXIES",
     "genre": [
       "ALTERNATIVE",
-      "INDIE",
       "ROCK",
       "ALTERNATIVE ROCK",
       "INDIE ROCK",
@@ -7893,13 +7584,10 @@
     "artist": "PLACEBO",
     "genre": [
       "ALTERNATIVE ROCK",
-      "ALTERNATIVE",
       "ROCK",
-      "INDIE",
       "BRITPOP",
       "BRITISH",
       "INDIE ROCK",
-      "PLACEBO",
       "GLAM ROCK"
     ]
   },
@@ -7955,21 +7643,6 @@
       "NU-METAL"
     ]
   },
-  "P.O.D.": {
-    "artist": "P.O.D.",
-    "genre": [
-      "NU METAL",
-      "RAPCORE",
-      "ROCK",
-      "ALTERNATIVE",
-      "METAL",
-      "ALTERNATIVE ROCK",
-      "CHRISTIAN",
-      "HARD ROCK",
-      "CHRISTIAN ROCK",
-      "NU-METAL"
-    ]
-  },
   "POLAR": {
     "artist": "POLAR",
     "genre": [
@@ -7978,7 +7651,6 @@
       "MELODIC HARDCORE",
       "METALCORE",
       "ELECTRONIC",
-      "ELECTRONICA",
       "NORWEGIAN",
       "DRUM N BASS",
       "DNB"
@@ -7988,7 +7660,6 @@
     "artist": "POLARIS",
     "genre": [
       "METALCORE",
-      "INDIE",
       "ALTERNATIVE",
       "INDIE ROCK",
       "JAPANESE",
@@ -8145,7 +7816,6 @@
       "METALCORE",
       "NU METAL",
       "AMERICAN",
-      "AWESOME",
       "FUNNY"
     ]
   },
@@ -8197,8 +7867,7 @@
       "ALTERNATIVE",
       "STONER",
       "DESERT ROCK",
-      "METAL",
-      "INDIE"
+      "METAL"
     ]
   },
   "RADIOHEAD": {
@@ -8207,7 +7876,6 @@
       "ALTERNATIVE",
       "ALTERNATIVE ROCK",
       "ROCK",
-      "INDIE",
       "ELECTRONIC",
       "BRITISH",
       "BRITPOP",
@@ -8221,12 +7889,10 @@
       "ROCK",
       "ALTERNATIVE ROCK",
       "ALTERNATIVE",
-      "POLITICAL",
       "METAL",
       "RAPCORE",
       "HARD ROCK",
-      "ALTERNATIVE METAL",
-      "CROSSOVER"
+      "ALTERNATIVE METAL"
     ]
   },
   "RAM JAM": {
@@ -8239,9 +7905,7 @@
       "SOUTHERN ROCK",
       "AMERICAN",
       "BLUES ROCK",
-      "BLUES",
-      "80S",
-      "PUNK"
+      "80S"
     ]
   },
   "RAMMSTEIN": {
@@ -8254,8 +7918,7 @@
       "ROCK",
       "HARD ROCK",
       "HEAVY METAL",
-      "RAMMSTEIN",
-      "NEUE DEUTSCHE HÄRTE"
+      "RAMMSTEIN"
     ]
   },
   "RAY LUZIER": {
@@ -8275,8 +7938,7 @@
       "FUNK",
       "RED HOT CHILI PEPPERS",
       "PUNK",
-      "AMERICAN",
-      "INDIE"
+      "AMERICAN"
     ]
   },
   "RED SUN ATACAMA": {
@@ -8327,7 +7989,6 @@
       "ROCK",
       "ALTERNATIVE ROCK",
       "ALTERNATIVE",
-      "INDIE",
       "POP",
       "CLASSIC ROCK",
       "INDIE ROCK",
@@ -8350,20 +8011,12 @@
       "80S"
     ]
   },
-  "REN JIAN YI ZI ": {
-    "artist": "REN JIAN YI ZI ",
-    "genre": [
-      "HIP HOP",
-      "RAPCORE"
-    ]
-  },
   "RESOLVE": {
     "artist": "RESOLVE",
     "genre": [
       "METALCORE",
       "HARDCORE",
       "HARDCORE PUNK",
-      "YOUTH CREW",
       "MELODIC HARDCORE",
       "FRENCH",
       "CRUST",
@@ -8430,11 +8083,8 @@
       "CLASSICAL",
       "RUSSIAN",
       "ROMANTIC",
-      "COMPOSERS",
       "OPERA",
-      "COMPOSER",
       "CLASSIC",
-      "RUSSIAN COMPOSER",
       "INSTRUMENTAL",
       "RIMSKY-KORSAKOV"
     ]
@@ -8477,7 +8127,6 @@
       "FRENCH",
       "RAPCORE",
       "METALCORE",
-      "2-STEP",
       "NU METAL",
       "GROOVE METAL"
     ]
@@ -8507,7 +8156,6 @@
       "HARDCORE",
       "NU METAL",
       "ALTERNATIVE",
-      "ROCK",
       "BLACK METAL"
     ]
   },
@@ -8521,6 +8169,7 @@
       "PROGRESSIVE ROCK",
       "DJENT",
       "GUITAR",
+      "YT",
       "METAL",
       "PROGRESSIVE METAL",
       "THRASH METAL"
@@ -8548,8 +8197,6 @@
       "CLASSIC ROCK",
       "ROCK",
       "IRISH",
-      "GUITAR",
-      "GUITAR VIRTUOSO",
       "HARD ROCK",
       "70S",
       "RORY GALLAGHER"
@@ -8593,8 +8240,7 @@
       "SCOTTISH",
       "USA",
       "POWER METAL",
-      "UNITED KINGDOM",
-      "LISZAJ RADIO"
+      "UNITED KINGDOM"
     ]
   },
   "RUSH": {
@@ -8659,7 +8305,6 @@
       "J-ROCK",
       "HARDCORE PUNK",
       "METAL-CORE",
-      "THE GOOD KIND OF METALCORE",
       "MELODEATH METALCORE"
     ]
   },
@@ -8669,21 +8314,18 @@
       "FRENCH",
       "ROCK",
       "FRENCH ROCK",
-      "SINGER-SONGWRITER",
-      "ALTERNATIVE",
       "ROCK FRANCAIS",
       "FRANCAIS",
-      "CHANSON FRANCAISE",
-      "SAEZ"
+      "CHANSON FRANCAISE"
     ]
   },
   "SAINT AGNES": {
     "artist": "SAINT AGNES",
     "genre": [
-      "ROCK",
       "ALTERNATIVE ROCK",
       "UK",
       "GARAGE ROCK",
+      "METAL",
       "LONDON",
       "ALTERNATIVE METAL",
       "FEMALE VOCALISTS",
@@ -8716,6 +8358,7 @@
       "FOLK",
       "MITTELALTER ROCK",
       "METAL",
+      "HYPA HYPA UNIVERSE",
       "MEDIEVAL METAL"
     ]
   },
@@ -8764,7 +8407,11 @@
   "SASTRA": {
     "artist": "SASTRA",
     "genre": [
-      "MEDITATIVE"
+      "MEDITATIVE",
+      "ROCK",
+      "INSTRUMENTAL",
+      "INSTRUMENTAL METAL",
+      "PROGRESSIVE METAL"
     ]
   },
   "SAUL": {
@@ -8787,6 +8434,8 @@
     "genre": [
       "METAL",
       "THRASH METAL",
+      "BELGIAN",
+      "FRENCH",
       "DEATH METAL",
       "GROOVE METAL"
     ]
@@ -8854,7 +8503,6 @@
       "80S",
       "GERMAN",
       "METAL",
-      "SCORPIONS",
       "70S"
     ]
   },
@@ -8910,7 +8558,6 @@
       "METAL",
       "ROCK",
       "EXPERIMENTAL",
-      "SINGER-SONGWRITER",
       "HARD ROCK",
       "NU METAL"
     ]
@@ -8932,7 +8579,8 @@
       "FRENCH",
       "INDUSTRIAL METAL",
       "METAL",
-      "ELECTROPUNK"
+      "ELECTROPUNK",
+      "ELECTRONIC"
     ]
   },
   "SHADOW OF INTENT": {
@@ -8953,14 +8601,18 @@
     "artist": "SHAKA PONK",
     "genre": [
       "ELECTRONIC",
+      "ELECTRO ROCK",
+      "ELECTRONIC ROCK",
+      "ELECTRONIC",
       "ALTERNATIVE",
       "FUNK",
       "ROCK",
+      "METAL",
       "CROSSOVER",
       "FRENCH",
       "ALTERNATIVE ROCK",
       "FUNK ROCK",
-      "MALE VOCALISTS"
+      "LOVE"
     ]
   },
   "SHAMAN'S HARVEST": {
@@ -9014,7 +8666,6 @@
       "SUICIDAL BLACK METAL",
       "EXPERIMENTAL",
       "SWEDISH",
-      "JAZZ",
       "PROGRESSIVE METAL",
       "AVANT-GARDE",
       "JAZZ METAL"
@@ -9029,7 +8680,6 @@
       "8BIT",
       "BRITISH",
       "NINTENDOCORE",
-      "ELECTRONICA",
       "DUBSTEP",
       "BITPOP"
     ]
@@ -9057,6 +8707,7 @@
       "MELODIC BLACK METAL",
       "MELODIC DEATH METAL",
       "DUTCH",
+      "NETHERLANDS",
       "PROGRESSIVE METAL",
       "AMBIENT BLACK METAL",
       "METAL",
@@ -9131,6 +8782,7 @@
       "ALTERNATIVE METAL",
       "POST-HARDCORE",
       "PUNK",
+      "METAL",
       "METALCORE",
       "ALTERNATIVE ROCK"
     ]
@@ -9142,9 +8794,7 @@
       "80S",
       "ROCK",
       "POP",
-      "ALTERNATIVE",
       "SCOTTISH",
-      "POST-PUNK",
       "BRITISH",
       "CLASSIC ROCK"
     ]
@@ -9186,7 +8836,6 @@
       "SPANISH",
       "PUNK",
       "SKA-PUNK",
-      "POLITICAL",
       "ROCK",
       "PUNK ROCK",
       "ALTERNATIVE"
@@ -9216,7 +8865,6 @@
       "CHRISTIAN",
       "HARD ROCK",
       "METAL",
-      "SKILLET",
       "ALTERNATIVE METAL"
     ]
   },
@@ -9238,10 +8886,11 @@
     "artist": "SKIP THE USE",
     "genre": [
       "FRENCH",
-      "INDIE",
       "ROCK",
       "INDIE ROCK",
       "DANCE-PUNK",
+      "POP",
+      "POP ROCK",
       "PUNK",
       "PUNK ROCK",
       "FRANCE",
@@ -9255,7 +8904,6 @@
       "ELECTRONIC",
       "BREAKCORE",
       "ELECTRO",
-      "ELECTRONICA",
       "BROSTEP",
       "ELECTRO HOUSE",
       "HOUSE",
@@ -9312,7 +8960,6 @@
       "SPEED METAL",
       "HEAVY METAL",
       "THRASH",
-      "DEATH METAL",
       "AMERICAN",
       "SLAYER",
       "TRASH METAL"
@@ -9352,12 +8999,7 @@
       "NU METAL",
       "METAL",
       "HEAVY METAL",
-      "NU-METAL",
-      "ROCK",
-      "ALTERNATIVE METAL",
-      "ALTERNATIVE",
-      "SLIPKNOT",
-      "HARD ROCK"
+      "NU-METAL"
     ]
   },
   "SLOCBAND": {
@@ -9391,7 +9033,6 @@
       "ALTERNATIVE",
       "GRUNGE",
       "90S",
-      "INDIE",
       "INDIE ROCK",
       "AMERICAN",
       "SMASHING PUMPKINS"
@@ -9404,6 +9045,8 @@
       "FUSION",
       "JAZZ FUSION",
       "FUNK",
+      "BRASS",
+      "CHILL",
       "INSTRUMENTAL",
       "INSTRUMENTAL FUSION",
       "ROPEADOPE",
@@ -9464,7 +9107,6 @@
       "DEATH METAL",
       "SWEDISH",
       "METAL",
-      "FUCKING AWESOME",
       "MODERN METAL",
       "CHRISTIAN ALVESTAM"
     ]
@@ -9473,14 +9115,13 @@
     "artist": "SONIC",
     "genre": [
       "DRUM AND BASS",
-      "LIQUID FUNK",
       "DRUM N BASS",
-      "DNB",
+      "METAL",
       "SOULFUL DRUM AND BASS",
       "ELECTRONIC",
       "DRUM & BASS",
       "JUNGLE",
-      "HOSPITAL RECORDS",
+      "HEAVY METAL",
       "JAPANESE"
     ]
   },
@@ -9491,9 +9132,9 @@
       "EXPERIMENTAL",
       "TRIP-HOP",
       "AMBIENT",
-      "INDIE",
       "ANTICON",
-      "ELECTRONICA",
+      "EVERYTHING EVERYWHERE ALL AT ONCE",
+      "EEAAO",
       "POST-ROCK",
       "ETHEREAL"
     ]
@@ -9507,7 +9148,6 @@
       "EPIC DOOM METAL",
       "POLISH",
       "METAL",
-      "DISCO",
       "ELECTRONIC",
       "SWEDISH",
       "EPIC METAL"
@@ -9545,12 +9185,9 @@
     "artist": "SOVIET SUPREM",
     "genre": [
       "FRENCH",
-      "HIP-HOP",
-      "RAP",
+      "POP",
       "COMEDY",
       "HUMOUR",
-      "INDIE",
-      "HIP HOP",
       "ALTERNATIVE",
       "FOLK"
     ]
@@ -9594,7 +9231,6 @@
       "AUSSIE",
       "HARD ROCK",
       "PUNK",
-      "INDIE",
       "METAL"
     ]
   },
@@ -9621,7 +9257,6 @@
       "METALLIC HARDCORE",
       "COUNTRY",
       "AMERICAN",
-      "CROSSOVER",
       "PUNK",
       "USA"
     ]
@@ -9648,7 +9283,6 @@
       "HIP HOP",
       "TRIP-HOP",
       "ALTERNATIVE",
-      "INDIE",
       "SOUL",
       "HIP-HOP",
       "METAL",
@@ -9676,8 +9310,7 @@
       "HIP-HOP",
       "RAP",
       "TRAP",
-      "RUSSIA",
-      "I HAVE SEEN LIVE"
+      "RUSSIA"
     ]
   },
   "STARRYSKY": {
@@ -9685,14 +9318,10 @@
     "genre": [
       "METAL",
       "FRENCH",
+      "YT",
+      "YOUTUBER",
       "POP",
-      "ROCK",
-      "PROGRESSIVE METAL",
-      "PROGRESSIVE ROCK",
-      "TECH HOUSE",
-      "JPOP",
-      "ALTERNATIVE METAL",
-      "GEEK"
+      "ROCK"
     ]
   },
   "STATUS QUO": {
@@ -9705,8 +9334,7 @@
       "80S",
       "70S",
       "ROCK AND ROLL",
-      "BOOGIE ROCK",
-      "STATUS QUO"
+      "BOOGIE ROCK"
     ]
   },
   "STEPPENWOLF": {
@@ -9720,7 +9348,6 @@
       "PSYCHEDELIC ROCK",
       "BLUES ROCK",
       "70S",
-      "STEPPENWOLF",
       "OLDIES"
     ]
   },
@@ -9744,7 +9371,6 @@
     "genre": [
       "PROGRESSIVE ROCK",
       "EXPERIMENTAL",
-      "SINGER-SONGWRITER",
       "PROGRESSIVE",
       "STEVEN WILSON",
       "BRITISH",
@@ -9760,7 +9386,7 @@
       "METAL",
       "ROCK",
       "GUITAR",
-      "YOUTUBE",
+      "YOUTUBER",
       "GUITARIST",
       "YOUTUBER",
       "MUSIC YOUTUBER"
@@ -9776,7 +9402,6 @@
       "RNB",
       "RHYTHM AND BLUES",
       "70S",
-      "SINGER-SONGWRITER",
       "STEVIE WONDER",
       "OLDIES"
     ]
@@ -9799,7 +9424,10 @@
     "artist": "STOMB",
     "genre": [
       "DJENT",
-      "PROGRESSIVE METAL"
+      "PROGRESSIVE METAL",
+      "INSTRUMENTAL METAL",
+      "FRANCE",
+      "FRENCH"
     ]
   },
   "STONE SOUR": {
@@ -9809,7 +9437,6 @@
       "METAL",
       "ALTERNATIVE METAL",
       "NU METAL",
-      "ROCK",
       "ALTERNATIVE",
       "ALTERNATIVE ROCK",
       "NU-METAL",
@@ -9850,8 +9477,6 @@
       "ELECTRONIC",
       "DANCE",
       "BELGIAN",
-      "FRENCH",
-      "ELECTRONICA",
       "POP",
       "HOUSE",
       "HIP-HOP",
@@ -9863,7 +9488,6 @@
     "genre": [
       "FRENCH",
       "INDIE ROCK",
-      "INDIE",
       "ROCK",
       "FRENCH ROCK",
       "POST-PUNK",
@@ -9880,9 +9504,10 @@
       "PUNK",
       "ROCK",
       "RAP",
-      "STUPÉFIANT",
+      "STUPEFIANT",
       "ALTERNATIVE",
       "HUMOUR",
+      "METAL",
       "ELECTRONIC"
     ]
   },
@@ -9896,7 +9521,6 @@
       "ACID JAZZ",
       "J-POP",
       "DISCO",
-      "INDIE",
       "MALE VOCALISTS",
       "HIP-HOP"
     ]
@@ -9925,7 +9549,6 @@
       "ALTERNATIVE",
       "ALTERNATIVE ROCK",
       "CANADIAN",
-      "SUM 41",
       "EMO"
     ]
   },
@@ -10042,7 +9665,6 @@
       "ELECTRO",
       "SWEDISH",
       "PROGRESSIVE HOUSE",
-      "ELECTRONICA",
       "SWEDISH HOUSE MAFIA"
     ]
   },
@@ -10054,7 +9676,6 @@
       "AMERICAN",
       "FINNISH",
       "SYMPHONIC",
-      "FINLAND",
       "UNITED STATES",
       "BRUTAL DEATHCORE",
       "PROGRESSIVE DEATHCORE",
@@ -10066,12 +9687,10 @@
     "genre": [
       "METAL",
       "ALTERNATIVE METAL",
-      "ROCK",
       "NU METAL",
       "ALTERNATIVE",
       "HARD ROCK",
       "ALTERNATIVE ROCK",
-      "SYSTEM OF A DOWN",
       "NU-METAL"
     ]
   },
@@ -10086,14 +9705,14 @@
       "PUNK ROCK",
       "FRENCHCORE",
       "FRENCH PUNK",
-      "FRANCE"
+      "FRANCE",
+      "METAL"
     ]
   },
   "TAKAYOSHI OHMURA": {
     "artist": "TAKAYOSHI OHMURA",
     "genre": [
       "HEAVY METAL",
-      "GUITAR VIRTUOSO",
       "NEO-CLASSICAL METAL",
       "JAPANESE",
       "SPEED METAL",
@@ -10111,8 +9730,6 @@
       "POST-PUNK",
       "80S",
       "ROCK",
-      "ALTERNATIVE",
-      "INDIE",
       "PUNK",
       "CLASSIC ROCK",
       "ART ROCK",
@@ -10124,14 +9741,12 @@
     "genre": [
       "LOUNGE",
       "JAZZ",
+      "SWING",
+      "CHILL",
       "CHILLOUT",
       "SMOOTH LOUNGE",
-      "MY-LOVE",
       "GROOVE LOUNGE",
-      "UUTTA JAZZIA",
-      "LOUNGE CHILL",
-      "SMOOTHLY SEXY SOUNDING",
-      "LOUNGE ELECTRONIC"
+      "LOUNGE CHILL"
     ]
   },
   "TARDIGRADE INFERNO": {
@@ -10152,16 +9767,9 @@
   "TEAM AMERICA": {
     "artist": "TEAM AMERICA",
     "genre": [
-      "SOUNDTRACK",
       "COMEDY",
-      "FUNNY",
-      "MOVIE",
-      "GENIUS",
-      "TEAM AMERICA: WORLD POLICE",
-      "DVDA",
       "FILM",
-      "AMERICAN",
-      "LOL"
+      "AMERICAN"
     ]
   },
   "TEARS FOR FEARS": {
@@ -10175,7 +9783,6 @@
       "SYNTHPOP",
       "BRITISH",
       "ALTERNATIVE",
-      "ELECTRONIC",
       "TEARS FOR FEARS"
     ]
   },
@@ -10198,14 +9805,20 @@
     "artist": "TEMPT FATE",
     "genre": [
       "DEATH METAL",
-      "FRANCE"
+      "FRANCE",
+      "TOULOUSE"
     ]
   },
   "TEN56": {
     "artist": "TEN56",
     "genre": [
       "NU-METAL",
-      "MOTOCULTOR 2022"
+      "FRENCH",
+      "DEATHCORE",
+      "BRUTAL DEATHCORE",
+      "BRUTAL DEATH METAL",
+      "METALCORE",
+      "BRUTAL"
     ]
   },
   "TENACIOUS D": {
@@ -10227,10 +9840,8 @@
     "genre": [
       "ROCK",
       "COVERS",
-      "YOUTUBE",
+      "YOUTUBER",
       "METAL",
-      "JAZZ",
-      "POP",
       "EXPERIMENTAL",
       "EXPERIMENTAL ROCK",
       "AMERICAN"
@@ -10332,8 +9943,7 @@
       "SYMPHONIC METAL",
       "NORWEGIAN",
       "FEMALE VOCALISTS",
-      "INDUSTRIAL",
-      "ELECTRONIC"
+      "INDUSTRIAL"
     ]
   },
   "THE BITES": {
@@ -10343,8 +9953,7 @@
       "AUSTRALIAN",
       "GARAGE ROCK",
       "MELBOURNE",
-      "AU PLUS NZ",
-      "LOSA ANGELES"
+      "ROCK"
     ]
   },
   "THE BLACK DAHLIA MURDER": {
@@ -10367,7 +9976,6 @@
       "BLUES ROCK",
       "BLUES",
       "ROCK",
-      "INDIE",
       "INDIE ROCK",
       "GARAGE ROCK",
       "ALTERNATIVE",
@@ -10378,15 +9986,11 @@
   "THE BOOZE": {
     "artist": "THE BOOZE",
     "genre": [
-      "MOD",
-      "MOD REVIVAL",
-      "GARAGE ROCK",
-      "ROCK",
-      "RETRO",
-      "ROCK N ROLL",
-      "INDIE",
-      "POP",
-      "LO-FI"
+      "CELTIC",
+      "CELTIC PUNK",
+      "VIOLIN",
+      "PUNK",
+      "ROCK"
     ]
   },
   "THE BOSSHOSS": {
@@ -10400,7 +10004,7 @@
       "COUNTRY ROCK",
       "BERLIN",
       "THE BOSSHOSS",
-      "POP"
+      "HYPA HYPA UNIVERSE"
     ]
   },
   "THE BROWNING": {
@@ -10425,7 +10029,6 @@
       "FEMALE VOCALISTS",
       "SWEDISH",
       "ALTERNATIVE",
-      "INDIE",
       "INDIE POP",
       "ALTERNATIVE ROCK",
       "90S"
@@ -10437,12 +10040,9 @@
       "METALCORE",
       "POST-HARDCORE",
       "BRITISH",
-      "ROCK",
       "ALTERNATIVE",
-      "ALTERNATIVE ROCK",
-      "PROGRESSIVE ROCK",
-      "POP PUNK",
-      "ENGLISH"
+      "ENGLISH",
+      "METAL"
     ]
   },
   "THE CLASH": {
@@ -10456,8 +10056,7 @@
       "80S",
       "ALTERNATIVE",
       "70S",
-      "REGGAE",
-      "INDIE"
+      "REGGAE"
     ]
   },
   "THE CORRESPONDENTS": {
@@ -10484,7 +10083,6 @@
       "IRISH",
       "90S",
       "POP",
-      "INDIE",
       "THE CRANBERRIES"
     ]
   },
@@ -10619,7 +10217,6 @@
     "genre": [
       "ROCK",
       "GARAGE ROCK",
-      "INDIE",
       "SWEDISH",
       "PUNK",
       "INDIE ROCK",
@@ -10632,12 +10229,10 @@
     "artist": "THE HU",
     "genre": [
       "FOLK METAL",
-      "FOLK ROCK",
       "MONGOLIAN",
       "FOLK",
       "METAL",
       "MONGOLIA",
-      "ROCK",
       "THROAT SINGING",
       "HARD ROCK"
     ]
@@ -10649,11 +10244,8 @@
       "ELECTRONIC",
       "ALTERNATIVE",
       "HARDCORE",
-      "CROSSOVER",
-      "GOOD",
-      "RAP ROCK",
-      "LIFTING MUSIC",
-      "HYPE SONGS"
+      "POP",
+      "RAP ROCK"
     ]
   },
   "THE IRRADIATES": {
@@ -10681,8 +10273,7 @@
       "POST ROCK",
       "POST-METAL",
       "BELARUSIAN",
-      "INSTRUMENTAL METAL",
-      "GREAT DISCOVERY"
+      "INSTRUMENTAL METAL"
     ]
   },
   "THE OFFERING": {
@@ -10691,9 +10282,7 @@
       "SHOEGAZE",
       "DEATH METAL",
       "HEAVY METAL",
-      "ELECTRONICA",
       "PROGRESSIVE METAL",
-      "NOISE POP",
       "POWER METAL",
       "USA",
       "METALCORE"
@@ -10765,7 +10354,6 @@
       "NEW WAVE",
       "POP",
       "BRITISH",
-      "REGGAE",
       "ALTERNATIVE",
       "THE POLICE"
     ]
@@ -10791,7 +10379,6 @@
       "TECHNO",
       "INDUSTRIAL",
       "DANCE",
-      "ELECTRONICA",
       "BIG BEAT",
       "BREAKBEAT",
       "RAVE",
@@ -10807,7 +10394,6 @@
       "DRUM N BASS",
       "DNB",
       "BRITISH",
-      "ELECTRONICA",
       "BREAKBEAT",
       "DUBSTEP"
     ]
@@ -10831,20 +10417,15 @@
     "genre": [
       "ROCK",
       "FREAKBEAT",
-      "MOD",
       "ALTERNATIVE",
       "USA",
-      "60S PSYCHEDELIC",
-      "INDIE",
-      "JAZZ",
-      "POP",
-      "60S"
+      "RAP",
+      "POP"
     ]
   },
   "THE SHINS": {
     "artist": "THE SHINS",
     "genre": [
-      "INDIE",
       "INDIE ROCK",
       "INDIE POP",
       "ALTERNATIVE",
@@ -10874,13 +10455,11 @@
     "genre": [
       "INDIE ROCK",
       "ROCK",
-      "INDIE",
       "ALTERNATIVE",
       "ALTERNATIVE ROCK",
       "GARAGE ROCK",
       "THE STROKES",
-      "AMERICAN",
-      "NEW YORK"
+      "AMERICAN"
     ]
   },
   "THE TAIKONAUTS": {
@@ -10888,7 +10467,11 @@
     "genre": [
       "FRENCH",
       "SURF ROCK",
-      "SURF PUNK"
+      "SURF PUNK",
+      "ROCK 'N' ROLL",
+      "ROCK",
+      "SCI-FI",
+      "ROCKABILLY"
     ]
   },
   "THE TOXIC AVENGER": {
@@ -10901,7 +10484,6 @@
       "FRENCH ELECTRO",
       "DANCE",
       "HOUSE",
-      "ELECTRONICA",
       "ELECTRO HOUSE"
     ]
   },
@@ -10909,14 +10491,13 @@
     "artist": "THE WEEKND",
     "genre": [
       "RNB",
-      "ELECTRONIC",
+      "SYNTH",
+      "SYNTH POP",
       "CANADIAN",
-      "DUBSTEP",
       "PROG-RNB",
       "POP",
       "R&B",
-      "ALTERNATIVE RNB",
-      "SOUL"
+      "ALTERNATIVE RNB"
     ]
   },
   "THE WHITE STRIPES": {
@@ -10925,11 +10506,8 @@
       "ROCK",
       "ALTERNATIVE",
       "ALTERNATIVE ROCK",
-      "INDIE",
       "INDIE ROCK",
       "GARAGE ROCK",
-      "BLUES",
-      "BLUES ROCK",
       "AMERICAN"
     ]
   },
@@ -10950,31 +10528,8 @@
   "THINK OF A NEW KIND": {
     "artist": "THINK OF A NEW KIND",
     "genre": [
-      "ROCK",
-      "ELECTRONIC",
-      "SYNTHPOP",
-      "ALTERNATIVE ROCK",
-      "80S",
-      "DANCE",
-      "HOUSE",
-      "BRITISH",
-      "POST-PUNK",
-      "NEW WAVE",
-      "UK",
-      "BRITANNIQUE",
-      "TECHNO",
-      "ALTERNATIVE",
-      "SYNTH-POP",
-      "ELECTROPOP",
-      "POP ROCK",
-      "ALTERNATIVE DANCE",
-      "ENGLISH",
-      "ENGLAND",
-      "CLASSIC POP AND ROCK",
-      "DANCE-ROCK",
-      "POPULAR MUSIC",
-      "BAGGY / MADCHESTER",
-      "FACTORY RECORDS"
+      "METAL",
+      "HEAVY METAL"
     ]
   },
   "THORNHILL": {
@@ -10998,6 +10553,7 @@
       "ROCK",
       "ALTERNATIVE",
       "HARD ROCK",
+      "PUNK",
       "METAL",
       "POST-GRUNGE",
       "ALTERNATIVE METAL",
@@ -11040,8 +10596,8 @@
       "NU METAL",
       "BLACK METAL",
       "SWEDISH",
-      "METALLIC HARDCORE",
-      "THE MUSIC MAKER SOCIETY"
+      "BRUTAL",
+      "METALLIC HARDCORE"
     ]
   },
   "THUNDERMOTHER": {
@@ -11052,7 +10608,6 @@
       "PROGRESSIVE ROCK",
       "PSYCHEDELIC",
       "ROCK",
-      "BLUES",
       "SWEDISH",
       "FEMALE VOCALISTS",
       "SWEDEN"
@@ -11080,7 +10635,6 @@
       "SCREAMO",
       "ROCK",
       "HARDCORE",
-      "INDIE",
       "EMOCORE",
       "PUNK",
       "ALTERNATIVE"
@@ -11104,14 +10658,9 @@
     "artist": "TILL LINDEMANN",
     "genre": [
       "INDUSTRIAL METAL",
-      "RAMMSTEIN",
       "METAL",
       "GERMAN",
-      "TILL LINDEMANN",
-      "SEXY SINGERS",
-      "INDUSTRIAL",
-      "FIRST ARSCH",
-      "ROCK"
+      "INDUSTRIAL"
     ]
   },
   "TIMECOP1983": {
@@ -11134,11 +10683,9 @@
     "genre": [
       "JAZZ",
       "SWING",
-      "SOUNDTRACK",
       "USA",
-      "COMPOSER",
-      "FILM SCORE",
-      "LISZAJ RADIO"
+      "WHIPLASH",
+      "FILM"
     ]
   },
   "TOBY FOX": {
@@ -11148,7 +10695,6 @@
       "VIDEO GAME MUSIC",
       "CHIPTUNE",
       "UNDERTALE",
-      "ELECTRONIC",
       "INSTRUMENTAL",
       "OST",
       "8-BIT",
@@ -11166,7 +10712,6 @@
       "SCOTTISH",
       "POST HARDCORE",
       "EXPERIMENTAL",
-      "AWESOME",
       "ELECTRONIC"
     ]
   },
@@ -11174,13 +10719,7 @@
     "artist": "TOM MORELLO",
     "genre": [
       "ROCK",
-      "GREAT GUITARISTS",
-      "ALTERNATIVE",
-      "GUITARISTS",
-      "GUITAR HERO",
-      "AWESOME",
       "GUITAR",
-      "ROCK LEGEND",
       "ALTERNATIVE ROCK"
     ]
   },
@@ -11209,6 +10748,7 @@
       "BRASS HOUSE",
       "NEW YORK",
       "BRASS",
+      "SAXOPHONE",
       "EXPERIMENTAL"
     ]
   },
@@ -11222,8 +10762,7 @@
       "HARDCORE",
       "METALCORE",
       "DEATH METAL",
-      "BLACKENED DEATHCORE",
-      "VEGAN"
+      "BLACKENED DEATHCORE"
     ]
   },
   "TOTO": {
@@ -11234,7 +10773,6 @@
       "80S",
       "PROGRESSIVE ROCK",
       "POP",
-      "AOR",
       "HARD ROCK",
       "AMERICAN",
       "SOFT ROCK"
@@ -11245,11 +10783,10 @@
     "genre": [
       "ALTERNATIVE METAL",
       "PROGRESSIVE METAL",
-      "HARD ROCK",
+      "ROCK",
       "AMERICAN",
       "PROGRESSIVE",
       "PROGRESSIVE ALTERNATIVE METAL",
-      "SXSW 2017",
       "ALTERNATIVE PROGRESSIVE  METAL"
     ]
   },
@@ -11257,7 +10794,11 @@
     "artist": "TRAMPSTA",
     "genre": [
       "DANCE",
-      "RAVE"
+      "RAVE",
+      "DUBSTEP",
+      "ELECTRO HOUSE",
+      "ELECTRO",
+      "ELECTRONIC"
     ]
   },
   "TREMONTI": {
@@ -11270,7 +10811,6 @@
       "SPEED METAL",
       "POST-GRUNGE",
       "HEAVY METAL",
-      "ROCK",
       "ALTERNATIVE ROCK"
     ]
   },
@@ -11312,20 +10852,15 @@
       "HARDCORE",
       "MELODIC DEATH METAL",
       "MELODIC METALCORE",
-      "ROCK",
       "AMERICAN"
     ]
   },
   "TRUST": {
     "artist": "TRUST",
     "genre": [
-      "SYNTHPOP",
-      "ELECTRONIC",
       "HARD ROCK",
       "FRENCH",
-      "DARKWAVE",
       "HEAVY METAL",
-      "CANADIAN",
       "ROCK",
       "PUNK"
     ]
@@ -11367,9 +10902,7 @@
       "PSYCHOPATHIC",
       "HIP-HOP",
       "RAPCORE",
-      "WICKED SHIT",
-      "TWIZTID",
-      "DETROIT"
+      "AMERICAN"
     ]
   },
   "U2": {
@@ -11405,9 +10938,12 @@
     "genre": [
       "CHIPTUNE",
       "VIDEO GAME MUSIC",
+      "INSTRUMENTAL",
+      "OST",
+      "8-BIT",
       "VGM",
       "ALL",
-      "REALLY GREAT"
+      "VIDEO GAME"
     ]
   },
   "UNLEASH THE ARCHERS": {
@@ -11483,8 +11019,7 @@
       "MONGOLIAN",
       "METAL",
       "FOLK METAL",
-      "MONGOLIA",
-      "MOTOCULTOR 2023"
+      "MONGOLIA"
     ]
   },
   "VAN HALEN": {
@@ -11498,7 +11033,6 @@
       "METAL",
       "HAIR METAL",
       "VAN HALEN",
-      "GUITAR",
       "AMERICAN"
     ]
   },
@@ -11506,10 +11040,16 @@
     "artist": "VAYLE MYSTERY",
     "genre": [
       "NEO-PROGRESSIVE ROCK",
-      "AOR",
+      "COVERS",
+      "METAL",
+      "SERIE",
+      "FILM",
+      "INSTRUMENTAL",
+      "INSTRUMENTAL METAL",
       "HARD ROCK",
       "SYMPHONIC ROCK",
-      "PROGRESSIVE ROCK"
+      "PROGRESSIVE ROCK",
+      "FRENCH"
     ]
   },
   "VEIL OF MAYA": {
@@ -11545,6 +11085,9 @@
     "genre": [
       "ELECTRONIC",
       "DRUM AND BASS",
+      "ELECTRO",
+      "ELECTRO HOUSE",
+      "DUBSTEP",
       "UK",
       "ENGLAND",
       "UNITED KINGDOM"
@@ -11554,14 +11097,11 @@
     "artist": "VENUES",
     "genre": [
       "POST-HARDCORE",
-      "ALTERNATIVE ROCK",
       "ALTERNATIVE METAL",
       "METALCORE",
       "FEMALE VOCALISTS",
-      "ROCK",
-      "GERMAN",
-      "INDIE",
-      "ALTERNATIVE"
+      "METAL",
+      "GERMAN"
     ]
   },
   "VERSUS ME": {
@@ -11571,12 +11111,7 @@
       "METALCORE",
       "ELECTRONIC",
       "GRUNGE",
-      "STONER ROCK",
-      "SWEDISH",
-      "HARD ROCK",
-      "DESERT ROCK",
-      "METAL",
-      "ROCK"
+      "METAL"
     ]
   },
   "VEXED": {
@@ -11608,7 +11143,10 @@
   "VIC FIRTH": {
     "artist": "VIC FIRTH",
     "genre": [
-      "TRADITIONAL POP"
+      "DRUMS",
+      "METAL",
+      "ROCK",
+      "DRUM"
     ]
   },
   "VICIOUS RAIN": {
@@ -11617,7 +11155,6 @@
       "METALCORE",
       "ALTERNATIVE METAL",
       "SWITZERLAND",
-      "LIVE",
       "SWISS",
       "ALTERNATIVE METALCORE"
     ]
@@ -11641,13 +11178,11 @@
     "genre": [
       "THRASH METAL",
       "ELECTRONIC",
-      "SYNTHPOP",
+      "VIOLENT POP",
+      "BRUTAL",
       "OLD SCHOOL THRASH METAL",
       "WITCH HOUSE",
-      "RAP",
       "ELECTRO",
-      "MINIMAL SYNTH",
-      "HIP-HOP",
       "HARDCORE"
     ]
   },
@@ -11661,7 +11196,6 @@
       "BLACK GOSPEL",
       "BRITISH",
       "METAL",
-      "VIRTUE",
       "NEW WAVE OF BRITISH HEAVY METAL",
       "HARD ROCK"
     ]
@@ -11677,8 +11211,7 @@
       "SYNTH POP",
       "BRITISH",
       "POP",
-      "POST-PUNK",
-      "ELECTRONICA"
+      "POST-PUNK"
     ]
   },
   "VISIONS OF ATLANTIS": {
@@ -11701,10 +11234,8 @@
       "CLASSICAL",
       "BAROQUE",
       "INSTRUMENTAL",
-      "COMPOSERS",
       "CLASSIC",
       "ITALIAN",
-      "COMPOSER",
       "VIVALDI",
       "VIOLIN",
       "ITALY"
@@ -11726,7 +11257,7 @@
       "TRANCE",
       "DRUM AND BASS",
       "GERMAN",
-      "FIXT MUSIC",
+      "METAL",
       "DNB",
       "ELECTRONIC ROCK"
     ]
@@ -11762,6 +11293,7 @@
       "BLUES",
       "JAZZ POP",
       "USA",
+      "CHILL",
       "JAZZ-FUNK",
       "INSTRUMENTAL ROCK",
       "AMERICAN"
@@ -11799,6 +11331,7 @@
     "artist": "WATEVA",
     "genre": [
       "ESTONIAN",
+      "DUBSTEP",
       "ELECTRONIC",
       "LOS ANGELES",
       "ESTONIA",
@@ -11815,8 +11348,7 @@
       "FRENCH",
       "ABSTRACT HIP-HOP",
       "TURNTABLISM",
-      "TRIP HOP",
-      "HIP HOP"
+      "TRIP HOP"
     ]
   },
   "WE BUTTER THE BREAD WITH BUTTER": {
@@ -11830,7 +11362,9 @@
       "ELECTRONIC",
       "METALCORE",
       "NINTENDOCORE",
-      "8-BIT"
+      "8-BIT",
+      "WBTBWB",
+      "HYPA HYPA UNIVERSE"
     ]
   },
   "WE CAME AS ROMANS": {
@@ -11901,8 +11435,8 @@
     "artist": "WILLOW",
     "genre": [
       "POST-ROCK",
-      "POP",
       "RNB",
+      "METAL",
       "ALTERNATIVE",
       "FEMALE VOCALISTS",
       "INSTRUMENTAL",
@@ -11933,10 +11467,10 @@
       "AUSTRALIAN",
       "ALTERNATIVE METAL",
       "METAL",
+      "POP METAL",
       "ELECTRONIC",
       "HARDCORE",
-      "HARD ROCK",
-      "POP ROCK"
+      "HARD ROCK"
     ]
   },
   "WINGS": {
@@ -11997,11 +11531,8 @@
     "genre": [
       "POST-HARDCORE",
       "METALCORE",
-      "ELECTRONIC",
-      "ROCK",
       "FUNERAL DOOM",
       "NOISE",
-      "NEW YORK",
       "NOT ROCK",
       "POWER ELECTRONICS",
       "NOT METALCORE"
@@ -12037,8 +11568,7 @@
   "YANNICK CREMER": {
     "artist": "YANNICK CREMER",
     "genre": [
-      "METAL",
-      "COVERS",
+      "ROCK",
       "FILM",
       "SERIE"
     ]
@@ -12049,7 +11579,6 @@
       "80S",
       "NEW WAVE",
       "SYNTHPOP",
-      "ELECTRONIC",
       "SYNTH POP",
       "POP",
       "BRITISH",
@@ -12062,15 +11591,12 @@
     "artist": "Y.BLUES",
     "genre": [
       "METAL",
-      "COUNTRY",
-      "BLUES",
-      "BLUEGRASS"
+      "COUNTRY ROCK"
     ]
   },
   "YEAH YEAH YEAHS": {
     "artist": "YEAH YEAH YEAHS",
     "genre": [
-      "INDIE",
       "INDIE ROCK",
       "FEMALE VOCALISTS",
       "ALTERNATIVE",
@@ -12098,14 +11624,12 @@
   "YNGWIE MALMSTEEN": {
     "artist": "YNGWIE MALMSTEEN",
     "genre": [
-      "GUITAR VIRTUOSO",
       "HEAVY METAL",
       "POWER METAL",
       "METAL",
       "GUITAR",
       "NEO-CLASSICAL METAL",
       "HARD ROCK",
-      "ROCK",
       "INSTRUMENTAL",
       "SHRED"
     ]
@@ -12115,10 +11639,8 @@
     "genre": [
       "FOLK",
       "FRENCH",
-      "INDIE",
       "MALE VOCALISTS",
       "POP FOLK",
-      "SINGER-SONGWRITER",
       "POP",
       "INDIE POP",
       "INDIE FOLK"
@@ -12134,7 +11656,6 @@
       "ANIME",
       "FEMALE VOCALISTS",
       "GOTHIC LOLITA",
-      "ELECTRONIC",
       "GOTHIC METAL",
       "SYMPHONIC METAL"
     ]
@@ -12143,7 +11664,6 @@
     "artist": "YUNGBLUD",
     "genre": [
       "INDIE ROCK",
-      "INDIE",
       "BRITISH",
       "ROCK",
       "ALTERNATIVE",
@@ -12194,13 +11714,11 @@
     "artist": "ZETRA",
     "genre": [
       "SHOEGAZE",
-      "GOTHIC METAL",
       "UK",
-      "METAL",
       "GOTHIC",
       "DREAM POP",
       "INDUSTRIAL ROCK",
-      "ALTERNATIVE METAL",
+      "ALTERNATIVE ROCK",
       "SYNTHPOP"
     ]
   },
@@ -12214,8 +11732,7 @@
       "HARD ROCK",
       "BLUES",
       "80S",
-      "AMERICAN",
-      "ZZ TOP"
+      "AMERICAN"
     ]
   }
 }
