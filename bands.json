@@ -1399,7 +1399,11 @@
         "THE GHOST INSIDE": "THE GHOST INSIDE",
         "BREAKDOWN OF SANITY": "BREAKDOWN OF SANITY",
         "SKYCLAD [ CHANNEL]": "SKYCLAD",
-        "JEAN PIERRE FROMAGE": "JEAN PIERRE FROMAGE"
+        "JEAN PIERRE FROMAGE": "JEAN PIERRE FROMAGE",
+        "THE VEER UNION": "THE VEER UNION",
+        "SPLIT CHAIN": "SPLIT CHAIN",
+        "THEVEERUNION": "THE VEER UNION",
+        "VERSUS ME (VSME)": "VERSUS ME"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -3536,7 +3540,8 @@
             "EPICA"
         ],
         "VERSUS ME": [
-            "VERSUS ME"
+            "VERSUS ME",
+            "VERSUS ME (VSME)"
         ],
         "INFECTED RAIN": [
             "INFECTED RAIN"
@@ -4289,6 +4294,13 @@
         ],
         "JEAN PIERRE FROMAGE": [
             "JEAN PIERRE FROMAGE"
+        ],
+        "THE VEER UNION": [
+            "THE VEER UNION",
+            "THEVEERUNION"
+        ],
+        "SPLIT CHAIN": [
+            "SPLIT CHAIN"
         ]
     }
 }
