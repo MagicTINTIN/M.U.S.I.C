@@ -1,6 +1,19 @@
-import sys, os, json, datetime, re
+import sys, os, json, datetime, re, time
+import requests
+import musicbrainzngs
+from typing import List, Tuple, Dict, Optional
 from mutagen.oggopus import OggOpus
 
+# Configure it with your own user-agent !
+musicbrainzngs.set_useragent(
+    app="M.U.S.I.C",
+    version="1.0",
+    contact="magictintin@proton.me"
+)
+LASTFM_API_KEY = os.getenv("LASTFM_API_KEY")
+LASTFM_API_URL = "http://ws.audioscrobbler.com/2.0/"
+
+# print(f"KEY: {LASTFM_API_KEY}")
 
 try:
     from unidecode import unidecode
@@ -42,6 +55,9 @@ def confirm(message = "Reply by yes or no (yes by default) : "):
 def saveListFile():
     with open('bands.json', 'w') as f:
         json.dump(bands, f, indent=4)
+def saveTagsFile():
+    with open('tagsPerBand.json', 'w') as f:
+        json.dump(bandTags, f, indent=4)
 
 
 #################### OPERATIONS LIST FILE ####################
@@ -71,6 +87,131 @@ def writeoperation(type):
     with open("operations", "a") as myfile:
         myfile.write("\n" + type)
 
+
+#################### FETCH LAST.FM TAGS ####################
+
+def fetchMusicTags_LFM(artist: str, mbID: str) -> Optional[str]:
+    if not LASTFM_API_KEY:
+        return None
+    params = {
+        "method": "artist.getTopTags",
+        "api_key": LASTFM_API_KEY,
+        # "track": title,
+        "artist": artist,
+        "autocorrect":1,
+        "user":"MagicTINTIN",
+        "format": "json"
+    }
+
+    # if mbID != None:
+    #     params = {
+    #         "method": "artist.getTopTags",
+    #         "api_key": LASTFM_API_KEY,
+    #         "mbID": mbID,
+    #         "artist": artist,
+    #         "autocorrect":1,
+    #         "format": "json"
+    #     }
+    # try:
+    if True:
+        resp = requests.get(LASTFM_API_URL, params=params, timeout=5)
+        data = resp.json()
+        rawTags = data.get("toptags", {}).get("tag", [])
+        tags = [el["name"].upper() for el in rawTags[:10]] # if len(rawTags) > 10 else [el["name"] for el in rawTags]
+        # print("LASTFMMMMMMMMMM ->",data, "\n=========\n",tags)
+        if isinstance(tags, list) and tags:
+            # take the highest-ranked tag
+            # print("LASTFM TAGS->", tags)
+            return tags
+    return None
+
+#################### FETCH MUSICBRAINZ TAGS ####################
+
+def fetchMusicTags_MB(artist: str) :
+    # try:
+    if True:
+        # print(f"Searching in MB {artist}")
+        res = musicbrainzngs.search_artists(
+            artist=artist,
+            limit=1
+        )
+        
+        recs = res.get("artist-list", [])
+        # print("res-> ",recs, "\n>>>", res)
+        if not recs:
+            return None
+
+        rec = recs[0]
+
+        # take the top tag name if available
+        tags = rec.get("tag-list", [])
+        genre = [el["name"].upper() for el in tags] if tags else None
+        
+        return genre
+
+#################### FETCH BAND TAGS ####################
+
+def fetchMusicTags(artist: str):
+    genre, mbID = None, None
+    print(f">>> {artist} <<<")
+
+    # if MB had no genre try Last.fm
+    if (genre is None or genre == []) and LASTFM_API_KEY:
+        print("Fetching Last.fm...")
+        genre = fetchMusicTags_LFM(artist, mbID)
+        print("found genre on lastfm: ", genre)
+        
+    
+    if (genre is None or genre == []) and LASTFM_API_KEY:
+        print("Fetching MB...")
+        genre = fetchMusicTags_MB(artist)
+        print("found genre on MB: ", genre)
+    
+    if (genre is None or genre == []):
+        print(f"What music genre(s separated by ',') does '{artist}' plays? >", end="")
+        genre = input().upper().split(",")
+        while not confirm("Do you confirm the band styles? (yes by default): "):
+            print(f"What music genre(s separated by ',') does '{artist}' plays? >", end="")
+            genre = input().upper().split(",")
+            
+    return genre
+
+#################### TAGS ####################
+
+def confirmTags(artist, genres):
+    notanswered = True
+
+    while notanswered:
+        print(f"Do you confirm the band '{artist}' has genres: ",  ",".join(genres))
+        choice = input().lower()
+        if choice in yes:
+            notanswered = False
+            return genres
+        elif choice in no:
+            notanswered = True
+            print(f"What music genre(s separated by ',') does '{artist}' play then? > ", end="")
+            genres = input().upper().split(",")
+            # return False
+        else:
+            sys.stdout.write("Please respond with 'yes' or 'no'\n")
+
+def batchFetcher(sources: List[str], batch_size: int = 5, pause: float = 1.0):
+    total = len(sources)
+    
+    for start in range(0, total, batch_size):
+        batch = sources[start : start + batch_size]
+        for artist in batch:
+            genre = fetchMusicTags(artist)
+            genres = confirmTags(artist, genre)
+            bandTags[artist] = {
+                "artist": artist,
+                "genre": genres
+            }
+            saveTagsFile()
+            time.sleep(1)
+        if start + batch_size < total:
+            time.sleep(pause)
+    # return bandTagss
 
 #################### ADD (band, channel, label) ####################
         
@@ -314,6 +455,8 @@ def findaname(ch, title, original):
 #################### CONFIG loader ####################
 # opens the previous config if there was one
 try:
+    with open('tagsPerBand.json') as f:
+        bandTags = json.load(f)
     with open('bands.json') as f:
         bands = json.load(f)
         print("Previous config found")
@@ -324,6 +467,11 @@ try:
                 "bandsave" + datetime.datetime.strftime(datetime.datetime.now() ,"%Y-%m-%d_%H-%M-%S") + ".json"
                 )
             saveListFile()
+            os.rename(
+                'tagsPerBand.json', 
+                "tagsPerBandsave" + datetime.datetime.strftime(datetime.datetime.now() ,"%Y-%m-%d_%H-%M-%S") + ".json"
+                )
+            saveTagsFile()
 
         categories = ["labels", "uploaders", "bandnames"]
         for el in categories:
@@ -337,14 +485,16 @@ try:
 
 except IOError:
     print("No previous config found")
-    bands = {
-        # channels that upload musics which publish musics for multiple bands
-        "labels": [],
-        # name of uploaders that publish musics for only one band
-        "uploaders": {},
-        # list of uploaders by band name
-        "bandnames": {},
-    }
+    print("Safe mode: exiting...")
+    exit(1)
+    # bands = {
+    #     # channels that upload musics which publish musics for multiple bands
+    #     "labels": [],
+    #     # name of uploaders that publish musics for only one band
+    #     "uploaders": {},
+    #     # list of uploaders by band name
+    #     "bandnames": {},
+    # }
 
 
 #################### --IMPORT ####################
@@ -391,13 +541,26 @@ fileincrement = 0
 #     audiofile.tag.save()
 #     print(music, artist, title)
 
-def tagMusic(music, artist, title):
+# def tagMusic(music, artist, title):
+#     try:
+#         audiofile = OggOpus(music)
+#         audiofile["artist"] = artist
+#         audiofile["title"] = title
+#         audiofile.save()
+#         print(f"Tagged {music} with artist: {artist}, title: {title}")
+#     except Exception as e:
+#         print(f"Error tagging file {music}: {e}")
+
+def tagMusic(music, artist, title, genre):
     try:
         audiofile = OggOpus(music)
         audiofile["artist"] = artist
         audiofile["title"] = title
+        audiofile["albumartist"] = genre
+        audiofile["album"] = artist
+        audiofile["genre"] = genre
         audiofile.save()
-        print(f"Tagged {music} with artist: {artist}, title: {title}")
+        print(f"Tagged {music} with artist: {artist}, title: {title} ({len(genre)} genres)")
     except Exception as e:
         print(f"Error tagging file {music}: {e}")
 
@@ -431,11 +594,19 @@ for i in sortedFileList:
 
         if "--logs" in sys.argv:
             print(newname)
+            
+        if not namefound[0] in bandTags:
+            print(f"no genre tags found for '{namefound[0]}'")
+            batchFetcher([namefound[0]])
+            
+        genres = bandTags[namefound[0]]["genre"]
+        print(f"{namefound[0]}' genres :", genres)
+        
         os.makedirs(os.path.join(path, "sorted/", namefound[0]), exist_ok = True)
         destPathFile = os.path.join(path, "sorted/", namefound[0], newname)
         os.replace(os.path.join(path,i), destPathFile)
         print(destPathFile)
-        tagMusic(destPathFile, namefound[0], namefound[1])
+        tagMusic(destPathFile, namefound[0], namefound[1], genres)
 
 print("---------------------- THIS IS THE END ----------------------")
 
