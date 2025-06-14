@@ -112,7 +112,7 @@ def fetchMusicTags(artist: str):
         print("found genre on MB: ", genre)
     
     if (genre is None or genre == []):
-        print(f"What music genre(s separated by ',') does '{artist}' plays? >", end="")
+        print(f"What music genre(s separated by ',') does '{artist}' play? > ", end="")
         genre = input().upper().split(",")
         while not confirm("Do you confirm the band styles? (yes by default): "):
             print(f"What music genre(s separated by ',') does '{artist}' plays? >", end="")
