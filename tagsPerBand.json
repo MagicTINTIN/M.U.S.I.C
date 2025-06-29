@@ -11323,8 +11323,7 @@
             "METAL",
             "GRINDCORE",
             "USA",
-            "HEAVY METAL",
-            "ROCK"
+            "HEAVY METAL"
         ]
     },
     "WATEVA": {
@@ -11754,6 +11753,34 @@
             "MODERN METAL",
             "ALTERNATIVE",
             "ALTERNATIVE METAL"
+        ]
+    },
+    "HORSKH": {
+        "artist": "HORSKH",
+        "genre": [
+            "EBM",
+            "INDUSTRIAL METAL",
+            "ELECTRO-INDUSTRIAL",
+            "INDUSTRIAL",
+            "FRENCH",
+            "ELECTRONIC",
+            "ELECTRO",
+            "HARDCORE",
+            "SCREAMO",
+            "CYBERPUNK"
+        ]
+    },
+    "PSYKUP": {
+        "artist": "PSYKUP",
+        "genre": [
+            "METAL",
+            "EXPERIMENTAL",
+            "MATHCORE",
+            "AUTRUCHECORE",
+            "FRENCH",
+            "PROGRESSIVE METAL",
+            "HARDCORE",
+            "FRENCHCORE"
         ]
     }
 }

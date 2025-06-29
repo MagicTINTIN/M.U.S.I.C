@@ -306,7 +306,9 @@
         "STEAMHAMMER  SPV",
         "RIOT GAMES MUSIC",
         "KIM GIANI",
-        "TAHI TIBOB"
+        "TAHI TIBOB",
+        "RADIAL BY THE ORCHARD",
+        "DARKTUNES MUSIC GROUP"
     ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
@@ -1403,7 +1405,10 @@
         "THE VEER UNION": "THE VEER UNION",
         "SPLIT CHAIN": "SPLIT CHAIN",
         "THEVEERUNION": "THE VEER UNION",
-        "VERSUS ME (VSME)": "VERSUS ME"
+        "VERSUS ME (VSME)": "VERSUS ME",
+        "HORSKH": "HORSKH",
+        "MAKETHEMSUFFER": "MAKE THEM SUFFER",
+        "PSYKUP": "PSYKUP"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -3330,7 +3335,8 @@
             "KIM DRACULA"
         ],
         "MAKE THEM SUFFER": [
-            "MAKE THEM SUFFER"
+            "MAKE THEM SUFFER",
+            "MAKETHEMSUFFER"
         ],
         "BORN OF OSIRIS": [
             "BORN OF OSIRIS"
@@ -4301,6 +4307,12 @@
         ],
         "SPLIT CHAIN": [
             "SPLIT CHAIN"
+        ],
+        "HORSKH": [
+            "HORSKH"
+        ],
+        "PSYKUP": [
+            "PSYKUP"
         ]
     }
 }
