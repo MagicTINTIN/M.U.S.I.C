@@ -202,6 +202,8 @@ def batchFetcher(sources: List[str], batch_size: int = 5, pause: float = 1.0):
         batch = sources[start : start + batch_size]
         for artist in batch:
             genre = fetchMusicTags(artist)
+            if "SEEN LIVE" in genre:
+                genre.remove("SEEN LIVE")
             genres = confirmTags(artist, genre)
             bandTags[artist] = {
                 "artist": artist,

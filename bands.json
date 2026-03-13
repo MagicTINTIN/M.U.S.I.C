@@ -308,7 +308,15 @@
         "KIM GIANI",
         "TAHI TIBOB",
         "RADIAL BY THE ORCHARD",
-        "DARKTUNES MUSIC GROUP"
+        "DARKTUNES MUSIC GROUP",
+        "NA",
+        "IMPERICON",
+        "HARDCORE WORLDWIDE",
+        "NEW DAMAGE RECORDS",
+        "KANNIBALEN RECORDS",
+        "TRAP CITY",
+        "BOKETO MEDIA",
+        "D0RKY"
     ],
     "uploaders": {
         "FROG LEAP STUDIOS": "FROG LEAP STUDIOS",
@@ -1408,7 +1416,35 @@
         "VERSUS ME (VSME)": "VERSUS ME",
         "HORSKH": "HORSKH",
         "MAKETHEMSUFFER": "MAKE THEM SUFFER",
-        "PSYKUP": "PSYKUP"
+        "PSYKUP": "PSYKUP",
+        "SOLAR ERUPTION": "SOLAR ERUPTION",
+        "UNLEASHED": "UNLEASHED",
+        "ADEPT": "ADEPT",
+        "STARSET": "STARSET",
+        "STARSETONLINE": "STARSET",
+        "KEYGEN CHURCH": "KEYGEN CHURCH",
+        "THE REAL MCKENZIES": "THE REAL MCKENZIES",
+        "W&W": "W&W",
+        "AXTY": "AXTY",
+        "SAMURAI PIZZA CATS": "SAMURAI PIZZA CATS",
+        "TALLAH": "TALLAH",
+        "RISING INSANE": "RISING INSANE",
+        "SUNBORN": "SUNBORN",
+        "THE DARK.FM": "THE DARK.FM",
+        "PERSEFONE": "PERSEFONE",
+        "PERSEFONEBAND": "PERSEFONE",
+        "GET THE SHOT": "GET THE SHOT",
+        "GETTHESHOTHC": "GET THE SHOT",
+        "THE NARRATOR": "THE NARRATOR",
+        "RETRO POLAND ORIGINAL": "RETRO POLAND ORIGINAL",
+        "MAROMARO1337": "RETRO POLAND ORIGINAL",
+        "SYLOSIS": "SYLOSIS",
+        "SYLOSISTV": "SYLOSIS",
+        "CENOBIA": "CENOBIA",
+        "NORMANDIE": "NORMANDIE",
+        "OUTRUN THE SUNLIGHT": "OUTRUN THE SUNLIGHT",
+        "AMIDST THE GRAVE'S DEMONS": "AMIDST THE GRAVE'S DEMONS",
+        "ARCHSPIREMETAL": "ARCHSPIRE"
     },
     "bandnames": {
         "FROG LEAP STUDIOS": [
@@ -3969,7 +4005,8 @@
             "ORBIT CULTURE"
         ],
         "ARCHSPIRE": [
-            "ARCHSPIRE"
+            "ARCHSPIRE",
+            "ARCHSPIREMETAL"
         ],
         "SHINING": [
             "SHINING"
@@ -4313,6 +4350,77 @@
         ],
         "PSYKUP": [
             "PSYKUP"
+        ],
+        "SOLAR ERUPTION": [
+            "SOLAR ERUPTION"
+        ],
+        "UNLEASHED": [
+            "UNLEASHED"
+        ],
+        "ADEPT": [
+            "ADEPT"
+        ],
+        "STARSET": [
+            "STARSET",
+            "STARSETONLINE"
+        ],
+        "KEYGEN CHURCH": [
+            "KEYGEN CHURCH"
+        ],
+        "THE REAL MCKENZIES": [
+            "THE REAL MCKENZIES"
+        ],
+        "W&W": [
+            "W&W"
+        ],
+        "AXTY": [
+            "AXTY"
+        ],
+        "SAMURAI PIZZA CATS": [
+            "SAMURAI PIZZA CATS"
+        ],
+        "TALLAH": [
+            "TALLAH"
+        ],
+        "RISING INSANE": [
+            "RISING INSANE"
+        ],
+        "SUNBORN": [
+            "SUNBORN"
+        ],
+        "THE DARK.FM": [
+            "THE DARK.FM"
+        ],
+        "PERSEFONE": [
+            "PERSEFONE",
+            "PERSEFONEBAND"
+        ],
+        "GET THE SHOT": [
+            "GET THE SHOT",
+            "GETTHESHOTHC"
+        ],
+        "THE NARRATOR": [
+            "THE NARRATOR"
+        ],
+        "RETRO POLAND ORIGINAL": [
+            "RETRO POLAND ORIGINAL",
+            "MAROMARO1337"
+        ],
+        "SYLOSIS": [
+            "SYLOSIS",
+            "SYLOSISTV"
+        ],
+        "CENOBIA": [
+            "CENOBIA"
+        ],
+        "NORMANDIE": [
+            "NORMANDIE"
+        ],
+        "OUTRUN THE SUNLIGHT": [
+            "OUTRUN THE SUNLIGHT"
+        ],
+        "AMIDST THE GRAVE'S DEMONS": [
+            "AMIDST THE GRAVE'S DEMONS"
         ]
     }
 }

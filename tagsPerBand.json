@@ -11782,5 +11782,302 @@
             "HARDCORE",
             "FRENCHCORE"
         ]
+    },
+    "SOLAR ERUPTION": {
+        "artist": "SOLAR ERUPTION",
+        "genre": [
+            "DEATHCORE",
+            "TECHNICAL DEATHCORE",
+            "BLACK METAL",
+            "METALCORE",
+            "HARDCORE",
+            "DEATH METAL",
+            "FRANCE",
+            "HORROR"
+        ]
+    },
+    "UNLEASHED": {
+        "artist": "UNLEASHED",
+        "genre": [
+            "DEATH METAL",
+            "OLD SCHOOL DEATH METAL",
+            "VIKING METAL",
+            "SWEDISH DEATH METAL",
+            "SWEDISH",
+            "METAL",
+            "MELODIC DEATH METAL",
+            "VIKING DEATH METAL",
+            "SWEDEN"
+        ]
+    },
+    "ADEPT": {
+        "artist": "ADEPT",
+        "genre": [
+            "POST-HARDCORE",
+            "SCREAMO",
+            "HARDCORE",
+            "EMOCORE",
+            "SWEDISH",
+            "METALCORE",
+            "POST HARDCORE",
+            "MELODIC METALCORE",
+            "EMO"
+        ]
+    },
+    "STARSET": {
+        "artist": "STARSET",
+        "genre": [
+            "ELECTRONIC ROCK",
+            "ELECTRONIC",
+            "METAL",
+            "CINEMATIC ROCK",
+            "ALTERNATIVE",
+            "ELECTRO",
+            "ALTERNATIVE ROCK"
+        ]
+    },
+    "KEYGEN CHURCH": {
+        "artist": "KEYGEN CHURCH",
+        "genre": [
+            "CYBER METAL",
+            "SYNTH METAL",
+            "BAROQUE",
+            "ITALIAN",
+            "CLASSICAL",
+            "ELECTRONIC",
+            "INSTRUMENTAL",
+            "DOOM METAL",
+            "PIANO",
+            "INDUSTRIAL"
+        ]
+    },
+    "THE REAL MCKENZIES": {
+        "artist": "THE REAL MCKENZIES",
+        "genre": [
+            "CELTIC PUNK",
+            "PUNK",
+            "FOLK PUNK",
+            "PUNK ROCK",
+            "SCOTTISH",
+            "CELTIC",
+            "IRISH",
+            "CANADIAN",
+            "FOLK"
+        ]
+    },
+    "W&W": {
+        "artist": "W&W",
+        "genre": [
+            "TRANCE",
+            "PROGRESSIVE TRANCE",
+            "TECH TRANCE",
+            "ELECTRONIC",
+            "HARD TRANCE",
+            "HOUSE",
+            "TECH-TRANCE",
+            "DUTCH",
+            "DANCE",
+            "PROGRESSIVE HOUSE",
+            "CAT",
+            "OIIA"
+        ]
+    },
+    "AXTY": {
+        "artist": "AXTY",
+        "genre": [
+            "METALCORE",
+            "DJENT",
+            "BRAZILIAN",
+            "NU METAL",
+            "DEATHCORE",
+            "ELECTRONIC",
+            "METAL",
+            "ALTERNATIVE ROCK",
+            "BRAZIL",
+            "ALTERNATIVE METAL"
+        ]
+    },
+    "SAMURAI PIZZA CATS": {
+        "artist": "SAMURAI PIZZA CATS",
+        "genre": [
+            "METALCORE",
+            "ELECTRONIC",
+            "METAL",
+            "ROCK",
+            "GERMAN",
+            "ELECTRONICORE",
+            "JAPANESE",
+            "SKA",
+            "SOUNDTRACK",
+            "USA"
+        ]
+    },
+    "TALLAH": {
+        "artist": "TALLAH",
+        "genre": [
+            "NU METAL",
+            "METALCORE",
+            "NU METALCORE",
+            "ALTERNATIVE METAL",
+            "DEATHCORE",
+            "METAL",
+            "AVANT-GARDE METAL",
+            "GROOVE METAL",
+            "NU-METALCORE",
+            "AMERICAN"
+        ]
+    },
+    "RISING INSANE": {
+        "artist": "RISING INSANE",
+        "genre": [
+            "METALCORE",
+            "GERMAN",
+            "POST-HARDCORE",
+            "HARDCORE",
+            "USA",
+            "ALTERNATIVE METAL",
+            "ELECTRONIC",
+            "PROGRESSIVE METALCORE"
+        ]
+    },
+    "SUNBORN": {
+        "artist": "SUNBORN",
+        "genre": [
+            "PROGRESSIVE METALCORE",
+            "ELECTRONIC",
+            "MELODIC DEATH METAL",
+            "METALCORE",
+            "ELECTONIC",
+            "GROOVE METAL"
+        ]
+    },
+    "THE DARK.FM": {
+        "artist": "THE DARK.FM",
+        "genre": [
+            "ROCK",
+            "POP",
+            "PROGRESSIVE ROCK",
+            "80S",
+            "HEAVY METAL",
+            "POP-ROCK",
+            "ORCHESTRAL",
+            "EXPERIMENTAL",
+            "BRITISH",
+            "UK"
+        ]
+    },
+    "PERSEFONE": {
+        "artist": "PERSEFONE",
+        "genre": [
+            "PROGRESSIVE DEATH METAL",
+            "MELODIC DEATH METAL",
+            "PROGRESSIVE METAL",
+            "DEATH METAL",
+            "PROGRESSIVE MELODIC DEATH METAL",
+            "ANDORRA",
+            "METAL",
+            "PROGRESSIVE",
+            "ANDORRAN",
+            "ANDORRIAN"
+        ]
+    },
+    "GET THE SHOT": {
+        "artist": "GET THE SHOT",
+        "genre": [
+            "HARDCORE",
+            "HARDCORE PUNK",
+            "THRASH METAL",
+            "CROSSOVER",
+            "MELODIC HARDCORE",
+            "CANADIAN",
+            "CANADA",
+            "METALLIC HARDCORE",
+            "METALCORE",
+            "CROSSOVER THRASH"
+        ]
+    },
+    "THE NARRATOR": {
+        "artist": "THE NARRATOR",
+        "genre": [
+            "METALCORE",
+            "GERMAN",
+            "HARDCORE"
+        ]
+    },
+    "RETRO POLAND ORIGINAL": {
+        "artist": "RETRO POLAND ORIGINAL",
+        "genre": [
+            "ROCK",
+            "EXPERIMENTAL",
+            "PROG",
+            "POLAND"
+        ]
+    },
+    "SYLOSIS": {
+        "artist": "SYLOSIS",
+        "genre": [
+            "MELODIC DEATH METAL",
+            "THRASH METAL",
+            "METALCORE",
+            "METAL",
+            "MELODIC METALCORE",
+            "DEATH METAL",
+            "BRITISH",
+            "PROGRESSIVE METAL",
+            "MODERN THRASH METAL",
+            "GROOVE METAL"
+        ]
+    },
+    "CENOBIA": {
+        "artist": "CENOBIA",
+        "genre": [
+            "ELECTRO-INDUSTRIAL",
+            "METAL",
+            "DARK ELECTRO",
+            "AUSTRALIA"
+        ]
+    },
+    "NORMANDIE": {
+        "artist": "NORMANDIE",
+        "genre": [
+            "METALCORE",
+            "ALTERNATIVE ROCK",
+            "POST-HARDCORE",
+            "SWEDISH",
+            "ROCK",
+            "ALTERNATIVE",
+            "ELECTRONIC",
+            "SWEDEN",
+            "POST-SCREAMO"
+        ]
+    },
+    "OUTRUN THE SUNLIGHT": {
+        "artist": "OUTRUN THE SUNLIGHT",
+        "genre": [
+            "PROGRESSIVE METAL",
+            "DJENT",
+            "MATH METAL",
+            "INSTRUMENTAL",
+            "AMBIENT",
+            "POST-ROCK",
+            "PROGRESSIVE",
+            "METAL",
+            "POST-METAL",
+            "SPACE METAL"
+        ]
+    },
+    "AMIDST THE GRAVE'S DEMONS": {
+        "artist": "AMIDST THE GRAVE'S DEMONS",
+        "genre": [
+            "METALCORE",
+            "COMEDY",
+            "PARODY",
+            "POST-HARDCORE",
+            "ELECTRONICORE",
+            "ELECTRONIC",
+            "PUNK",
+            "PUNK METAL",
+            "AMERICAN"
+        ]
     }
 }
